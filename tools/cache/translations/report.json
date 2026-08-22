@@ -1,10 +1,40 @@
 {
   "glossary_notes": {
-    "ui:LEARN": [
+    "ui:ERR_TRADE_CANCELLED": [
+      "'trade' should render as 'byta'"
+    ],
+    "ui:ERR_TRADE_COMPLETE": [
+      "'trade' should render as 'byta'"
+    ],
+    "ui:ITEM_LOOT": [
+      "'loot' should render as 'byte'"
+    ],
+    "ui:LEARN_SPELL_OBJECTIVE": [
       "'learn' should render as 'lära dig'"
+    ],
+    "ui:LOOT_METHOD": [
+      "'loot' should render as 'byte'"
+    ],
+    "ui:LOOT_ROLLS": [
+      "'loot' should render as 'byte'"
+    ],
+    "ui:MERCHANT_BUYBACK": [
+      "'merchant' should render as 'handlare'"
+    ],
+    "ui:MONEY_LOOT": [
+      "'loot' should render as 'byte'"
+    ],
+    "ui:REPAIR_COST": [
+      "'repair' should render as 'reparera'"
+    ],
+    "ui:SPELL_BONUS": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:SPELL_BONUS_COLON": [
+      "'spell' should render as 'trollformel'"
     ]
   },
   "rejected": {},
   "translator": "claude-opus-5 (in-session)",
-  "written": 682
+  "written": 171
 }

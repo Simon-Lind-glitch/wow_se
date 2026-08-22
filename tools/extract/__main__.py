@@ -16,7 +16,7 @@ from common import cache
 from common.glossary import load as load_glossary
 from common.luadata import load as load_lua
 from common.mask import mask, round_trips
-from common.paths import SOURCE, ensure_dirs
+from common.paths import SOURCE, TRANSLATIONS, ensure_dirs
 from extract import quests, sources
 from extract.classify import Classifier, Verdict
 
@@ -39,7 +39,11 @@ def extract_globalstrings(*, force: bool) -> tuple[int, int]:
     tarball = sources.DOWNLOADS / "ui_source.tar.gz"
     if not tarball.exists():
         sources.fetch(sources.UI_SOURCE_TARBALL, url=sources.UI_SOURCE_URL, force=force)
-    classifier = Classifier(tarball)
+    # Existing translations are exempt from the scope filter (see classify.py).
+    stored = cache.read(TRANSLATIONS / "sv.json", {}).get("entries") or {}
+    # The cache is keyed by the normalized English, which is what we match on.
+    translated = {key for field in stored.values() for key in field}
+    classifier = Classifier(tarball, already_translated=translated)
     if not classifier.has_ui_source:
         print("warning: UI source unavailable; keeping every key that looks renderable")
 

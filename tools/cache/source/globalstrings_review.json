@@ -7,76 +7,6 @@
       "placeholders": 2,
       "reason": "format string; verify nothing parses it"
     },
-    "ARENA_CHARTER_TEMPLATE": {
-      "en": "%s Team Petition",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format template; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_BUYER_FORMAT": {
-      "en": "Buyer: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_HIGH_BIDDER_FORMAT": {
-      "en": "High Bidder: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_NONE_AVAILABLE_FORMAT": {
-      "en": "None available at item level %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_QUANTITY_AVAILABLE_FORMAT": {
-      "en": "%s Available",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_TOOLTIP_DURATION_FORMAT": {
-      "en": "Time Left: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_TOOLTIP_MULTIPLE_SELLERS_FORMAT": {
-      "en": "Sellers: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT": {
-      "en": "Sellers: |cffffffff%s, and %s more|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "format string; verify nothing parses it"
-    },
-    "AUCTION_HOUSE_TOOLTIP_SELLER_FORMAT": {
-      "en": "Seller: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "BLIZZARD_STORE_SPLASH_BANNER_DISCOUNT_FORMAT": {
-      "en": "|cff224f01%d%% OFF!|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "format string; verify nothing parses it"
-    },
     "BLIZZARD_STORE_VAS_ERROR_LABEL": {
       "en": "Error. Please address these issues:",
       "field": "ui",
@@ -98,117 +28,12 @@
       "placeholders": 1,
       "reason": "format string; verify nothing parses it"
     },
-    "CAA_DEBUFF_SELF_ALERT_FORMAT": {
-      "en": "%s debuff",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_PLAYER_HEALTH_FORMAT": {
-      "en": "Say Your Health Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_RESOURCE_1_FORMAT": {
-      "en": "Say Resource 1 Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_RESOURCE_2_FORMAT": {
-      "en": "Say Resource 2 Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_TARGET_CASTS_FORMAT": {
-      "en": "Say Target Casts Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_TARGET_HEALTH_FORMAT": {
-      "en": "Say Target Health Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_YOUR_CASTS_FORMAT": {
-      "en": "Say Your Casts Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_SAY_YOUR_DEBUFFS_FORMAT": {
-      "en": "Say Your Debuffs Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CAA_WHEN_TARGET_DIES_USE_FORMAT": {
-      "en": "Use Target Health Format",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "format string; verify nothing parses it"
-    },
-    "CHANNEL": {
-      "en": "Channel",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
-    },
     "CHAT_NAME_TEMPLATE": {
       "en": "Chat %d",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 1,
       "reason": "format template; verify nothing parses it"
-    },
-    "COMMUNITIES_INVITE_MANAGER_TICKET_FORMAT": {
-      "en": "https://blizzard.com/invite/%s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "COMMUNITIES_INVIVATION_FRAME_LEADER_FORMAT": {
-      "en": "Leader: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
-    },
-    "COMMUNITIES_MEMBER_LIST_MEMBER_COUNT_FORMAT": {
-      "en": "%s/%s Online",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "COMMUNITIES_MESSAGE_OF_THE_DAY_FORMAT": {
-      "en": "Message of the Day: \"%s\"",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "COMMUNITY_MEMBER_CHARACTER_INFO_FORMAT": {
-      "en": "Level %d %s %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "format string; verify nothing parses it"
     },
     "DAILY_QUEST_TAG_TEMPLATE": {
       "en": "Daily %s",
@@ -230,90 +55,6 @@
       "gender_branches": [],
       "placeholders": 2,
       "reason": "format template; verify nothing parses it"
-    },
-    "GUILDBANK_AWARD_MONEY_SUMMARY_FORMAT": {
-      "en": "A total of %s was deposited last week from Guild Perk: Cash Flow ",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_BUYTAB_MONEY_FORMAT": {
-      "en": "%s purchased a guild bank tab for %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_DEPOSIT_FORMAT": {
-      "en": "%s deposited %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_DEPOSIT_MONEY_FORMAT": {
-      "en": "%s deposited %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_INFO_TITLE_FORMAT": {
-      "en": "%s Info",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_LOG_TITLE_FORMAT": {
-      "en": "%s  Log",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_MOVE_FORMAT": {
-      "en": "%s moved %s x %d from %s to %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_REPAIR_MONEY_FORMAT": {
-      "en": "%s withdrew %s for repairs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_UNLOCKTAB_FORMAT": {
-      "en": "%s unlocked a guild bank tab with a Guild Vault Voucher.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_WITHDRAWFORTAB_MONEY_FORMAT": {
-      "en": "%s withdrew %s to purchase a guild bank tab",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_WITHDRAW_FORMAT": {
-      "en": "%s |cffff2020withdrew|r %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "format string; verify nothing parses it"
-    },
-    "GUILDBANK_WITHDRAW_MONEY_FORMAT": {
-      "en": "%s |cffff2020withdrew|r %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "format string; verify nothing parses it"
     },
     "GUILD_CHARTER_TEMPLATE": {
       "en": "%s Guild Charter",
@@ -370,13 +111,6 @@
       "gender_branches": [],
       "placeholders": 4,
       "reason": "format template; verify nothing parses it"
-    },
-    "RAID": {
-      "en": "Raid",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
     },
     "SINGLE_PAGE_RESULTS_TEMPLATE": {
       "en": "%d Items",
@@ -475,20 +209,6 @@
       "gender_branches": [],
       "placeholders": 2,
       "reason": "format template; verify nothing parses it"
-    },
-    "VOICE_GENERIC_FORMAT": {
-      "en": "English Voice %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
-    "WHISPER": {
-      "en": "Whisper",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
     },
     "WHO_FRAME_SHOWN_TEMPLATE": {
       "en": "(%d displayed)",

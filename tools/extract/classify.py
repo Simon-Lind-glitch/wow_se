@@ -26,7 +26,7 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
-from common.normalize import is_translatable
+from common.normalize import is_translatable, normalize
 
 _IDENTIFIER = re.compile(rb"\b([A-Z][A-Z0-9_]{2,})\b")
 
@@ -72,6 +72,85 @@ _DENY_PREFIX: tuple[tuple[str, str], ...] = (
     ("FONT_", "font configuration, not prose"),
 )
 
+# Feature areas a level 1-12 pair of children cannot reach, and settings panels
+# they will never open. Agreed with the requester 2026-08-22: cutting these
+# removes ~1,400 strings from the corpus that nobody in this household can see.
+#
+# Deliberately conservative about what counts as unreachable. Talents open at
+# level 10, professions and mailboxes exist in Razor Hill, and inspect is a
+# right-click away — so those stay in scope even though they look like endgame
+# systems from a distance.
+_OUT_OF_SCOPE: tuple[tuple[str, str], ...] = (
+    # Endgame and social systems.
+    ("AUCTION", "auction house"),
+    ("BUYOUT", "auction house"),
+    ("ARENA", "arena"),
+    ("BATTLEGROUND", "battlegrounds"),
+    ("PVP_", "pvp"),
+    ("HONOR", "pvp"),
+    ("RATED", "rated pvp"),
+    ("WARGAME", "pvp"),
+    ("RAID_", "raids"),
+    ("LFG", "group finder"),
+    ("LFD", "group finder"),
+    ("LFR", "group finder"),
+    ("DUNGEON_", "dungeons"),
+    ("CHALLENGE", "challenge modes"),
+    ("SCENARIO", "scenarios"),
+    ("CALENDAR", "calendar"),
+    ("ACHIEVEMENT", "achievements"),
+    ("CURRENCY", "currencies"),
+    ("GUILDBANK", "guild bank"),
+    ("GUILD_BANK", "guild bank"),
+    ("BATTLEPET", "pet battles"),
+    ("PET_BATTLE", "pet battles"),
+    ("PETBATTLE", "pet battles"),
+    ("TRANSMOG", "transmog"),
+    ("ARCHAEOLOGY", "archaeology"),
+    ("GLYPH", "glyphs"),
+    ("GARRISON", "garrisons"),
+    ("COMMUNIT", "communities"),
+    ("CLUB_", "communities"),
+    ("BNET", "battle.net social"),
+    ("BATTLETAG", "battle.net social"),
+    ("RECRUIT", "recruit a friend"),
+    ("BLACKMARKET", "black market"),
+    ("HEIRLOOM", "heirlooms"),
+    ("STABLE", "hunter stables"),
+    ("MOUNT_", "mounts, not until level 30"),
+    ("VOICE", "voice chat"),
+    # Settings, diagnostics and store.
+    ("OPTION", "settings panel"),
+    ("VIDEO", "settings panel"),
+    ("GRAPHICS", "settings panel"),
+    ("AUDIO", "settings panel"),
+    ("SOUND_", "settings panel"),
+    ("ACCESSIBILITY", "settings panel"),
+    ("MACRO", "macros"),
+    ("BINDING", "keybindings"),
+    ("CVAR", "console variables"),
+    ("ADDON", "addon manager"),
+    ("SCRIPT", "diagnostics"),
+    ("DEBUG", "diagnostics"),
+    ("PERFORMANCE", "diagnostics"),
+    ("NETWORK", "diagnostics"),
+    ("HUD_", "hud editor"),
+    ("UIPANEL", "internals"),
+    ("BLIZZARD_", "internals"),
+    ("CAA", "internals"),
+    ("SPLASH", "splash screens"),
+    ("BOOST", "character boost"),
+    ("STORE", "in-game store"),
+    ("SHOP", "in-game store"),
+    ("SUBSCRIPTION", "billing"),
+    ("TUTORIAL", "tutorial popups"),
+    ("HELPFRAME", "help ticket"),
+    ("GM_", "help ticket"),
+    ("TICKET", "help ticket"),
+    ("SURVEY", "help ticket"),
+    ("REPORT_", "reporting players"),
+)
+
 # Strings the *server* pushes by name — they appear in no client-side Lua, so
 # the "unreferenced" rule would wrongly drop all 1,100+ of them. These are the
 # red messages at the top of the screen ("Your bag is full", "You are too far
@@ -115,7 +194,16 @@ def _read_ui_identifiers(tarball: Path) -> tuple[set[bytes], set[bytes], set[byt
 
 
 class Classifier:
-    def __init__(self, ui_source_tarball: Path | None = None):
+    def __init__(
+        self,
+        ui_source_tarball: Path | None = None,
+        *,
+        already_translated: set[str] | None = None,
+    ):
+        # Normalized English of everything already translated. A key with a
+        # translation is never dropped: narrowing the corpus must not silently
+        # un-translate text that is on screen today.
+        self.already_translated = already_translated or set()
         self.referenced: set[bytes] = set()
         self.parsed: set[bytes] = set()
         self.other_flavor: set[bytes] = set()
@@ -129,6 +217,8 @@ class Classifier:
         return bool(self.referenced)
 
     def classify(self, key: str, value: str) -> Decision:
+        if normalize(value) in self.already_translated:
+            return Decision(Verdict.TRANSLATE, "already translated; kept regardless of scope")
         if value == key:
             return Decision(Verdict.SKIP, "value is the key; a placeholder or test string")
         if not is_translatable(value):
@@ -155,6 +245,10 @@ class Classifier:
                     Verdict.REVIEW,
                     "used inside a find/match/gsub call; likely a parse pattern (spec §5)",
                 )
+
+        for prefix, area in _OUT_OF_SCOPE:
+            if key.startswith(prefix):
+                return Decision(Verdict.SKIP, f"out of scope: {area}")
 
         for suffix, reason in _REVIEW_SUFFIX:
             if key.endswith(suffix):
