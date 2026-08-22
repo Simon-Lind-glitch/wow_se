@@ -1,40 +1,34 @@
 {
   "glossary_notes": {
-    "ui:ERR_TRADE_CANCELLED": [
-      "'trade' should render as 'byta'"
+    "ui:ITEM_MOD_BLOCK_RATING": [
+      "'shield' should render as 'sköld'"
     ],
-    "ui:ERR_TRADE_COMPLETE": [
-      "'trade' should render as 'byta'"
-    ],
-    "ui:ITEM_LOOT": [
-      "'loot' should render as 'byte'"
-    ],
-    "ui:LEARN_SPELL_OBJECTIVE": [
-      "'learn' should render as 'lära dig'"
-    ],
-    "ui:LOOT_METHOD": [
-      "'loot' should render as 'byte'"
-    ],
-    "ui:LOOT_ROLLS": [
-      "'loot' should render as 'byte'"
-    ],
-    "ui:MERCHANT_BUYBACK": [
-      "'merchant' should render as 'handlare'"
-    ],
-    "ui:MONEY_LOOT": [
-      "'loot' should render as 'byte'"
-    ],
-    "ui:REPAIR_COST": [
-      "'repair' should render as 'reparera'"
-    ],
-    "ui:SPELL_BONUS": [
+    "ui:ITEM_MOD_CRIT_SPELL_RATING": [
       "'spell' should render as 'trollformel'"
     ],
-    "ui:SPELL_BONUS_COLON": [
+    "ui:ITEM_MOD_CRIT_SPELL_RATING_SHORT": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_HIT_SPELL_RATING": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_HIT_SPELL_RATING_SHORT": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_SPELL_PENETRATION": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_SPELL_PENETRATION_SHORT": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_SPELL_POWER": [
+      "'spell' should render as 'trollformel'"
+    ],
+    "ui:ITEM_MOD_SPELL_POWER_SHORT": [
       "'spell' should render as 'trollformel'"
     ]
   },
   "rejected": {},
   "translator": "claude-opus-5 (in-session)",
-  "written": 171
+  "written": 195
 }

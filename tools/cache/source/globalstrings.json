@@ -2219,6 +2219,20 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
+    "BIND_TRADE_TIME_REMAINING": {
+      "en": "You may trade this item with players that were also eligible to loot this item for the next %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "BIND_ZONE_DISPLAY": {
+      "en": "You are bound in %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "BLACK_MARKET_AUCTION_CONFIRMATION": {
       "en": "Are you sure you wish to bid %s on the following item?",
       "field": "ui",
@@ -7259,6 +7273,41 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "DURABILITY": {
+      "en": "Durability",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "DURABILITYDAMAGE_DEATH": {
+      "en": "Your equipped items suffer a %d%% durability loss.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "DURABILITY_ABBR": {
+      "en": "Dura",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "DURABILITY_LCD": {
+      "en": "DURA %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "DURABILITY_TEMPLATE": {
+      "en": "Durability %d / %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
     "D_DAYS": {
       "en": "%d |4Day:Days;",
       "field": "ui",
@@ -7565,6 +7614,97 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_AND": {
+      "en": "and ",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_EQUAL_COMPARE": {
+      "en": "an equal number of %s and %s gems",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_EQUAL_VALUE": {
+      "en": "exactly %d %s |4gem:gems;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_LESS_VALUE": {
+      "en": "less than %d %s |4gem:gems;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_MORE_COMPARE": {
+      "en": "more %s gems than %s gems",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_MORE_EQUAL_COMPARE": {
+      "en": "at least as many %s gems as %s gems",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_MORE_VALUE": {
+      "en": "at least %d %s |4gem:gems;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_NOT_EQUAL_COMPARE": {
+      "en": "a different number of %s and %s gems",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_NOT_EQUAL_VALUE": {
+      "en": "any number but %d %s |4gem:gems;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_CONDITION_REQUIRES": {
+      "en": "Requires ",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_ITEM_MIN_SKILL": {
+      "en": "Enchantment Requires %s (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_ITEM_REQ_LEVEL": {
+      "en": "Enchantment Requires Level %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ENCHANT_ITEM_REQ_SKILL": {
+      "en": "Enchantment Requires %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "ENCHANT_SLOT": {
@@ -10110,13 +10250,6 @@
     },
     "ERR_EMBLEMERROR_NOTABARDGEOSET": {
       "en": "Change back to your normal form first!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ERR_EQUIPMENT_MANAGER_BAGS_FULL": {
-      "en": "Equipment swap failed. Inventory is full.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -13879,13 +14012,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "ERR_PLAYER_DEAD": {
-      "en": "You can't do that when you're dead.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "ERR_PLAYER_DIED_S": {
@@ -20468,6 +20594,13 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "INVTYPE_BAG": {
+      "en": "Bag",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "INVTYPE_BODY": {
       "en": "Shirt",
       "field": "ui",
@@ -20484,6 +20617,34 @@
     },
     "INVTYPE_CLOAK": {
       "en": "Back",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_EQUIPABLESPELL_DEFENSIVE": {
+      "en": "Equipable Spell - Defensive",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_EQUIPABLESPELL_OFFENSIVE": {
+      "en": "Equipable Spell - Offensive",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_EQUIPABLESPELL_UTILITY": {
+      "en": "Equipable Spell - Utility",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_EQUIPABLESPELL_WEAPON": {
+      "en": "Equipable Spell - Weapon",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20533,6 +20694,27 @@
     },
     "INVTYPE_NECK": {
       "en": "Neck",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_NON_EQUIP": {
+      "en": "Non-equippable",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_PROFESSION_GEAR": {
+      "en": "Profession Equipment",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "INVTYPE_PROFESSION_TOOL": {
+      "en": "Profession Tool",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20657,6 +20839,118 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_ACCOUNTBOUND": {
+      "en": "Account Bound",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ARTIFACT_VIEWABLE": {
+      "en": "<Shift Right Click to View Artifact>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_ON_EQUIP": {
+      "en": "Binds when equipped",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_ON_PICKUP": {
+      "en": "Binds when picked up",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_ON_USE": {
+      "en": "Binds when used",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_QUEST": {
+      "en": "Quest Item",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_TO_ACCOUNT": {
+      "en": "Binds to account",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BIND_TO_BNETACCOUNT": {
+      "en": "Binds to Blizzard account",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_BNETACCOUNTBOUND": {
+      "en": "Blizzard Account Bound",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CANT_BE_DESTROYED": {
+      "en": "That item cannot be destroyed.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CAN_BE_READ": {
+      "en": "<This item can be read>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CHARGEUP_TOTAL": {
+      "en": "(Requires %s)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CHARGEUP_TOTAL_DAYS": {
+      "en": "(Requires %d |4Day:Days;)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CHARGEUP_TOTAL_HOURS": {
+      "en": "(Requires %d |4Hour:Hours;)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CHARGEUP_TOTAL_MIN": {
+      "en": "(Requires %d Min)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CHARGEUP_TOTAL_SEC": {
+      "en": "(Requires %d Sec)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_CLASSES_ALLOWED": {
       "en": "Classes: %s",
       "field": "ui",
@@ -20678,6 +20972,13 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_COMPARISON_RELIC_BONUS_RANKS": {
+      "en": "%d |4Rank:Ranks;:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_COMPARISON_SWAP_ITEM_MAINHAND_DESCRIPTION": {
       "en": "Press %s to cycle through your main-hand items.",
       "field": "ui",
@@ -20692,11 +20993,95 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
+    "ITEM_CONJURED": {
+      "en": "Conjured Item",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_CONTAINER": {
       "en": "Container",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TIME": {
+      "en": "Cooldown remaining: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TIME_DAYS": {
+      "en": "Cooldown remaining: %d |4day:days;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TIME_HOURS": {
+      "en": "Cooldown remaining: %d |4hour:hours;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TIME_MIN": {
+      "en": "Cooldown remaining: %d min",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TIME_SEC": {
+      "en": "Cooldown remaining: %d sec",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TOTAL": {
+      "en": "(%s Cooldown)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TOTAL_DAYS": {
+      "en": "(%d |4Day:Days; Cooldown)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TOTAL_HOURS": {
+      "en": "(%d |4Hour:Hours; Cooldown)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TOTAL_MIN": {
+      "en": "(%d Min Cooldown)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_COOLDOWN_TOTAL_SEC": {
+      "en": "(%d Sec Cooldown)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_CREATED_BY": {
+      "en": "|cff00ff00<Made by %s>|r",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 3,
       "reason": "user-visible chrome"
     },
     "ITEM_DELTA_DESCRIPTION": {
@@ -20727,6 +21112,97 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_DISENCHANT_ANY_SKILL": {
+      "en": "Disenchantable",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DISENCHANT_MIN_SKILL": {
+      "en": "Disenchanting requires %s (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DISENCHANT_NOT_DISENCHANTABLE": {
+      "en": "Cannot be disenchanted",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DURATION_DAYS": {
+      "en": "Duration: %d days",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DURATION_HOURS": {
+      "en": "Duration: %d hrs",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DURATION_MIN": {
+      "en": "Duration: %d min",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_DURATION_SEC": {
+      "en": "Duration: %d sec",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ENCHANT_DISCLAIMER": {
+      "en": "Item will not be traded!",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ENCHANT_TIME_LEFT_DAYS": {
+      "en": "%s (%d |4day:days;)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ENCHANT_TIME_LEFT_HOURS": {
+      "en": "%s (%d |4hour:hours;)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ENCHANT_TIME_LEFT_MIN": {
+      "en": "%s (%d min)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ENCHANT_TIME_LEFT_SEC": {
+      "en": "%s (%d sec)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_GLYPH_ONUSE": {
+      "en": "Permanently teaches you this glyph.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_HEROIC": {
       "en": "Heroic",
       "field": "ui",
@@ -20734,11 +21210,123 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_HEROIC_EPIC": {
+      "en": "Heroic Epic",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY0_DESC": {
+      "en": "Heroic Poor",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY1_DESC": {
+      "en": "Heroic Common",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY2_DESC": {
+      "en": "Heroic Uncommon",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY3_DESC": {
+      "en": "Heroic Rare",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY4_DESC": {
+      "en": "Heroic Epic",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY5_DESC": {
+      "en": "Heroic Legendary",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY6_DESC": {
+      "en": "Heroic Artifact",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_HEROIC_QUALITY7_DESC": {
+      "en": "Heroic Heirloom",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL": {
+      "en": "Level %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_LEVEL_ABBR": {
       "en": "iLvl",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL_ALT": {
+      "en": "Item Level %d (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL_AND_MIN": {
+      "en": "Level %d (min %d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL_PLUS": {
+      "en": "Item Level %d+",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL_RANGE": {
+      "en": "Requires level %d to %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LEVEL_RANGE_CURRENT": {
+      "en": "Requires level %d to %d (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 3,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_LIMIT_CATEGORY": {
+      "en": "Unique: %s (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "ITEM_LIMIT_CATEGORY_MULTIPLE": {
@@ -20755,6 +21343,62 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MILLABLE": {
+      "en": "Millable",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MIN_LEVEL": {
+      "en": "Requires Level %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MIN_SKILL": {
+      "en": "Requires %s (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MISSING": {
+      "en": "%s missing",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AGILITY": {
+      "en": "%c%d Agility",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AGILITY_OR_INTELLECT_SHORT": {
+      "en": "Agility or Intellect",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AGILITY_OR_STRENGTH_OR_INTELLECT_SHORT": {
+      "en": "Agility or Strength or Intellect",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AGILITY_OR_STRENGTH_SHORT": {
+      "en": "Agility or Strength",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_AGILITY_SHORT": {
       "en": "Agility",
       "field": "ui",
@@ -20762,8 +21406,295 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_ALCHEMY": {
+      "en": "Increases alchemy skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ALCHEMY_SHORT": {
+      "en": "Alchemy Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ARCANE_DAMAGE_DONE": {
+      "en": "Increases arcane damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT": {
+      "en": "Arcane Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ARMOR_PENETRATION_RATING": {
+      "en": "Increases your armor penetration by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ARMOR_PENETRATION_RATING_SHORT": {
+      "en": "Armor Penetration",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ATTACK_POWER": {
+      "en": "Increases attack power by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ATTACK_POWER_SHORT": {
+      "en": "Attack Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AXES": {
+      "en": "Increases axes skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_AXES_SHORT": {
+      "en": "Axes Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BLACKSMITHING": {
+      "en": "Increases blacksmithing skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BLACKSMITHING_SHORT": {
+      "en": "Blacksmithing Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BLOCK_RATING": {
+      "en": "Increases your shield block rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_BLOCK_RATING_SHORT": {
       "en": "Block",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BLOCK_VALUE": {
+      "en": "Increases the block value of your shield by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BLOCK_VALUE_SHORT": {
+      "en": "Block Value",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BOWS": {
+      "en": "Increases bows skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_BOWS_SHORT": {
+      "en": "Bows Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_COOKING": {
+      "en": "Increases cooking skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_COOKING_SHORT": {
+      "en": "Cooking Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRAFTING_SPEED_SHORT": {
+      "en": "Crafting Speed",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_MELEE_RATING": {
+      "en": "Improves melee critical strike rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_MELEE_RATING_SHORT": {
+      "en": "Critical Strike (Melee)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_RANGED_RATING": {
+      "en": "Improves ranged critical strike rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_RANGED_RATING_SHORT": {
+      "en": "Critical Strike (Ranged)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_RATING": {
+      "en": "Improves critical strike rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_RATING_SHORT": {
+      "en": "Critical Strike",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_SPELL_RATING": {
+      "en": "Improves spell critical strike rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_SPELL_RATING_SHORT": {
+      "en": "Critical Strike (Spell)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_MELEE_RATING": {
+      "en": "Improves melee critical avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_MELEE_RATING_SHORT": {
+      "en": "Critical Strike Avoidance (Melee)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_RANGED_RATING": {
+      "en": "Improves ranged critical avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_RANGED_RATING_SHORT": {
+      "en": "Critical Strike Avoidance (Ranged)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_RATING": {
+      "en": "Improves critical avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_RATING_SHORT": {
+      "en": "Critical Strike Avoidance",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_SPELL_RATING": {
+      "en": "Improves spell critical avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CRIT_TAKEN_SPELL_RATING_SHORT": {
+      "en": "Critical Strike Avoidance (Spell)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CROSSBOWS": {
+      "en": "Increases crossbows skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CROSSBOWS_SHORT": {
+      "en": "Crossbows Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_AVOIDANCE_SHORT": {
+      "en": "Avoidance",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_LIFESTEAL_SHORT": {
+      "en": "Leech",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_MULTISTRIKE_SHORT": {
+      "en": "Multistrike",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20776,11 +21707,109 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_CR_STURDINESS_SHORT": {
+      "en": "Indestructible",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_10_SHORT": {
+      "en": "Unused 10",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_11_SHORT": {
+      "en": "Unused 11",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_12_SHORT": {
+      "en": "Unused 12",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_1_SHORT": {
+      "en": "Multi-Strike",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_CR_UNUSED_3_SHORT": {
       "en": "Speed",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_4_SHORT": {
+      "en": "Leech",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_5_SHORT": {
+      "en": "Avoidance",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_6_SHORT": {
+      "en": "Indestructible",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_7_SHORT": {
+      "en": "Unused 7",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_CR_UNUSED_9_SHORT": {
+      "en": "Versatility",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DAGGERS": {
+      "en": "Increases daggers skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DAGGERS_SHORT": {
+      "en": "Daggers Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": {
+      "en": "Damage Per Second",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DEFENSE_SKILL_RATING": {
+      "en": "Increases defense rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "ITEM_MOD_DEFENSE_SKILL_RATING_SHORT": {
@@ -20790,11 +21819,74 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_DEFTNESS_SHORT": {
+      "en": "Deftness",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DODGE_RATING": {
+      "en": "Increases your dodge rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_DODGE_RATING_SHORT": {
       "en": "Dodge",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DUAL_WIELD": {
+      "en": "Increases dual wield skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_DUAL_WIELD_SHORT": {
+      "en": "Dual Wield Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ENCHANTING": {
+      "en": "Increases enchanting skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ENCHANTING_SHORT": {
+      "en": "Enchanting Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ENGINEERING": {
+      "en": "Increases engineering skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_ENGINEERING_SHORT": {
+      "en": "Engineering Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_EXPERTISE_RATING": {
+      "en": "Increases your expertise rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "ITEM_MOD_EXPERTISE_RATING_SHORT": {
@@ -20804,8 +21896,190 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_EXTRA_ARMOR": {
+      "en": "Increases your armor by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_EXTRA_ARMOR_SHORT": {
+      "en": "Bonus Armor",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FERAL_ATTACK_POWER": {
+      "en": "Increases attack power by %s in Cat, Bear, Dire Bear, and Moonkin forms only.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FERAL_ATTACK_POWER_SHORT": {
+      "en": "Attack Power In Forms",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FINESSE_SHORT": {
+      "en": "Finesse",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIRE_DAMAGE_DONE": {
+      "en": "Increases fire damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIRE_DAMAGE_DONE_SHORT": {
+      "en": "Fire Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIRST_AID": {
+      "en": "Increases first aid skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIRST_AID_SHORT": {
+      "en": "First Aid Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FISHING": {
+      "en": "Increases fishing skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FISHING_SHORT": {
+      "en": "Fishing Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIST_WEAPONS": {
+      "en": "Increases fist weapons skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FIST_WEAPONS_SHORT": {
+      "en": "Fist Weapons Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FROST_DAMAGE_DONE": {
+      "en": "Increases frost damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_FROST_DAMAGE_DONE_SHORT": {
+      "en": "Frost Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_GUNS": {
+      "en": "Increases guns skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_GUNS_SHORT": {
+      "en": "Guns Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HASTE_MELEE_RATING": {
+      "en": "Improves melee haste rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HASTE_RANGED_RATING": {
+      "en": "Improves ranged haste rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HASTE_RATING": {
+      "en": "Improves haste rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_HASTE_RATING_SHORT": {
       "en": "Haste",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HASTE_SPELL_RATING": {
+      "en": "Improves spell haste rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HEALTH": {
+      "en": "%c%d Health",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HEALTH_REGEN": {
+      "en": "Restores %s health per 5 sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HEALTH_REGENERATION": {
+      "en": "Restores %s health per 5 sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HEALTH_REGENERATION_SHORT": {
+      "en": "Health Regeneration",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HEALTH_REGEN_SHORT": {
+      "en": "Health Per 5 Sec.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20818,8 +22092,232 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_HERBALISM": {
+      "en": "Increases herbalism skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HERBALISM_SHORT": {
+      "en": "Herbalism Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_MELEE_RATING": {
+      "en": "Improves melee hit rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_MELEE_RATING_SHORT": {
+      "en": "Hit (Melee)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_RANGED_RATING": {
+      "en": "Improves ranged hit rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_RANGED_RATING_SHORT": {
+      "en": "Hit (Ranged)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_RATING": {
+      "en": "Improves hit rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_RATING_SHORT": {
+      "en": "Hit",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_SPELL_RATING": {
+      "en": "Improves spell hit rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_SPELL_RATING_SHORT": {
+      "en": "Hit (Spell)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_MELEE_RATING": {
+      "en": "Improves melee hit avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_MELEE_RATING_SHORT": {
+      "en": "Hit Avoidance (Melee)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_RANGED_RATING": {
+      "en": "Improves ranged hit avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_RANGED_RATING_SHORT": {
+      "en": "Hit Avoidance (Ranged)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_RATING": {
+      "en": "Improves hit avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_RATING_SHORT": {
+      "en": "Hit Avoidance",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_SPELL_RATING": {
+      "en": "Improves spell hit avoidance rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HIT_TAKEN_SPELL_RATING_SHORT": {
+      "en": "Hit Avoidance (Spell)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HOLY_DAMAGE_DONE": {
+      "en": "Increases holy damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_HOLY_DAMAGE_DONE_SHORT": {
+      "en": "Holy Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_INGENUITY_SHORT": {
+      "en": "Ingenuity",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_INSPIRATION_SHORT": {
+      "en": "Inspiration",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_INTELLECT": {
+      "en": "%c%d Intellect",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_INTELLECT_SHORT": {
       "en": "Intellect",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_JEWELCRAFTING": {
+      "en": "Increases jewelcrafting skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_JEWELCRAFTING_SHORT": {
+      "en": "Jewelcrafting Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_LEATHERWORKING": {
+      "en": "Increases leatherworking skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_LEATHERWORKING_SHORT": {
+      "en": "Leatherworking Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MACES": {
+      "en": "Increases maces skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MACES_SHORT": {
+      "en": "Maces Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MANA": {
+      "en": "%c%d Mana",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MANA_REGENERATION": {
+      "en": "Restores %s mana per 5 sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MANA_REGENERATION_SHORT": {
+      "en": "Mana Regeneration",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20832,11 +22330,67 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_MASTERY_RATING": {
+      "en": "Increases your mastery by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_MASTERY_RATING_SHORT": {
       "en": "Mastery",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MELEE_ATTACK_POWER_SHORT": {
+      "en": "Melee Attack Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MINING": {
+      "en": "Increases mining skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MINING_SHORT": {
+      "en": "Mining Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_MULTICRAFT_SHORT": {
+      "en": "Multicraft",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_NATURE_DAMAGE_DONE": {
+      "en": "Increases nature damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_NATURE_DAMAGE_DONE_SHORT": {
+      "en": "Nature Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PARRY_RATING": {
+      "en": "Increases your parry rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "ITEM_MOD_PARRY_RATING_SHORT": {
@@ -20846,11 +22400,193 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_PERCEPTION_SHORT": {
+      "en": "Perception",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PHYSICAL_DAMAGE_DONE": {
+      "en": "Increases physical damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT": {
+      "en": "Physical Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POLEARMS": {
+      "en": "Increases polearms skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POLEARMS_SHORT": {
+      "en": "Polearms Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN0_SHORT": {
+      "en": "Mana Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN1_SHORT": {
+      "en": "Rage Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN2_SHORT": {
+      "en": "Focus Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN3_SHORT": {
+      "en": "Energy Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN4_SHORT": {
+      "en": "Happiness Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN5_SHORT": {
+      "en": "Runes Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_POWER_REGEN6_SHORT": {
+      "en": "Runic Power Per 5 Sec.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PVP_POWER": {
+      "en": "Increases your PvP power by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PVP_POWER_SHORT": {
+      "en": "PvP Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_PVP_PRIMARY_STAT_SHORT": {
+      "en": "PvP Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_RANGED_ATTACK_POWER": {
+      "en": "Increases ranged attack power by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_RANGED_ATTACK_POWER_SHORT": {
+      "en": "Ranged Attack Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_RESILIENCE_RATING": {
+      "en": "Improves your resilience rating by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_RESILIENCE_RATING_SHORT": {
+      "en": "PvP Resilience",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_RESOURCEFULNESS_SHORT": {
+      "en": "Resourcefulness",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SHADOW_DAMAGE_DONE": {
+      "en": "Increases shadow damage done by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SHADOW_DAMAGE_DONE_SHORT": {
+      "en": "Shadow Damage",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SKINNING": {
+      "en": "Increases skinning skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SKINNING_SHORT": {
+      "en": "Skinning Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPELL_DAMAGE_DONE": {
+      "en": "Increases damage done by magical spells and effects by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_SPELL_DAMAGE_DONE_SHORT": {
       "en": "Bonus Damage",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPELL_HEALING_DONE": {
+      "en": "Increases healing done by magical spells and effects by up to %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "ITEM_MOD_SPELL_HEALING_DONE_SHORT": {
@@ -20860,11 +22596,53 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_SPELL_PENETRATION": {
+      "en": "Increases spell penetration by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPELL_PENETRATION_SHORT": {
+      "en": "Spell Penetration",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPELL_POWER": {
+      "en": "Increases spell power by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPELL_POWER_SHORT": {
+      "en": "Spell Power",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SPIRIT": {
+      "en": "%c%d Spirit",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_SPIRIT_SHORT": {
       "en": "Spirit",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_STAMINA": {
+      "en": "%c%d Stamina",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "ITEM_MOD_STAMINA_SHORT": {
@@ -20874,8 +22652,148 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_MOD_STAVES": {
+      "en": "Increases staves skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_STAVES_SHORT": {
+      "en": "Staves Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_STRENGTH": {
+      "en": "%c%d Strength",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_STRENGTH_OR_INTELLECT_SHORT": {
+      "en": "Strength or Intellect",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_MOD_STRENGTH_SHORT": {
       "en": "Strength",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SWORDS": {
+      "en": "Increases swords skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_SWORDS_SHORT": {
+      "en": "Swords Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TAILORING": {
+      "en": "Increases tailoring skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TAILORING_SHORT": {
+      "en": "Tailoring Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_THROWN": {
+      "en": "Increases thrown skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_THROWN_SHORT": {
+      "en": "Thrown Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_AXES": {
+      "en": "Increases two-handed axes skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_AXES_SHORT": {
+      "en": "Two-Handed Axes Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_MACES": {
+      "en": "Increases two-handed maces skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_MACES_SHORT": {
+      "en": "Two-Handed Maces Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_SWORDS": {
+      "en": "Increases two-handed swords skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_TWOHANDED_SWORDS_SHORT": {
+      "en": "Two-Handed Swords Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_VERSATILITY": {
+      "en": "Versatility",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_WANDS": {
+      "en": "Increases wands skill by %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOD_WANDS_SHORT": {
+      "en": "Wands Skill",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_MOUSE_OVER": {
+      "en": "Mouse over icon for more info",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20895,11 +22813,60 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_NO_DROP": {
+      "en": "No Drop",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_OBLITERATEABLE": {
+      "en": "Obliteratable",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_OBLITERATEABLE_NOT": {
+      "en": "Cannot be Obliterated",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_ONLY_TOURNAMENT_GEAR_ALLOWED": {
+      "en": "Only Tournament Gear can be used in this War Game.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_OPENABLE": {
+      "en": "<Right Click to Open>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_PET_KNOWN": {
       "en": "Collected (%d/%d)",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_PROPOSED_ENCHANT": {
+      "en": "Will receive %s.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_PROSPECTABLE": {
+      "en": "Prospectable",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "ITEM_PURCHASED_COLON": {
@@ -20944,6 +22911,230 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_QUALITY5_DESC": {
+      "en": "Legendary",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_QUALITY6_DESC": {
+      "en": "Artifact",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_QUALITY7_DESC": {
+      "en": "Heirloom",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_QUALITY8_DESC": {
+      "en": "WoW Token",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_RACES_ALLOWED": {
+      "en": "Races: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_RANDOM_ENCHANT": {
+      "en": "<Random enchantment>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_READABLE": {
+      "en": "<Right Click to Read>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REFUND_MSG": {
+      "en": "Item was refunded. Received a refund of:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_RELIC_VIEWABLE": {
+      "en": "<Right Click to View Equipped Artifact>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ALLIANCE": {
+      "en": "Alliance Only",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_AMOUNT_EARNED": {
+      "en": "Requires earning a total of %1$d\n%2$s for the season.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ARENA_RATING": {
+      "en": "Requires personal and team arena rating of %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ARENA_RATING_3V3": {
+      "en": "Requires personal arena rating of %d|nin the 3v3 bracket.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ARENA_RATING_3V3_BG": {
+      "en": "Requires battleground rating of %d or|npersonal arena rating of %d|nin the 3v3  bracket.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 4,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ARENA_RATING_5V5": {
+      "en": "Requires personal arena rating of %d|nin 5v5 brackets",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_ARENA_RATING_BG": {
+      "en": "Requires battleground rating of %d or|npersonal arena rating of %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 3,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_HORDE": {
+      "en": "Horde Only",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_PURCHASE_ACHIEVEMENT": {
+      "en": "Requires achievement: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_PURCHASE_GUILD": {
+      "en": "Requires a guild",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_PURCHASE_GUILD_LEVEL": {
+      "en": "Requires guild level %d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_REPUTATION": {
+      "en": "Requires %s - %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_SKILL": {
+      "en": "Requires %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_REQ_SPECIALIZATION": {
+      "en": "Requires: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_RESIST_ALL": {
+      "en": "%c%d to All Resistances",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_RESIST_SINGLE": {
+      "en": "%c%d %s Resistance",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 3,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SET_BONUS": {
+      "en": "Set: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SET_BONUS_GRAY": {
+      "en": "(%d) Set: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SET_BONUS_NO_VALID_SPEC": {
+      "en": "Bonus effects vary based on the player's specialization.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SET_LEGACY_INACTIVE_BONUS": {
+      "en": "Legacy Set: Bonus is inactive",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SIGNABLE": {
+      "en": "<Right Click for Details>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SLOTS_IGNORED": {
+      "en": "%d |4slot:slots; ignored",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SOCKETABLE": {
+      "en": "<Shift Right Click to Socket>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_SOCKETING": {
       "en": "Item Socketing",
       "field": "ui",
@@ -20951,8 +23142,85 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_SOCKET_BONUS": {
+      "en": "Socket Bonus: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
     "ITEM_SOLD_COLON": {
       "en": "Item Sold:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SOULBOUND": {
+      "en": "Soulbound",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_CHARGES": {
+      "en": "%d |4Charge:Charges;",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_CHARGES_NONE": {
+      "en": "No charges",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_EFFECT": {
+      "en": "Effect: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_KNOWN": {
+      "en": "Already known",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_MAX_USABLE_LEVEL": {
+      "en": " (Requires level %d or below)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_TRIGGER_ONEQUIP": {
+      "en": "Equip:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_TRIGGER_ONPROC": {
+      "en": "Chance on hit:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_SPELL_TRIGGER_ONUSE": {
+      "en": "Use:",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_STARTS_QUEST": {
+      "en": "This Item Begins a Quest",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20965,8 +23233,50 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_TOURNAMENT_GEAR": {
+      "en": "Tournament Gear",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_TOURNAMENT_GEAR_WARNING": {
+      "en": "Tournament Gear can only be used in War Games.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_TOY_ONUSE": {
+      "en": "Use: Adds this toy to your Toy Box.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_UNIQUE": {
       "en": "Unique",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_UNIQUE_EQUIPPABLE": {
+      "en": "Unique-Equipped",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_UNIQUE_MULTIPLE": {
+      "en": "Unique (%d)",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_UNSELLABLE": {
+      "en": "No sell price",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -20979,8 +23289,57 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
+    "ITEM_UPGRADE_MISSING_ITEM": {
+      "en": "Drag an item here to Upgrade it.",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
     "ITEM_UPGRADE_STAT_AVERAGE_ITEM_LEVEL": {
       "en": "Item Level",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_UPGRADE_TOOLTIP_FORMAT": {
+      "en": "Upgrade Level: %d/%d",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 2,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_VENDOR_STACK_BUY": {
+      "en": "<Shift-Click to buy a different amount>",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_WRAPPED_BY": {
+      "en": "|cff00ff00<Gift from %s>|r",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 3,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_WRITTEN_BY": {
+      "en": "Written by %s",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 1,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_WRONG_CLASS": {
+      "en": "That item can't be used by players of your class!",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "user-visible chrome"
+    },
+    "ITEM_WRONG_RACE": {
+      "en": "That item can't be used by players of your race!",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -29458,13 +31817,6 @@
     },
     "SPELL_FAILED_CUSTOM_ERROR_121": {
       "en": "Your target must be below 35% health.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPELL_FAILED_CUSTOM_ERROR_122": {
-      "en": "You must select a specialization first.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -38352,7 +40704,7 @@
       "key-binding internals": 30,
       "locale plumbing": 3,
       "no natural-language content": 559,
-      "not referenced anywhere in this flavour's UI source; cannot render": 7212,
+      "not referenced anywhere in this flavour's UI source; cannot render": 6873,
       "out of scope: achievements": 9,
       "out of scope: addon manager": 25,
       "out of scope: archaeology": 15,
@@ -38387,13 +40739,13 @@
       "out of scope: voice chat": 48,
       "parsed from chat by loot addons (spec §3)": 17,
       "physical key names; must match the keyboard": 78,
-      "referenced only by code for another flavour; cannot render here": 379,
+      "referenced only by code for another flavour; cannot render here": 382,
       "sent to other players' chat, not shown to us": 1621,
       "value is the key; a placeholder or test string": 10,
       "value is the slash command itself; translating breaks macros": 875
     },
     "source_keys": 18260,
     "tool_version": "0.1.0",
-    "translate": 5476
+    "translate": 5812
   }
 }

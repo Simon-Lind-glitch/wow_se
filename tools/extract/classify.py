@@ -151,13 +151,31 @@ _OUT_OF_SCOPE: tuple[tuple[str, str], ...] = (
     ("REPORT_", "reporting players"),
 )
 
-# Strings the *server* pushes by name — they appear in no client-side Lua, so
-# the "unreferenced" rule would wrongly drop all 1,100+ of them. These are the
-# red messages at the top of the screen ("Your bag is full", "You are too far
-# away"), which is precisely the text a nine-year-old needs in Swedish.
-_SERVER_PUSHED: tuple[str, ...] = (
+# Strings produced outside Lua — by the server, or by the client's own C++ —
+# and therefore referenced in no Lua file. The "unreferenced" rule would drop
+# every one of them.
+#
+# Two families, both found the hard way:
+#
+#   * ERR_ / SPELL_FAILED_ are pushed by the server by name. These are the red
+#     messages at the top of the screen ("Your bag is full", "Out of range").
+#   * ITEM_ / DURABILITY / BIND_ / INVTYPE_ are assembled by the engine when it
+#     builds an item tooltip. "Binds when picked up", "Durability 84 / 100",
+#     "Use:", "Equip:", "+3 Stamina" — every line on every item the kids look
+#     at. All of it was being skipped, which is exactly the gap the requester
+#     reported as "the ui tooltips are untranslated".
+#
+# This exemption covers the *unreferenced* test only. A key referenced solely by
+# another flavour's Lua is still out: being engine-generated does not make a
+# retail feature reachable here.
+_ENGINE_GENERATED: tuple[str, ...] = (
     "ERR_",
     "SPELL_FAILED_",
+    "ITEM_",
+    "DURABILITY",
+    "BIND_",
+    "INVTYPE_",
+    "ENCHANT_",
 )
 
 # Keys that survive the denylist but are still not obviously safe. Flagged, not
@@ -234,14 +252,14 @@ class Classifier:
         exempt = normalize(value) in self.already_translated
 
         encoded = key.encode()
-        server_pushed = key.startswith(_SERVER_PUSHED)
+        engine_generated = key.startswith(_ENGINE_GENERATED)
         if self.has_ui_source:
-            if encoded in self.other_flavor and not server_pushed and not exempt:
+            if encoded in self.other_flavor and not exempt:
                 return Decision(
                     Verdict.SKIP,
                     "referenced only by code for another flavour; cannot render here",
                 )
-            if encoded not in self.referenced and not server_pushed and not exempt:
+            if encoded not in self.referenced and not engine_generated and not exempt:
                 return Decision(
                     Verdict.SKIP,
                     "not referenced anywhere in this flavour's UI source; cannot render",
@@ -256,8 +274,16 @@ class Classifier:
             if key.startswith(prefix) and not exempt:
                 return Decision(Verdict.SKIP, f"out of scope: {area}")
 
-        for suffix, reason in _REVIEW_SUFFIX:
-            if key.endswith(suffix):
-                return Decision(Verdict.REVIEW, reason)
+        # The _TEMPLATE/_FORMAT suffix check is a guess from the name. For an
+        # engine-generated string we have positive evidence it is display text —
+        # the engine draws it — so the guess does not get to override that.
+        # DURABILITY_TEMPLATE is the case in point: it is the durability line on
+        # every item tooltip, and flagging it for review meant never shipping it.
+        # The find/match evidence above still applies; that is measured, not
+        # guessed.
+        if not engine_generated:
+            for suffix, reason in _REVIEW_SUFFIX:
+                if key.endswith(suffix):
+                    return Decision(Verdict.REVIEW, reason)
 
         return Decision(Verdict.TRANSLATE, "user-visible chrome")

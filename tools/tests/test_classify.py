@@ -43,13 +43,38 @@ def test_format_templates_are_flagged_for_review_not_dropped():
     assert verdict("UNIT_TYPE_LEVEL_TEMPLATE", "Level %d %s") is Verdict.REVIEW
 
 
-def test_server_pushed_errors_survive_the_unreferenced_rule():
+def test_engine_generated_strings_survive_the_unreferenced_rule():
     # ERR_* never appears in client Lua — the server sends it by name. Without
     # the exemption these are all dropped, which is the bug this guards.
     classifier = Classifier()
     classifier.referenced = {b"QUEST_LOG"}  # pretend a UI index that omits ERR_*
     assert classifier.classify("ERR_INV_FULL", "Inventory is full.").verdict is Verdict.TRANSLATE
     assert classifier.classify("GARRISON_MISSIONS", "Missions").verdict is Verdict.SKIP
+
+
+def test_item_tooltip_lines_survive_the_unreferenced_rule():
+    """Item tooltips are assembled by the engine, not by Lua.
+
+    Every line on every item tooltip was being skipped as unreferenced, which
+    is what "the ui tooltips are untranslated" turned out to mean.
+    """
+    classifier = Classifier()
+    classifier.referenced = {b"QUEST_LOG"}
+    for key, value in (
+        ("ITEM_BIND_ON_PICKUP", "Binds when picked up"),
+        ("ITEM_SPELL_TRIGGER_ONUSE", "Use:"),
+        ("DURABILITY_TEMPLATE", "Durability %d / %d"),
+        ("INVTYPE_HEAD", "Head"),
+    ):
+        assert classifier.classify(key, value).verdict is Verdict.TRANSLATE, key
+
+
+def test_engine_exemption_does_not_re_admit_another_flavours_keys():
+    # Being engine-generated does not make a retail feature reachable here.
+    classifier = Classifier()
+    classifier.referenced = {b"QUEST_LOG"}
+    classifier.other_flavor = {b"ITEM_UPGRADE_TITLE"}
+    assert classifier.classify("ITEM_UPGRADE_TITLE", "Item Upgrade").verdict is Verdict.SKIP
 
 
 def test_keys_used_in_find_calls_are_flagged():

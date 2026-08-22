@@ -36,6 +36,43 @@ TOC_FILES = (
 
 QUEST_FIELDS = ("title", "objectives", "description", "progress", "completion")
 
+# Globals we refuse to reassign, because doing so taints them.
+#
+# §5 says the GlobalStrings are plain globals needing no hooking: "reassign at
+# load". That is true of the text, but not of the consequences. Assigning a
+# Blizzard global from an addon marks it tainted; when Blizzard's secure code
+# reads a tainted global and then attempts a protected action, the action is
+# blocked and the player is told to disable the addon.
+#
+# That is what happened in v0.4.1. Exiting the game raised:
+#
+#   "WoWsvSE has been blocked from an action only available to the Blizzard UI.
+#    You can disable this addon and reload the UI."
+#
+# The exit confirmation is a StaticPopup and Quit() is protected, so a tainted
+# global read anywhere on the way there blocks the exit.
+#
+# These are the keys the game menu and its logout/exit dialogs read, found by
+# scanning GameMenu and LogoutPanel code in the pinned UI source. Leaving them
+# English costs one menu; reassigning them costs the ability to quit.
+PROTECTED_GLOBALS = frozenset(
+    {
+        "ADDONS",
+        "BLIZZARD_STORE",
+        "CAMP_TIMER",
+        "EXIT_GAME",
+        "GAMEMENU_NEW_BUTTON",
+        "GAMEMENU_OPTIONS",
+        "GAMEMENU_SUPPORT",
+        "LOGOUT",
+        "MACROS",
+        "QUIT",
+        "QUIT_TIMER",
+        "RATINGS_MENU",
+        "RETURN_TO_GAME",
+    }
+)
+
 
 def write_toc(version: str, provenance: dict) -> int:
     lines = [
@@ -66,10 +103,14 @@ def write_globalstrings(entries: dict, provenance: dict) -> int:
 
     body = []
     written = 0
+    withheld = 0
     for key in sorted(source):
         swedish = ui.get(normalize(source[key]["en"]))
         if not swedish:
             continue  # untranslated: the client keeps its English (spec §7)
+        if key in PROTECTED_GLOBALS:
+            withheld += 1
+            continue
         body.append(f"{key} = {lua.quote(swedish['sv'])};")
         written += 1
 
@@ -88,7 +129,7 @@ def write_globalstrings(entries: dict, provenance: dict) -> int:
     path = ADDON / "locale" / "globalstrings.lua"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
-    return written
+    return written, withheld
 
 
 def write_quests(entries: dict, provenance: dict) -> tuple[int, int]:
@@ -158,11 +199,11 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     files = write_toc(args.version, provenance)
-    strings = write_globalstrings(entries, provenance)
+    strings, withheld = write_globalstrings(entries, provenance)
     quests, fields = write_quests(entries, provenance)
 
     print(f"toc: {files} files, Interface {provenance['interface']}, version {args.version}")
-    print(f"globalstrings.lua: {strings} strings")
+    print(f"globalstrings.lua: {strings} strings ({withheld} withheld to avoid taint)")
     print(f"quests_durotar.lua: {quests} quests, {fields} fields")
     return 0
 

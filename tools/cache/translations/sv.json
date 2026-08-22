@@ -307,6 +307,42 @@
       }
     },
     "ui": {
+      "%c%d %s Resistance": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d %smotstånd"
+      },
+      "%c%d Agility": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d smidighet"
+      },
+      "%c%d Health": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d liv"
+      },
+      "%c%d Intellect": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d intelligens"
+      },
+      "%c%d Mana": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d mana"
+      },
+      "%c%d Spirit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d ande"
+      },
+      "%c%d Stamina": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d tålighet"
+      },
+      "%c%d Strength": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d styrka"
+      },
+      "%c%d to All Resistances": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%c%d mot allt motstånd"
+      },
       "%d %s until release": {
         "by": "claude-opus-5 (in-session)",
         "sv": "%d %s kvar"
@@ -322,6 +358,22 @@
       "%d Silver": {
         "by": "claude-opus-5 (in-session)",
         "sv": "%d silver"
+      },
+      "(%d Min Cooldown)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(%d min laddning)"
+      },
+      "(%d Sec Cooldown)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(%d sek laddning)"
+      },
+      "(%d) Set: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(%d) Set: %s"
+      },
+      "(%s Cooldown)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(%s laddning)"
       },
       "(Combat Zone)": {
         "by": "claude-opus-5 (in-session)",
@@ -367,6 +419,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "(PvP-område)"
       },
+      "(Requires level %d or below)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(kräver nivå %d eller lägre)"
+      },
       "(Sanctuary)": {
         "by": "claude-opus-5 (in-session)",
         "sv": "(fredat område)"
@@ -382,6 +438,38 @@
       "<DND>": {
         "by": "claude-opus-5 (in-session)",
         "sv": "<STÖR EJ>"
+      },
+      "<Gift from %s>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "|cff00ff00<Present från %s>|r"
+      },
+      "<Made by %s>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "|cff00ff00<Gjord av %s>|r"
+      },
+      "<Random enchantment>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Slumpad förtrollning>"
+      },
+      "<Right Click for Details>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Högerklicka för mer info>"
+      },
+      "<Right Click to Open>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Högerklicka för att öppna>"
+      },
+      "<Right Click to Read>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Högerklicka för att läsa>"
+      },
+      "<Shift-Click to buy a different amount>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Skifta-klicka för att köpa ett annat antal>"
+      },
+      "<This item can be read>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<Den här saken kan läsas>"
       },
       "ARENA:": {
         "by": "claude-opus-5 (in-session)",
@@ -475,6 +563,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Smidighet"
       },
+      "Alchemy Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: alkemi"
+      },
       "All": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Alla"
@@ -483,11 +575,19 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Alliansen"
       },
+      "Alliance Only": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bara Alliansen"
+      },
       "Alphabetical": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Bokstavsordning"
       },
       "Already Known": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kan du redan"
+      },
+      "Already known": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Kan du redan"
       },
@@ -543,6 +643,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Arkan"
       },
+      "Arcane Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Arkanskada"
+      },
       "Archaeology": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Arkeologi"
@@ -582,6 +686,14 @@
       "Attack": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Attack"
+      },
+      "Attack Power": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attackstyrka"
+      },
+      "Attack Power In Forms": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attackstyrka i djurform"
       },
       "Attack Rating": {
         "by": "claude-opus-5 (in-session)",
@@ -631,6 +743,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Borta"
       },
+      "Axes Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: yxor"
+      },
       "BUYOUT": {
         "by": "claude-opus-5 (in-session)",
         "sv": "KÖP NU"
@@ -646,6 +762,10 @@
       "Backpack": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ryggsäck"
+      },
+      "Bag": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Väska"
       },
       "Bag Slot": {
         "by": "claude-opus-5 (in-session)",
@@ -711,6 +831,22 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Bud"
       },
+      "Binds when equipped": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Binds när du tar på den"
+      },
+      "Binds when picked up": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Binds när du tar upp den"
+      },
+      "Binds when used": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Binds när du använder den"
+      },
+      "Blacksmithing Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: smide"
+      },
       "Blindfolds": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ögonbindlar"
@@ -723,9 +859,17 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Chans att blockera"
       },
+      "Block Value": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Blockvärde"
+      },
       "Bonus": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Bonus"
+      },
+      "Bonus Armor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Extra rustning"
       },
       "Bonus Damage": {
         "by": "claude-opus-5 (in-session)",
@@ -754,6 +898,10 @@
       "Both": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Båda"
+      },
+      "Bows Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: bågar"
       },
       "Brawl": {
         "by": "claude-opus-5 (in-session)",
@@ -823,6 +971,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Utmaning"
       },
+      "Chance on hit:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Chans vid träff:"
+      },
       "Change": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ändra"
@@ -874,6 +1026,10 @@
       "Class": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Klass"
+      },
+      "Classes: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klasser: %s"
       },
       "Classic": {
         "by": "claude-opus-5 (in-session)",
@@ -979,6 +1135,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Grattis, du har nått nivå %d!"
       },
+      "Conjured Item": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Framkallad sak"
+      },
       "Conquest": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Erövring"
@@ -1015,9 +1175,25 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Matlagning"
       },
+      "Cooking Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: matlagning"
+      },
       "Cooldown remaining:": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Tid kvar:"
+      },
+      "Cooldown remaining: %d min": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tid kvar: %d min"
+      },
+      "Cooldown remaining: %d sec": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tid kvar: %d sek"
+      },
+      "Cooldown remaining: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tid kvar: %s"
       },
       "Copy": {
         "by": "claude-opus-5 (in-session)",
@@ -1051,9 +1227,29 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Kritvärde"
       },
+      "Critical Strike": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kritisk träff"
+      },
+      "Critical Strike (Melee)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kritisk träff (närstrid)"
+      },
+      "Critical Strike (Ranged)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kritisk träff (avstånd)"
+      },
+      "Critical Strike (Spell)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kritisk träff (magi)"
+      },
       "Cross": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Kors"
+      },
+      "Crossbows Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: armborst"
       },
       "Currency": {
         "by": "claude-opus-5 (in-session)",
@@ -1087,6 +1283,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "TA BORT"
       },
+      "Daggers Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: dolkar"
+      },
       "Daily": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Daglig"
@@ -1095,6 +1295,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Skada"
       },
+      "Damage Per Second": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skada per sekund"
+      },
       "Damage Reduction": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Minskad skada"
@@ -1102,6 +1306,10 @@
       "Damage Shields": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Skadesköldar"
+      },
+      "Damage per Second:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skada per sekund:"
       },
       "Damage:": {
         "by": "claude-opus-5 (in-session)",
@@ -1303,6 +1511,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Provrum"
       },
+      "Dual Wield Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: tvåvapensstrid"
+      },
       "Duel": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Duell"
@@ -1319,9 +1531,37 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Grottor"
       },
+      "Dura": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Håll"
+      },
+      "Durability": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hållbarhet"
+      },
+      "Durability %d / %d": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hållbarhet %d / %d"
+      },
       "Duration": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Längd"
+      },
+      "Duration: %d days": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Varar: %d dagar"
+      },
+      "Duration: %d hrs": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Varar: %d tim"
+      },
+      "Duration: %d min": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Varar: %d min"
+      },
+      "Duration: %d sec": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Varar: %d sek"
       },
       "Earned": {
         "by": "claude-opus-5 (in-session)",
@@ -1334,6 +1574,10 @@
       "Edited": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ändrad"
+      },
+      "Effect: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Effekt: %s"
       },
       "Effects": {
         "by": "claude-opus-5 (in-session)",
@@ -1355,6 +1599,14 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Påslagen"
       },
+      "Enchanting Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: förtrollning"
+      },
+      "Enchanting this item will bind it to you.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Om du förtrollar den här saken binds den till dig."
+      },
       "Enchants": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Förtrollningar"
@@ -1370,6 +1622,14 @@
       "Energy": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Energi"
+      },
+      "Energy Per 5 Sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Energi per 5 sek."
+      },
+      "Engineering Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: ingenjörskonst"
       },
       "Enter": {
         "by": "claude-opus-5 (in-session)",
@@ -1395,6 +1655,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Utrusta väska"
       },
+      "Equip:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utrustad:"
+      },
       "Equipment": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Utrustning"
@@ -1402,6 +1666,10 @@
       "Equipped With": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Utrustad med"
+      },
+      "Equipping this item will bind it to you.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Om du tar på den här saken binds den till dig."
       },
       "Error": {
         "by": "claude-opus-5 (in-session)",
@@ -1535,9 +1803,17 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Eld"
       },
+      "Fire Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Eldskada"
+      },
       "Fireball": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Fireball"
+      },
+      "First Aid Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: första hjälpen"
       },
       "First Available": {
         "by": "claude-opus-5 (in-session)",
@@ -1546,6 +1822,14 @@
       "Fishing": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Fiske"
+      },
+      "Fishing Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: fiske"
+      },
+      "Fist Weapons Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: knytnävsvapen"
       },
       "Fizzled": {
         "by": "claude-opus-5 (in-session)",
@@ -1562,6 +1846,10 @@
       "Focus": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Fokus"
+      },
+      "Focus Per 5 Sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fokus per 5 sek."
       },
       "Follow": {
         "by": "claude-opus-5 (in-session)",
@@ -1622,6 +1910,10 @@
       "Frost": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Frost"
+      },
+      "Frost Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Frostskada"
       },
       "Frostbolt": {
         "by": "claude-opus-5 (in-session)",
@@ -1715,6 +2007,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Gillen"
       },
+      "Guns Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: gevär"
+      },
       "HONOR:": {
         "by": "claude-opus-5 (in-session)",
         "sv": "ÄRA:"
@@ -1767,6 +2063,14 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Lågt liv"
       },
+      "Health Per 5 Sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Liv per 5 sek."
+      },
+      "Health Regeneration": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Livsåterhämtning"
+      },
       "Health Remaining": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Liv kvar"
@@ -1779,9 +2083,17 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Arvegods"
       },
+      "Held In Off-hand": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hålls i vänsterhanden"
+      },
       "Help Request": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Be om hjälp"
+      },
+      "Herbalism Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: örtkunskap"
       },
       "Heroic": {
         "by": "claude-opus-5 (in-session)",
@@ -1807,9 +2119,29 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Historik"
       },
+      "Hit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Träffsäkerhet"
+      },
+      "Hit (Melee)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Träffsäkerhet (närstrid)"
+      },
+      "Hit (Ranged)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Träffsäkerhet (avstånd)"
+      },
+      "Hit (Spell)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Träffsäkerhet (magi)"
+      },
       "Holy": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Helig"
+      },
+      "Holy Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Heligskada"
       },
       "Home": {
         "by": "claude-opus-5 (in-session)",
@@ -1822,6 +2154,10 @@
       "Horde": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Horden"
+      },
+      "Horde Only": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bara Horden"
       },
       "Horizontal": {
         "by": "claude-opus-5 (in-session)",
@@ -1867,6 +2203,46 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Importera"
       },
+      "Improves critical strike rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen till kritisk träff med %s."
+      },
+      "Improves haste rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar snabbheten med %s."
+      },
+      "Improves hit rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen att träffa med %s."
+      },
+      "Improves melee critical strike rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen till kritisk träff i närstrid med %s."
+      },
+      "Improves melee hit rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen att träffa i närstrid med %s."
+      },
+      "Improves ranged critical strike rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen till kritisk träff på avstånd med %s."
+      },
+      "Improves ranged hit rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen att träffa på avstånd med %s."
+      },
+      "Improves spell critical strike rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen till kritisk magiträff med %s."
+      },
+      "Improves spell hit rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar chansen att träffa med magi med %s."
+      },
+      "Improves your resilience rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din motståndskraft med %s."
+      },
       "In Instance": {
         "by": "claude-opus-5 (in-session)",
         "sv": "I en instans"
@@ -1890,6 +2266,194 @@
       "Incomplete": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ofärdig"
+      },
+      "Increases Block by %d": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar blockering med %d"
+      },
+      "Increases alchemy skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med alkemi med %s."
+      },
+      "Increases arcane damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar arkanskadan med upp till %s."
+      },
+      "Increases attack power by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar attackstyrkan med %s."
+      },
+      "Increases axes skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med yxor med %s."
+      },
+      "Increases blacksmithing skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med smide med %s."
+      },
+      "Increases bows skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med bågar med %s."
+      },
+      "Increases cooking skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med matlagning med %s."
+      },
+      "Increases crossbows skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med armborst med %s."
+      },
+      "Increases daggers skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med dolkar med %s."
+      },
+      "Increases defense rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar försvarsvärdet med %s."
+      },
+      "Increases dual wield skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med tvåvapensstrid med %s."
+      },
+      "Increases enchanting skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med förtrollning med %s."
+      },
+      "Increases engineering skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med ingenjörskonst med %s."
+      },
+      "Increases fire damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar eldskadan med upp till %s."
+      },
+      "Increases first aid skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med första hjälpen med %s."
+      },
+      "Increases fishing skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med fiske med %s."
+      },
+      "Increases fist weapons skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med knytnävsvapen med %s."
+      },
+      "Increases frost damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar frostskadan med upp till %s."
+      },
+      "Increases guns skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med gevär med %s."
+      },
+      "Increases herbalism skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med örtkunskap med %s."
+      },
+      "Increases holy damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar heligskadan med upp till %s."
+      },
+      "Increases jewelcrafting skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med juvelerarkonst med %s."
+      },
+      "Increases leatherworking skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med läderarbete med %s."
+      },
+      "Increases maces skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med spikklubbor med %s."
+      },
+      "Increases mining skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med gruvarbete med %s."
+      },
+      "Increases nature damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar naturskadan med upp till %s."
+      },
+      "Increases physical damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar fysiskskadan med upp till %s."
+      },
+      "Increases polearms skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med stavvapen med %s."
+      },
+      "Increases ranged attack power by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar attackstyrkan på avstånd med %s."
+      },
+      "Increases shadow damage done by up to %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar skuggskadan med upp till %s."
+      },
+      "Increases skinning skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med skinnfläkning med %s."
+      },
+      "Increases spell penetration by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar magigenomslaget med %s."
+      },
+      "Increases spell power by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar magistyrkan med %s."
+      },
+      "Increases staves skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med stavar med %s."
+      },
+      "Increases swords skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med svärd med %s."
+      },
+      "Increases tailoring skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med skrädderi med %s."
+      },
+      "Increases thrown skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med kastvapen med %s."
+      },
+      "Increases two-handed axes skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med tvåhandsyxor med %s."
+      },
+      "Increases two-handed maces skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med tvåhandsklubbor med %s."
+      },
+      "Increases two-handed swords skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med tvåhandssvärd med %s."
+      },
+      "Increases wands skill by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din färdighet med trollstavar med %s."
+      },
+      "Increases your armor by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din rustning med %s."
+      },
+      "Increases your dodge rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din chans att undvika med %s."
+      },
+      "Increases your expertise rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din skicklighet med %s."
+      },
+      "Increases your parry rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din chans att parera med %s."
+      },
+      "Increases your shield block rating by %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ökar din chans att blockera med %s."
       },
       "Info": {
         "by": "claude-opus-5 (in-session)",
@@ -1967,6 +2531,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Saker"
       },
+      "Item Purchased:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sak köpt:"
+      },
       "Item Quality": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Kvalitet"
@@ -1975,6 +2543,14 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Platser"
       },
+      "Item Sold:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sak såld:"
+      },
+      "Item will not be traded!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Saken kommer inte att bytas!"
+      },
       "Items": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Saker"
@@ -1982,6 +2558,10 @@
       "January": {
         "by": "claude-opus-5 (in-session)",
         "sv": "januari"
+      },
+      "Jewelcrafting Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: juvelerarkonst"
       },
       "Join": {
         "by": "claude-opus-5 (in-session)",
@@ -2059,6 +2639,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Lär dig trollformel:"
       },
+      "Leatherworking Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: läderarbete"
+      },
       "Leave": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lämna"
@@ -2091,6 +2675,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Gammal"
       },
+      "Legendary": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Legendarisk"
+      },
       "Legs": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ben"
@@ -2098,6 +2686,10 @@
       "Level": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nivå"
+      },
+      "Level %d": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nivå %d"
       },
       "Level Range": {
         "by": "claude-opus-5 (in-session)",
@@ -2191,6 +2783,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Nivå"
       },
+      "Maces Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: spikklubbor"
+      },
       "Macro": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Makro"
@@ -2235,7 +2831,15 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Lite mana"
       },
+      "Mana Per 5 Sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mana per 5 sek."
+      },
       "Mana Regen": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Manaåterhämtning"
+      },
+      "Mana Regeneration": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Manaåterhämtning"
       },
@@ -2291,6 +2895,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Närstrid"
       },
+      "Melee Attack Power": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attackstyrka i närstrid"
+      },
       "Member": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Medlem"
@@ -2318,6 +2926,10 @@
       "Minimum": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lägsta"
+      },
+      "Mining Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: gruvarbete"
       },
       "Minions": {
         "by": "claude-opus-5 (in-session)",
@@ -2407,6 +3019,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Mus"
       },
+      "Mouse over icon for more info": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Peka på ikonen för mer info"
+      },
       "Multiple items": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Flera saker"
@@ -2451,6 +3067,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Natur"
       },
+      "Nature Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Naturskada"
+      },
       "Neck": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Hals"
@@ -2487,13 +3107,33 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Inga bilagor"
       },
+      "No Drop": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kan inte ges bort"
+      },
       "No Totem": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Inget totem"
       },
+      "No charges": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inga laddningar"
+      },
+      "No more charges.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inga laddningar kvar."
+      },
+      "No sell price": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kan inte säljas"
+      },
       "No target": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Inget mål"
+      },
+      "Non-equippable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kan inte utrustas"
       },
       "None": {
         "by": "claude-opus-5 (in-session)",
@@ -2743,6 +3383,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Fysisk"
       },
+      "Physical Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fysiskskada"
+      },
       "Play": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Spela"
@@ -2762,6 +3406,10 @@
       "Point": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Poäng"
+      },
+      "Polearms Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: stavvapen"
       },
       "Poor": {
         "by": "claude-opus-5 (in-session)",
@@ -2847,6 +3495,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Antal"
       },
+      "Quest Item": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Uppdragssak"
+      },
       "Quest Log": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Uppdragslogg"
@@ -2883,9 +3535,17 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Raser"
       },
+      "Races: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raser: %s"
+      },
       "Rage": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Raseri"
+      },
+      "Rage Per 5 Sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raseri per 5 sek."
       },
       "Raid": {
         "by": "claude-opus-5 (in-session)",
@@ -2902,6 +3562,10 @@
       "Ranged Attack": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Avståndsattack"
+      },
+      "Ranged Attack Power": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attackstyrka på avstånd"
       },
       "Rank": {
         "by": "claude-opus-5 (in-session)",
@@ -3047,6 +3711,22 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Saker som behövs:"
       },
+      "Requires %s (%d)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver %s (%d)"
+      },
+      "Requires %s - %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver %s - %s"
+      },
+      "Requires Level %d": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver nivå %d"
+      },
+      "Requires level %d to %d": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver nivå %d till %d"
+      },
       "Requires:": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Kräver:"
@@ -3070,6 +3750,14 @@
       "Resisted": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Motstod"
+      },
+      "Restores %s health per 5 sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återger %s liv per 5 sek."
+      },
+      "Restores %s mana per 5 sec.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återger %s mana per 5 sek."
       },
       "Resurrect now?": {
         "by": "claude-opus-5 (in-session)",
@@ -3247,6 +3935,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Sätt fokus"
       },
+      "Set: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Set: %s"
+      },
       "Sets": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Set"
@@ -3258,6 +3950,10 @@
       "Shadow": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Skugga"
+      },
+      "Shadow Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skuggskada"
       },
       "Shards": {
         "by": "claude-opus-5 (in-session)",
@@ -3331,6 +4027,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Färdigheter"
       },
+      "Skinning Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: skinnfläkning"
+      },
       "Skirmish": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Skärmytsling"
@@ -3359,6 +4059,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Vänner"
       },
+      "Socket Bonus: %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sockelbonus: %s"
+      },
       "Solo": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ensam"
@@ -3366,6 +4070,10 @@
       "Solve": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lös"
+      },
+      "Soulbound": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bunden till dig"
       },
       "Sound": {
         "by": "claude-opus-5 (in-session)",
@@ -3406,6 +4114,14 @@
       "Spell Bonus:": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Magibonus:"
+      },
+      "Spell Penetration": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Magigenomslag"
+      },
+      "Spell Power": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Magistyrka"
       },
       "Spellbook": {
         "by": "claude-opus-5 (in-session)",
@@ -3462,6 +4178,10 @@
       "Status": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Status"
+      },
+      "Staves Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: stavar"
       },
       "Stop Ignoring": {
         "by": "claude-opus-5 (in-session)",
@@ -3523,6 +4243,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Byt"
       },
+      "Swords Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: svärd"
+      },
       "System": {
         "by": "claude-opus-5 (in-session)",
         "sv": "System"
@@ -3534,6 +4258,10 @@
       "Tabard": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vapenrock"
+      },
+      "Tailoring Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: skrädderi"
       },
       "Take Attachments:": {
         "by": "claude-opus-5 (in-session)",
@@ -3591,6 +4319,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Saken hittades inte."
       },
+      "This Item Begins a Quest": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Den här saken startar ett uppdrag"
+      },
       "Throttle": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Begränsning"
@@ -3598,6 +4330,10 @@
       "Thrown": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Kastvapen"
+      },
+      "Thrown Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: kastvapen"
       },
       "Thursday": {
         "by": "claude-opus-5 (in-session)",
@@ -3723,6 +4459,18 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Tvåhands"
       },
+      "Two-Handed Axes Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: tvåhandsyxor"
+      },
+      "Two-Handed Maces Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: tvåhandsklubbor"
+      },
+      "Two-Handed Swords Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: tvåhandssvärd"
+      },
       "Type": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Typ"
@@ -3754,6 +4502,14 @@
       "Unique": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Unik"
+      },
+      "Unique (%d)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Unik (%d)"
+      },
+      "Unique-Equipped": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Unik utrustad"
       },
       "Unit": {
         "by": "claude-opus-5 (in-session)",
@@ -3823,9 +4579,17 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Använd"
       },
+      "Use:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Använd:"
+      },
       "Uses": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Användningar"
+      },
+      "Using this item will bind it to you.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Om du använder den här saken binds den till dig."
       },
       "Verifying...": {
         "by": "claude-opus-5 (in-session)",
@@ -3866,6 +4630,10 @@
       "Waiting...": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Väntar..."
+      },
+      "Wands Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet: trollstavar"
       },
       "Wave:": {
         "by": "claude-opus-5 (in-session)",
@@ -3915,6 +4683,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Bredd"
       },
+      "Will receive %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Får %s."
+      },
       "Win": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vinst"
@@ -3947,6 +4719,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Handled"
       },
+      "Written by %s": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skriven av %s"
+      },
       "Yell": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ropa"
@@ -3970,6 +4746,10 @@
       "You Received:": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Du fick:"
+      },
+      "You are bound in %s.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du är bunden i %s."
       },
       "You don't have enough money.": {
         "by": "claude-opus-5 (in-session)",
@@ -4046,7 +4826,7 @@
     }
   },
   "meta": {
-    "count": 1008,
+    "count": 1203,
     "glossary_version": 1,
     "tool_version": "0.1.0"
   }
