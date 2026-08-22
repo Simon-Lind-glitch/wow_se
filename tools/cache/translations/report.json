@@ -1,16 +1,10 @@
 {
   "glossary_notes": {
-    "ui:QUEST_OBJECTIVES": [
-      "'quest' should render as 'uppdrag'"
-    ],
-    "ui:RETURN_TO_GAME": [
-      "'return to' should render as 'gå tillbaka till'"
-    ],
-    "ui:TRADE": [
-      "'trade' should render as 'byta'"
+    "ui:LEARN": [
+      "'learn' should render as 'lära dig'"
     ]
   },
   "rejected": {},
   "translator": "claude-opus-5 (in-session)",
-  "written": 67
+  "written": 682
 }

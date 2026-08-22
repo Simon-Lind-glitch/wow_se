@@ -357,13 +357,6 @@
       "placeholders": 1,
       "reason": "format template; verify nothing parses it"
     },
-    "PVP_REWARD_XP_FORMAT": {
-      "en": "%s XP",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
-    },
     "QUEST_LOG_COUNT_TEMPLATE": {
       "en": "Quests: |cffffffff%d/%d|r",
       "field": "ui",
@@ -391,13 +384,6 @@
       "gender_branches": [],
       "placeholders": 1,
       "reason": "format template; verify nothing parses it"
-    },
-    "STAT_RUNE_REGEN_FORMAT": {
-      "en": "%.2fs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "format string; verify nothing parses it"
     },
     "STAT_TEMPLATE": {
       "en": "%s Stats",

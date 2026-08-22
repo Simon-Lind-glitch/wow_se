@@ -14,13 +14,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ABANDON_QUEST_ABBREV": {
-      "en": "Abandon",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ABANDON_QUEST_CONFIRM": {
       "en": "Abandon \"%s\"?",
       "field": "ui",
@@ -33,13 +26,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "ABILITIES": {
-      "en": "Abilities",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "ABSORB": {
@@ -86,20 +72,6 @@
     },
     "ACCESSIBILITY_GENERAL_LABEL": {
       "en": "General",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACCOUNT_WIDE_ACHIEVEMENT": {
-      "en": "Progress on any of your characters\nwill count towards this achievement.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED": {
-      "en": "All of your characters have credit\nfor earning this achievement.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -154,13 +126,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "ACHIEVEMENTS_GUILD_TAB": {
-      "en": "Guild",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ACHIEVEMENT_BUTTON": {
       "en": "Achievements",
       "field": "ui",
@@ -175,48 +140,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ACHIEVEMENT_COMPLETED_BY": {
-      "en": "Completed by: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_EARNED_BY": {
-      "en": "Earned by: |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_FILTER_ALL_EXPLANATION": {
-      "en": "Show all achievements",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION": {
-      "en": "Show achievements completed on your account",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_FILTER_INCOMPLETE_EXPLANATION": {
-      "en": "Show achievements this character can complete",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_FILTER_TITLE": {
-      "en": "Achievement Filter",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ACHIEVEMENT_META_COMPLETED_DATE": {
       "en": "Completed %s",
       "field": "ui",
@@ -224,25 +147,11 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "ACHIEVEMENT_NOT_COMPLETED_BY": {
-      "en": "|cffff2020Not completed by:|r |cffffffff%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
     "ACHIEVEMENT_PROGRESSED": {
       "en": "Achievement Progress",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACHIEVEMENT_REQUIRES_GUILD_REPUTATION": {
-      "en": "|cffffffffRequires guild reputation:|r %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
       "reason": "user-visible chrome"
     },
     "ACHIEVEMENT_SUMMARY_CATEGORY": {
@@ -282,13 +191,6 @@
     },
     "ACTIVATE": {
       "en": "Activate",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ACTIVE_PETS": {
-      "en": "Active",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -623,13 +525,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ADVENTURE_JOURNAL": {
-      "en": "Adventure Guide",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "AFK": {
       "en": "Away",
       "field": "ui",
@@ -667,13 +562,6 @@
     },
     "AIM_UP": {
       "en": "Aim Up",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AJ_REWARD_CLICK_TEXT": {
-      "en": "Click to view all rewards",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -730,13 +618,6 @@
     },
     "ALL_CLASSES": {
       "en": "All Classes",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ALL_GLYPHS": {
-      "en": "All Glyphs",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -959,13 +840,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ARCHAEOLOGY_DIGSITE_PROGRESS_BAR_TITLE": {
-      "en": "Digsite Progress",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ARCHAEOLOGY_DIG_HELP": {
       "en": "Archaeology Map Location Markers",
       "field": "ui",
@@ -1071,27 +945,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ARENA_BATTLES_2V2": {
-      "en": "2v2 Arena Battles",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_BATTLES_3V3": {
-      "en": "3v3 Arena Battles",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_BATTLES_5V5": {
-      "en": "5v5 Arena Battles",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ARENA_CASUAL": {
       "en": "Skirmish",
       "field": "ui",
@@ -1108,27 +961,6 @@
     },
     "ARENA_CHARTER_TURN_IN": {
       "en": "Turn in your Team Charter",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_COMPLETE_MESSAGE": {
-      "en": "The battle has ended. This arena will close in %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_INFO": {
-      "en": "In the Arena, winning matches will earn you Conquest Points.  Winning matches also increases your Arena Rating.  The higher your rating the more Conquest Points you may earn each week.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_MASTER_NO_SEASON_TEXT": {
-      "en": "Arena battles and Rated Battlegrounds are only available during an active player versus player combat season. The next season will start soon!",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1190,22 +1022,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ARENA_RATED_QUEUES_DISABLED": {
-      "en": "Rated Queues are temporarily disabled.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ARENA_REGISTRAR_PURCHASE_TEXT": {
       "en": "To create an arena team you must purchase this charter, get the same number of unique player signatures as the size of your team, and return the charter to me.  Please enter the desired name for your arena team.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_SEASON_STATS": {
-      "en": "Season Stats",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1220,13 +1038,6 @@
     },
     "ARENA_TEAMS": {
       "en": "Arena Teams",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ARENA_TEAMS_INVALID_WARNING": {
-      "en": "You are not currently on any Arena Teams",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1309,13 +1120,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ARENA_WEEKLY_STATS": {
-      "en": "Weekly Stats",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ARMOR": {
       "en": "Armor",
       "field": "ui",
@@ -1367,13 +1171,6 @@
     },
     "ATTACK_COLON": {
       "en": "Attack:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ATTACK_POWER": {
-      "en": "Power",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1486,13 +1283,6 @@
     },
     "AUCTION_CATEGORY_MISCELLANEOUS": {
       "en": "Miscellaneous",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_CATEGORY_PROFESSION_EQUIPMENT": {
-      "en": "Profession Equipment",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1659,22 +1449,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "AUCTION_HOUSE_BROWSE_HEADER_CONTAINER_SLOTS": {
-      "en": "Slots",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "AUCTION_HOUSE_BROWSE_HEADER_NAME": {
       "en": "Name",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_HOUSE_BROWSE_HEADER_PET_LEVEL": {
-      "en": "Level",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1689,20 +1465,6 @@
     },
     "AUCTION_HOUSE_BROWSE_HEADER_QUANTITY": {
       "en": "Available",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_HOUSE_BROWSE_HEADER_RECIPE_SKILL": {
-      "en": "Skill",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_HOUSE_BROWSE_HEADER_REQUIRED_LEVEL": {
-      "en": "Level",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1869,22 +1631,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "AUCTION_HOUSE_FILTER_CATEGORY_EQUIPMENT": {
-      "en": "Equipment",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "AUCTION_HOUSE_FILTER_CATEGORY_RARITY": {
       "en": "Rarity",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY": {
-      "en": "Current Expansion Only",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -1897,22 +1645,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "AUCTION_HOUSE_FILTER_RUNECARVING": {
-      "en": "|cff00ccffRunecarving|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
     "AUCTION_HOUSE_FILTER_UNCOLLECTED_ONLY": {
       "en": "Uncollected Only",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_HOUSE_FILTER_UPGRADES_ONLY": {
-      "en": "Upgrades Only",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -2373,62 +2107,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "AUCTION_SUBCATEGORY_CLOAK": {
-      "en": "Cloak",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_MISCELLANEOUS": {
-      "en": "Miscellaneous",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_ONE_HANDED": {
-      "en": "One-Handed",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_OTHER": {
-      "en": "Other",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_PROFESSION_ACCESSORIES": {
-      "en": "Accessories",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_PROFESSION_TOOLS": {
-      "en": "Tools",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_RANGED": {
-      "en": "Ranged",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "AUCTION_SUBCATEGORY_TWO_HANDED": {
-      "en": "Two-Handed",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "AUCTION_TIME_LEFT1_DETAIL": {
       "en": "Less than 30 mins",
       "field": "ui",
@@ -2828,13 +2506,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "BALANCE_TOOLTIP": {
-      "en": "Displays progress toward activating a Lunar or Solar Eclipse.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "BANKSLOTPURCHASE": {
       "en": "Purchase",
       "field": "ui",
@@ -3010,20 +2681,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "BATTLEGROUNDS": {
-      "en": "Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BATTLEGROUND_BONUS_REWARD_TOOLTIP": {
-      "en": "Competing in a Bonus Battleground will earn you a Strongbox, which has a chance to contain Honor and PvP equipment. The quality of the Strongbox is based on your team's performance.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "BATTLEGROUND_COMPLETE_MESSAGE": {
       "en": "The battle has ended. This battleground will close in %s",
       "field": "ui",
@@ -3036,27 +2693,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "BATTLEGROUND_HOLIDAY": {
-      "en": "Call to Arms",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BATTLEGROUND_HOLIDAY_EXPLANATION": {
-      "en": "Your urgent assistance is needed to combat our foes! Completing this Battleground will earn you extra rewards.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BATTLEGROUND_HOLIDAY_LONG": {
-      "en": "Call to Arms",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "BATTLEGROUND_IS_READY": {
@@ -3206,13 +2842,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "BATTLE_PET_CAPTURED": {
-      "en": "You have captured",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "BATTLE_PET_FAVORITE": {
       "en": "Set Favorite",
       "field": "ui",
@@ -3229,13 +2858,6 @@
     },
     "BATTLE_PET_FIND_BATTLE_READONLY": {
       "en": "Find Battle is locked because this account is logged in multiple times.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BATTLE_PET_LOOT_RECEIVED": {
-      "en": "You received loot:",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -3439,13 +3061,6 @@
     },
     "BENEFICIAL_AURA_COMBATLOG_TOOLTIP": {
       "en": "Show when you gain or lose a beneficial aura.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BEST": {
-      "en": "Best",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -5166,27 +4781,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "BONUS_BATTLEGROUNDS": {
-      "en": "Bonus Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BONUS_BUTTON_RANDOM_BG_DESC": {
-      "en": "Compete against the enemy faction in a random battleground.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BONUS_BUTTON_RANDOM_BG_TITLE": {
-      "en": "Random Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "BONUS_DAMAGE": {
       "en": "Bonus Damage",
       "field": "ui",
@@ -5236,13 +4830,6 @@
       "placeholders": 2,
       "reason": "user-visible chrome"
     },
-    "BONUS_ROLL_REWARD_MONEY": {
-      "en": "Gold",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "BONUS_ROLL_ROLLING": {
       "en": "Rolling",
       "field": "ui",
@@ -5276,13 +4863,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "BONUS_TALENTS": {
-      "en": "Talent Points",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "BONUS_VALOR_TOOLTIP": {
@@ -5322,48 +4902,6 @@
     },
     "BOSS_DEAD": {
       "en": "Defeated",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BOSS_INFO_STRING": {
-      "en": "Boss: %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "BOSS_INFO_STRING_MANY": {
-      "en": "Boss: %s and others",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "BOSS_INFO_STRING_TWO": {
-      "en": "Boss: %s, %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "BRAWL_CLOSED": {
-      "en": "Brawl (Closed)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BRAWL_CLOSED_NEW": {
-      "en": "Brawl (New Brawl in %s)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "BRAWL_TUTORIAL": {
-      "en": "Experience crazy new ways to play in the PvP Brawl mode.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -5427,20 +4965,6 @@
     },
     "BROWSE_SEARCH_TEXT": {
       "en": "Choose search criteria and press \"Search\"",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BURNING_EMBERS": {
-      "en": "Burning Embers",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "BURNING_EMBERS_TOOLTIP": {
-      "en": "Burning Embers are generated by casting Incinerate and are consumed by Chaos Bolt to deal damage or Ember Tap to heal you.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -6678,13 +6202,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "CALENDAR_EVENT_ALARM_MESSAGE": {
-      "en": "%s begins in 15 minutes.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "CALENDAR_EVENT_CREATORNAME": {
       "en": "Created by %s",
       "field": "ui",
@@ -7497,34 +7014,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CHALLENGES_LASTRUN_TIME": {
-      "en": "Last Run",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGES_NO_MEDAL": {
-      "en": "- No Medal -",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGES_RECORD_TIME": {
-      "en": "Your Best",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGES_TIMER_NO_MEDAL": {
-      "en": "No Medal",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CHALLENGE_MODE_COMPLETED": {
       "en": "Challenge Complete!",
       "field": "ui",
@@ -7532,113 +7021,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CHALLENGE_MODE_COMPLETE_BEAT_TIMER": {
-      "en": "You beat the timer!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_COMPLETE_KEYSTONE_UPGRADED": {
-      "en": "|cff20ff20Keystone Upgraded (+%d)|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_COMPLETE_TIME_EXPIRED": {
-      "en": "Time expired!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_COMPLETE_TRY_AGAIN": {
-      "en": "Try again! Beat the timer to upgrade your keystone!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_ENEMY_EXTRA_DAMAGE": {
-      "en": "Extra Damage",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_ENEMY_EXTRA_DAMAGE_DESCRIPTION": {
-      "en": "Enemies deal %d%% more damage.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_ENEMY_EXTRA_HEALTH": {
-      "en": "Extra Health",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_ENEMY_EXTRA_HEALTH_DESCRIPTION": {
-      "en": "Enemies have %d%% more health.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_GUILD_BEST": {
-      "en": "Guild Best",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_INSERT_KEYSTONE": {
-      "en": "Insert Mythic Keystone",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_NEW_BEST": {
-      "en": "%s - New Weekly Best!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "CHALLENGE_MODE_NEW_RECORD": {
       "en": "New Record",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_POWER_LEVEL": {
-      "en": "Level %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_REALM_BEST": {
-      "en": "Realm Best",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_START_CHALLENGE": {
-      "en": "Activate",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CHALLENGE_MODE_THIS_WEEK": {
-      "en": "This Week",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -8176,13 +7560,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CHI_TOOLTIP": {
-      "en": "Used by Monks to power specific abilities.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CHOOSE_FACTION": {
       "en": "Choose Your Destiny",
       "field": "ui",
@@ -8381,13 +7758,6 @@
     },
     "CLICK_HERE_FOR_MORE_INFO": {
       "en": "Click here for more information.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CLICK_QUEST_DETAILS": {
-      "en": "<Click to view Quest Details>",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -8657,20 +8027,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "COLLECTION_UNOPENED_PLURAL": {
-      "en": "You have unopened items in your collection.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "COLLECTION_UNOPENED_SINGULAR": {
-      "en": "You have an unopened item in your collection.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "COLOR": {
@@ -10227,20 +9583,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "COMPANIONS": {
-      "en": "Companions",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "COMPANIONS_MICRO_BUTTON_NEW_BATTLE_SLOT": {
-      "en": "A new battle slot is available! Click here and drag a pet into the slot.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "COMPARE_ACHIEVEMENTS": {
       "en": "Compare Achievements",
       "field": "ui",
@@ -10444,25 +9786,11 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "CONFIRM_EXIT_WITH_UNSPENT_TALENT_POINTS": {
-      "en": "You have unspent talent points. Are you sure you wish to close this window?",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CONFIRM_GLYPH_PLACEMENT": {
       "en": "Are you sure you want to inscribe %s?  The existing glyph will be overwritten.\n\n%sCost: %d %s|r",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
-    "CONFIRM_GLYPH_PLACEMENT_NO_COST": {
-      "en": "Are you sure you want to inscribe %s?  This will replace %s.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "CONFIRM_GLYPH_REMOVAL": {
@@ -10516,13 +9844,6 @@
     },
     "CONFIRM_LEARN_PREVIEW_TALENTS": {
       "en": "Are you sure you want to learn these talents?",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CONFIRM_LEARN_SPEC": {
-      "en": "Are you sure you want to learn this specialization?",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -10990,13 +10311,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CORE_ABILITIES_HELP_1": {
-      "en": "This page gives you information on your most important abilities.\n\nYou should definitely have these abilities on your action bar.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CORPSE_RED": {
       "en": "|cffff2020Corpse|r",
       "field": "ui",
@@ -11102,13 +10416,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CREATE_PROFESSION": {
-      "en": "Create",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CREATURE_MESSAGES": {
       "en": "Creature Messages",
       "field": "ui",
@@ -11116,57 +10423,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "CRF_ALL_ASSIST": {
-      "en": "Everyone Is Assist",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "CRF_COUNTDOWN": {
       "en": "Countdown",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_DIFFICULTY": {
-      "en": "Difficulty",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_EDIT_MODE": {
-      "en": "Edit Mode",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_HIDE_GROUPS": {
-      "en": "Hide Groups",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_READY_CHECK": {
-      "en": "Ready Check",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_ROLE_POLL": {
-      "en": "Role Poll",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "CRF_SETTINGS": {
-      "en": "Settings",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -11188,13 +10446,6 @@
     },
     "CR_CRIT_RANGED_TOOLTIP": {
       "en": "Crit rating %d (+%.2f%% crit chance)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "CR_CRIT_SPELL_TOOLTIP": {
-      "en": "Chance of spells doing extra damage.\nCrit %s (+%.2f%% crit chance)",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 3,
@@ -11244,13 +10495,6 @@
     },
     "CR_PARRY_TOOLTIP": {
       "en": "Parry Rating of %d adds %.2f%% Parry",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "CR_RANGED_EXPERTISE_TOOLTIP": {
-      "en": "Reduces chance to be dodged by %s\nExpertise %s (+%.2F%% expertise)",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 3,
@@ -11662,13 +10906,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "DEMONIC_FURY_TOOLTIP": {
-      "en": "Your damaging spells and pet abilities generate Demonic Fury. You can use Metamorphosis to transform into a demon at will, but all abilities used consume Demonic Fury.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "DEMOTE": {
       "en": "Demote",
       "field": "ui",
@@ -11949,13 +11186,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "DUNGEONS_BUTTON": {
-      "en": "Group Finder",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "DUNGEON_COMPLETED": {
       "en": "Dungeon Complete!",
       "field": "ui",
@@ -12180,13 +11410,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ENABLE_QUEST_TEXT_CONTRAST": {
-      "en": "Quest Text Contrast",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ENABLE_REMOTE_TEXT_TO_SPEECH": {
       "en": "|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|tSpeak for me in Voice Chat",
       "field": "ui",
@@ -12280,55 +11503,6 @@
     },
     "ENCOUNTER_JOURNAL": {
       "en": "Dungeon Journal",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_ABILITY": {
-      "en": "Ability",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_ENCOUNTER": {
-      "en": "Boss",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_ENCOUNTER_ADD": {
-      "en": "Add",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_INSTANCE": {
-      "en": "Dungeon",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_ITEM": {
-      "en": "Item",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_SEARCH_RESULTS": {
-      "en": "Search Results for \"%s\"(%d)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "ENCOUNTER_JOURNAL_SHOW_MAP": {
-      "en": "Show\nMap",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -12474,13 +11648,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "EQUIPMENT_MANAGER": {
-      "en": "Equipment Manager",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "EQUIPMENT_MANAGER_IGNORE_SLOT": {
       "en": "Ignore This Slot",
       "field": "ui",
@@ -12502,36 +11669,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "EQUIPMENT_SETS_CANT_RENAME": {
-      "en": "An equipment set with that name already exists.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EQUIPMENT_SETS_TOO_MANY": {
-      "en": "You cannot create any more new equipment sets.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EQUIPMENT_SET_EDIT": {
-      "en": "Change Name/Icon",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "EQUIPPED_RUNES": {
       "en": "Equipped Runes",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EQUIPSET_EQUIP": {
-      "en": "Equip",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -21210,41 +20349,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "EXPANSION_FILTER_TEXT": {
-      "en": "Expansion",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EXPANSION_NAME1": {
-      "en": "The Burning Crusade",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EXPANSION_NAME2": {
-      "en": "Wrath of the Lich King",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EXPANSION_NAME3": {
-      "en": "Cataclysm",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EXPANSION_NAME4": {
-      "en": "Mists of Pandaria",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "EXPERIENCE_COLON": {
       "en": "Experience:",
       "field": "ui",
@@ -21264,13 +20368,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "EXTENDED": {
-      "en": "|cff00ff00Extended|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "EXTEND_RAID_LOCK": {
@@ -21366,13 +20463,6 @@
     },
     "FEATURE_NOT_AVAILBLE_PANDAREN": {
       "en": "This feature unlocks after you choose a faction.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "FEATURE_NOT_YET_AVAILABLE": {
-      "en": "This feature's not yet available.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -21805,27 +20895,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "FROM_ALL_SOURCES": {
-      "en": "All Sources:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "FROM_ARENA": {
-      "en": "Arena Battles:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "FROM_RATEDBG": {
-      "en": "Rated Battlegrounds:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "FUEL": {
       "en": "Fuel",
       "field": "ui",
@@ -22001,20 +21070,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "GAMETIME_TOOLTIP_CALENDAR_INVITES": {
-      "en": "You have pending calendar invites.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GAMETIME_TOOLTIP_TOGGLE_CALENDAR": {
-      "en": "Click to show the calendar.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "GAMETIME_TOOLTIP_TOGGLE_CLOCK": {
       "en": "Click to show clock settings.",
       "field": "ui",
@@ -22148,13 +21203,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "GEARSETS_POPUP_TEXT": {
-      "en": "Enter Set Name (Max 16 Characters):",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "GENERAL": {
       "en": "General",
       "field": "ui",
@@ -22178,20 +21226,6 @@
     },
     "GLYPHS": {
       "en": "Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GLYPH_SLOTS": {
-      "en": "Glyph Slots",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GLYPH_SLOT_TOOLTIP1": {
-      "en": "Unlocked at Level 50",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -22472,20 +21506,6 @@
     },
     "GROUP8_CHAT_TAG2": {
       "en": "group8",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GROUPMANAGER_GROUND_MARKER": {
-      "en": "Ground",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GROUPMANAGER_UNIT_MARKER": {
-      "en": "Unit",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -22855,20 +21875,6 @@
       "placeholders": 3,
       "reason": "user-visible chrome"
     },
-    "GUILD_ACHIEVEMENTS_TITLE": {
-      "en": "Guild Achievements",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "GUILD_ACHIEVEMENT_EARNED_BY": {
-      "en": "Earned by:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "GUILD_ACHIEVEMENT_UNLOCKED": {
       "en": "Guild Achievement Earned",
       "field": "ui",
@@ -23007,13 +22013,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 4,
-      "reason": "user-visible chrome"
-    },
-    "GUILD_FEAT_OF_STRENGTH_DESCRIPTION": {
-      "en": "Feats of Strength are accomplishments that guilds will find very difficult if not impossible to earn.  Worth no points, Feats of Strength are a collection of past glories on Azeroth.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "GUILD_FRAME_CHALLENGES": {
@@ -23800,13 +22799,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "HEIRLOOMS_MICRO_BUTTON_SPEC_TUTORIAL": {
-      "en": "Visit the Heirlooms pane to view your heirloom collection.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "HEIRLOOMS_PVP": {
       "en": "PvP",
       "field": "ui",
@@ -23940,13 +22932,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "HOLY_POWER_TOOLTIP": {
-      "en": "Resource used by all paladins. Some abilities generate Holy Power and others consume either all available or 3 Holy Power.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "HOME": {
       "en": "Home",
       "field": "ui",
@@ -24010,13 +22995,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "HONOR_LEVEL_LABEL": {
-      "en": "Honor Level %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "HONOR_LIFETIME": {
       "en": "Lifetime",
       "field": "ui",
@@ -24029,13 +23007,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "HONOR_REWARD_TITLE": {
-      "en": "Title: %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "HONOR_STANDING": {
@@ -25879,13 +24850,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "INCLUDED_BATTLEGROUNDS": {
-      "en": "Included Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "INCLUDED_DUNGEONS": {
       "en": "Included Dungeons",
       "field": "ui",
@@ -25968,20 +24932,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "INSPECT_GUILD_FACTION": {
-      "en": "%s Guild",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "INSPECT_GUILD_NUM_MEMBERS": {
-      "en": "%d Guild Members",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "INSTANCE_BOOT_TIMER": {
@@ -26075,29 +25025,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "INSTANCE_SHUTDOWN_MESSAGE": {
-      "en": "Not enough players. The game will end in %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "INSTANCE_UNAVAILABLE_OTHER_GEAR_TOO_LOW": {
-      "en": "%1$s needs a higher average item level. (Requires: %2$d. Currently %3$d.)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
     "INSTANCE_UNAVAILABLE_OTHER_TOO_SOON": {
       "en": "This instance is not available yet.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "INSTANCE_UNAVAILABLE_SELF_LEVEL_TOO_LOW": {
-      "en": "You must advance to a higher level.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -26299,22 +25228,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "INVTYPE_FEET": {
-      "en": "Feet",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "INVTYPE_FINGER": {
       "en": "Finger",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "INVTYPE_HAND": {
-      "en": "Hands",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -26404,13 +25319,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "INVTYPE_WAIST": {
-      "en": "Waist",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "INVTYPE_WEAPON": {
       "en": "One-Hand",
       "field": "ui",
@@ -26425,22 +25333,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "INVTYPE_WEAPONMAINHAND_PET": {
-      "en": "Main Attack",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "INVTYPE_WEAPONOFFHAND": {
       "en": "Off Hand",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "INVTYPE_WRIST": {
-      "en": "Wrist",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -26628,43 +25522,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "ITEM_UPGRADE": {
-      "en": "Item Upgrade",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "ITEM_UPGRADED_LABEL": {
       "en": "Item Upgraded!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ITEM_UPGRADE_DESCRIPTION": {
-      "en": "You can upgrade many equippable items to increase their item level. The currency required to upgrade an item varies depending on the item's source.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ITEM_UPGRADE_ITEM_UPGRADED_NOTIFICATION": {
-      "en": "Item Upgraded",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ITEM_UPGRADE_NO_MORE_UPGRADES": {
-      "en": "This item cannot be upgraded anymore.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "ITEM_UPGRADE_STAT_AVERAGE_ITEM_LEVEL": {
-      "en": "Item Level",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -26756,13 +25615,6 @@
     },
     "KILLS_COMBATLOG_TOOLTIP": {
       "en": "Show messages when a member of your party kills something.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "KILLS_PVP": {
-      "en": "Kills",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -27069,102 +25921,11 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "LEVEL_UP_ABILITY": {
-      "en": "New Ability Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_ABILITY2": {
-      "en": "New ability available:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_BG_LINK": {
-      "en": " |cffFF4E00|Hpvpbgs:|h[Battlegrounds]|h|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
     "LEVEL_UP_CHAR_POINTS": {
       "en": "You have gained %d talent |4point:points;.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_DUALSPEC": {
-      "en": "Dual Specialization",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_DUAL_SPEC_LINK": {
-      "en": "|cffFF4E00|Htalentpane:|h[Dual Specialization]|h|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_DUNGEON": {
-      "en": "Dungeon Unlocked!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_DUNGEON2": {
-      "en": "New dungeon unlocked:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_FEATURE": {
-      "en": "Feature Unlocked!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_FEATURE2": {
-      "en": "New feature unlocked:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_GLYPH1_LINK": {
-      "en": "New |cffFF4E00|Hglyphpane:|h[Major Glyph]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_GLYPH2_LINK": {
-      "en": "New |cffFF4E00|Hglyphpane:|h[Minor Glyph]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_GLYPH3_LINK": {
-      "en": "New |cffFF4E00|Hglyphpane:|h[Prime Glyph]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_GLYPHSLOT_LINK": {
-      "en": "New |cffFF4E00|Hglyphpane:|h[Glyph Slots]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
       "reason": "user-visible chrome"
     },
     "LEVEL_UP_HEALTH": {
@@ -27181,88 +25942,11 @@
       "placeholders": 2,
       "reason": "user-visible chrome"
     },
-    "LEVEL_UP_HEROIC": {
-      "en": "Heroic Dungeons Unlocked!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_HEROIC2": {
-      "en": "New heroic dungeons unlocked:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_LFD_LINK": {
-      "en": " |cffFF4E00|Hlfd:|h[Dungeon Finder]|h|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_RAID": {
-      "en": "Raid Dungeon Unlocked!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_RAID2": {
-      "en": "New raid dungeon unlocked:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_SPECIALIZATION_LINK": {
-      "en": "|cffFF4E00|Hspecpane:|h[Specializations]|h|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
     "LEVEL_UP_STAT": {
       "en": "Your %s increases by %d.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_TALENTPOINT_LINK": {
-      "en": "New |cffFF4E00|Htalentpane:|h[Talent]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_TALENTS_LINK": {
-      "en": " |cffFF4E00|Htalentpane:|h[Talents]|h|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_TALENT_MAIN": {
-      "en": "New Talent Available",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_TALENT_SUB": {
-      "en": "Your power increased!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LEVEL_UP_YOU_REACHED": {
-      "en": "You've Reached",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "LFD_HOLIDAY_REWARD_EXPLANATION1": {
@@ -28343,13 +27027,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "LINK_TRADESKILL_TOOLTIP": {
-      "en": "Click here to create a link to your profession.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "LIQUID_DETAIL": {
       "en": "Liquid Detail",
       "field": "ui",
@@ -28415,13 +27092,6 @@
     },
     "LOCK_CURSOR": {
       "en": "Lock Cursor to Window",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LOCK_EXPIRE": {
-      "en": "Lock Expire",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -28546,13 +27216,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "LOOT_NOUN": {
-      "en": "Loot",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "LOOT_NO_DROP": {
       "en": "Looting %s will bind it to you.",
       "field": "ui",
@@ -28604,20 +27267,6 @@
     },
     "LOSING_LOYALTY": {
       "en": "Losing Loyalty",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LOSS": {
-      "en": "Loss",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "LOSSES": {
-      "en": "Losses",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -28966,20 +27615,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "MAJOR_GLYPH": {
-      "en": "Major Glyph",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MAJOR_GLYPHS": {
-      "en": "Major Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "MAKE_INTERACTABLE": {
       "en": "Make Interactive",
       "field": "ui",
@@ -29022,13 +27657,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "MANA_COMBAT_REGEN_TOOLTIP": {
-      "en": "%s mana regenerated every 5 seconds while in combat.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "MANA_LOW": {
       "en": "Mana Low",
       "field": "ui",
@@ -29038,13 +27666,6 @@
     },
     "MANA_REGEN": {
       "en": "Mana Regen",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MANA_REGEN_COMBAT": {
-      "en": "Combat Regen",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -29062,13 +27683,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "MAP_OPTIONS_TEXT": {
-      "en": "Map Options",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "MASTER": {
@@ -29141,13 +27755,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "MAXIMUM_REWARD": {
-      "en": "Maximum Reward",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "MAX_FOLLOW_DIST": {
       "en": "Max Camera Distance",
       "field": "ui",
@@ -29174,13 +27781,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MELEE_ATTACK_POWER_SPELL_POWER_TOOLTIP": {
-      "en": "Increases damage with melee weapons by %s damage per second.\nIncreases Spell Power by %s.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "MELEE_ATTACK_POWER_TOOLTIP": {
@@ -29246,13 +27846,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "MERCHANT_PAGE_NUMBER": {
-      "en": "Page %s of %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
     "MESSAGE_SOURCES": {
       "en": "Message Sources",
       "field": "ui",
@@ -29302,20 +27895,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "MINOR_GLYPH": {
-      "en": "Minor Glyph",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MINOR_GLYPHS": {
-      "en": "Minor Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "MINUTES": {
       "en": "|4Minute:Minutes;",
       "field": "ui",
@@ -29346,13 +27925,6 @@
     },
     "MISSES": {
       "en": "Misses",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MISS_CHANCE": {
-      "en": "Miss Chance",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -29528,13 +28100,6 @@
     },
     "MOUNTS": {
       "en": "Mounts",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "MOUNT_JOURNAL_FILTER_UNUSABLE": {
-      "en": "Unusable",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -29960,34 +28525,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "NEWBIE_TOOLTIP_EQUIPMENT_MANAGER": {
-      "en": "Use the Equipment Manager to save Equipment Sets and switch back and forth between them quickly later.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "NEWBIE_TOOLTIP_EQUIPMENT_MANAGER_IGNORE_SLOT": {
-      "en": "Prevents this inventory slot from being saved in the current Equipment Set.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "NEWBIE_TOOLTIP_EQUIPMENT_MANAGER_PLACE_IN_BAGS": {
-      "en": "Take off this piece of equipment and put it in your bags.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "NEWBIE_TOOLTIP_EQUIPMENT_MANAGER_UNIGNORE_SLOT": {
-      "en": "Stops preventing this inventory slot from being saved in the current Equipment Set.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "NEWBIE_TOOLTIP_FIRST_AVAILABLE": {
       "en": "Join the queue to enter the first available battleground. If you select \"First Available\" and another party member enters a \"First Available\" battleground, then your preference will be changed to that battleground. ",
       "field": "ui",
@@ -30275,13 +28812,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "NEWBIE_TOOLTIP_TRACKQUEST": {
-      "en": "Add or remove the selected quest from your quest watch list. You can click on a quest in your quest watch list to see the details of that quest.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "NEWBIE_TOOLTIP_UNIT_FREE_FOR_ALL": {
       "en": "Under free-for-all rules, all group members may loot a monster that they help the group to kill. Money is automatically divided between group members.",
       "field": "ui",
@@ -30375,20 +28905,6 @@
     },
     "NEXT_BATTLE": {
       "en": "Next Battle: %1$02d:%2$02d:%3$02d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "NEXT_BATTLE_LABEL": {
-      "en": "Next Battle",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "NEXT_TALENT_LEVEL": {
-      "en": "Next talent available at |cffffd200Level %d|r",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 3,
@@ -30597,13 +29113,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "NO_TITLES_TOOLTIP": {
-      "en": "You don't have any titles.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "NO_VIEWABLE_GUILDBANK_LOGS": {
       "en": "You do not have any permission to view any Guild Bank logs.",
       "field": "ui",
@@ -30688,53 +29197,11 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "NUM_FREE_SLOTS": {
-      "en": "%d Empty |4Slot:Slots; (Total)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "NUM_GUILDBANK_TABS_PURCHASED": {
       "en": "(%d/%d tabs purchased)",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "OBJECTIVES_SHOW_QUEST_MAP": {
-      "en": "Show Quest Map",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OBJECTIVES_STOP_TRACKING": {
-      "en": "Stop Tracking",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OBJECTIVES_TRACKER_LABEL": {
-      "en": "Objectives",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OBJECTIVES_VIEW_ACHIEVEMENT": {
-      "en": "Open Achievement",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OBJECTIVES_VIEW_IN_QUESTLOG": {
-      "en": "Open Quest Details",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "OBJECT_NPC_OUTLINE": {
@@ -31745,13 +30212,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST": {
-      "en": "Makes quest text easier to read",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "OPTION_TOOLTIP_ENABLE_REMOTE_TEXT_TO_SPEECH": {
       "en": "Enables typing into the voice chat window to speak to other players using the selected voice",
       "field": "ui",
@@ -32023,13 +30483,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OPTION_TOOLTIP_MAP_TRACK_QUEST": {
-      "en": "Add or remove the selected quest from your quest watch list.|nYou can also shift-click on a quest or its icon.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "OPTION_TOOLTIP_MASTER_VOLUME": {
@@ -32356,13 +30809,6 @@
     },
     "OPTION_TOOLTIP_SHOW_QUEST_FADING": {
       "en": "Check this to make quest text appear instantly.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "OPTION_TOOLTIP_SHOW_QUEST_OBJECTIVES_ON_MAP": {
-      "en": "If enabled, you will be able to look at your map to see the locations of certain quest objectives.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -32753,13 +31199,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "OVERVIEW": {
-      "en": "Overview",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PAGE_NUMBER": {
       "en": "Page %d",
       "field": "ui",
@@ -32774,36 +31213,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PAPERDOLL_EQUIPMENTMANAGER": {
-      "en": "Equipment Manager",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PAPERDOLL_NEWEQUIPMENTSET": {
-      "en": "New Set",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PAPERDOLL_SELECT_TITLE": {
       "en": "Select a Title",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PAPERDOLL_SIDEBAR_STATS": {
-      "en": "Character Stats",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PAPERDOLL_SIDEBAR_TITLES": {
-      "en": "Titles",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -33229,20 +31640,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PET_BATTLE_RESULT_LOSE": {
-      "en": "Battle finished",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_BATTLE_RESULT_WIN": {
-      "en": "You Won!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PET_BATTLE_SELECT_AN_ACTION": {
       "en": "Select An Action",
       "field": "ui",
@@ -33341,13 +31738,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PET_BATTLE_TRAP_UPGRADE": {
-      "en": "A new trap has been unlocked!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PET_BATTLE_TURN_COOLDOWN": {
       "en": "%d Round Cooldown",
       "field": "ui",
@@ -33439,13 +31829,6 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG": {
-      "en": "Increases your pet's Attack Power by %d and Spell Damage by %d.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
     "PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG_FIRE": {
       "en": "Your Fire Damage increases your pet's Attack Power by %d and Spell Damage by %d",
       "field": "ui",
@@ -33511,13 +31894,6 @@
     },
     "PET_JOURNAL_CARD_NAME_DEFAULT": {
       "en": "Select a pet from the list on the left.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_JOURNAL_FILTER_USABLE_ONLY": {
-      "en": "Usable Only",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -33600,41 +31976,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PET_LEVEL_UP": {
-      "en": "%s has reached |cffFF4E00|Hlevelup:%d:LEVEL_UP_TYPE_PET:%s|h[Level %d]|h|r!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
-    "PET_LEVEL_UP_REACHED": {
-      "en": "%s Has Reached",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PET_LEVEL_UP_TALENTPOINT_LINK": {
-      "en": "New |cffFF4E00|Hpettalentpane:|h[Pet Talent]|h|r Available!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "PET_LEVEL_UP_TALENT_MAIN": {
-      "en": "New Pet Talent",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_LEVEL_UP_TALENT_SUB": {
-      "en": "Your pet's power increased!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PET_LOYALTY": {
       "en": "Pet Loyalty",
       "field": "ui",
@@ -33710,62 +32051,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_SPECIALIZATION": {
-      "en": "Pet",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_STABLE_SLOT_LOCKED": {
-      "en": "Locked",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_STABLE_SLOT_LOCKED_TOOLTIP": {
-      "en": "Learn %s to unlock.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PET_STABLE_TITLE": {
-      "en": "%s's Pets",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PET_STATS_COLLAPSE_TOOLTIP": {
-      "en": "Hide Pet Information",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_STATS_EXPAND_TOOLTIP": {
-      "en": "Show Pet Information",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_TALENTS": {
-      "en": "Pet Talents",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PET_UNSPENT_TALENT_POINTS": {
-      "en": "Your pet has|cffffd200 %s |runspent |4talent:talents;",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
       "reason": "user-visible chrome"
     },
     "PHYSICS_INTERACTION": {
@@ -33922,13 +32207,6 @@
       "placeholders": 3,
       "reason": "user-visible chrome"
     },
-    "PLAYER_LEVEL_NO_SPEC": {
-      "en": "Level %s |c%s%s|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "user-visible chrome"
-    },
     "PLAYER_LEVEL_UP": {
       "en": "Level Up",
       "field": "ui",
@@ -33971,32 +32249,11 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PLAYER_TITLE_NONE": {
-      "en": "No Title",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PLAYER_UNSPENT_TALENT_POINTS": {
-      "en": "You have|cffffd200 %s |runspent |4talent:talents;",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
     "PLAYER_V_PLAYER": {
       "en": "Player vs. Player",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PLAYER_V_PLAYER_SEASON": {
-      "en": "Player vs. Player (Legion Season %d)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "PLAYTIME_TIRED": {
@@ -34006,22 +32263,8 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "PLAYTIME_TIRED_ABILITY": {
-      "en": "You have more than 3 hours of online time. You cannot perform this action during this period. Your rest state will reset in %d hours of offline time. Please go rest. ",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "PLAYTIME_UNHEALTHY": {
       "en": "You have more than 5 hours of online time. You will not be able to gain loot, XP, or complete quests.  Your rest state will reset in %d hours of offline time. Please log out to get rest and exercise.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PLAYTIME_UNHEALTHY_ABILITY": {
-      "en": "You have more than 5 hours of online time. You cannot perform this action. Your rest state will reset in %d hours of offline time. Please log out to get rest and exercise.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 1,
@@ -34097,20 +32340,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PRIME_GLYPH": {
-      "en": "Prime Glyph",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PRIME_GLYPHS": {
-      "en": "Prime Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PRODUCT_CHOICE_NO_TAKE_BACKSIES": {
       "en": "Are you sure? You can't change your selection after this step.",
       "field": "ui",
@@ -34132,97 +32361,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PROFESSIONS_ARCHAEOLOGY": {
-      "en": "Archaeology",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_ARCHAEOLOGY_MISSING": {
-      "en": "Visit a trainer to learn archaeology.  Archaeology allows you to discover valuable treasures and learn ancient lore of the world.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_COOKING": {
-      "en": "Cooking",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_COOKING_MISSING": {
-      "en": "Visit a trainer to learn cooking. Cooking lets you learn recipes to create food that heals you out of combat and grants you temporary buffs.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_FIRST_AID": {
-      "en": "First Aid",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_FIRST_AID_MISSING": {
-      "en": "Visit a trainer to learn first aid.  First aid lets you turn cloth into bandages for healing yourself and others.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_FIRST_PROFESSION": {
-      "en": "First Profession",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_FISHING": {
-      "en": "Fishing",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_FISHING_MISSING": {
-      "en": "Visit a trainer to learn fishing.  Fishing lets you catch fish and other strange things from water.  Fish can be cooked into delicious meals with the Cooking skill.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_HELP_1": {
-      "en": "You can find trainers for professions in a major city.\n\nA gathering profession is recommended for new players.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_HELP_2": {
-      "en": "You can find trainers for professions in a major city.\n\nFirst Aid is recommended for new players.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_MISSING_PROFESSION": {
-      "en": "Visit a profession trainer in a major city to learn a new profession. You may have two professions. You may have any combination of gathering and production professions.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROFESSIONS_SECOND_PROFESSION": {
-      "en": "Second Profession",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PROFESSION_CONFIRMATION1": {
       "en": "You may only know two professions at any one time.  Would you like to learn |cffffd200%s|r as your first one?",
       "field": "ui",
@@ -34239,20 +32377,6 @@
     },
     "PROJECTED_TEXTURES": {
       "en": "Projected Textures",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROVING_GROUNDS_SCORE": {
-      "en": "Score:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PROVING_GROUNDS_WAVE": {
-      "en": "Wave:",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -34307,55 +32431,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PVP_ARENA_EXPLANATION": {
-      "en": "You earn Conquest Points and increase your arena team rating when you win an arena battle.  You must be on an arena team to participate in arena battles.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_ARENA_NEED_LESS": {
-      "en": "Your group needs %d less |4player:players; to join this arena.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PVP_ARENA_NEED_MORE": {
-      "en": "Your group needs %d more |4player:players; to join this arena.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PVP_ARENA_PARTY_ERROR": {
-      "en": "|cff808080You must be in a group with your arena team members to join an arena match.|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "PVP_BEST_RATING": {
-      "en": "Best Rating: ",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_CONQUEST": {
-      "en": "Conquest",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_CONQUEST_LOWLEVEL": {
-      "en": "You are not high enough level to use this feature yet. The %s feature unlocks at level 70.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "PVP_ENABLED": {
       "en": "PvP",
       "field": "ui",
@@ -34370,32 +32445,11 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PVP_GAMES_PLAYED": {
-      "en": "Games Played: ",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_GAMES_WON": {
-      "en": "Games Won: ",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PVP_INVALID_QUEUE_STATUS": {
       "en": "Your party configuration is currently invalid and you will be ineligible to join the battlefield until this is fixed.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_ITEM_LEVEL_TOOLTIP": {
-      "en": "Equip: Increases item level to %d in PvP combat.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
       "reason": "user-visible chrome"
     },
     "PVP_LABEL_ARENA": {
@@ -34407,125 +32461,6 @@
     },
     "PVP_LABEL_HONOR": {
       "en": "HONOR:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_NOT_LEADER": {
-      "en": "Only the group leader can enter your group into the queue.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_NO_QUEUE_DISCONNECTED_GROUP": {
-      "en": "You cannot join the queue because one of your group members is disconnected.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_NO_QUEUE_GROUP": {
-      "en": "You are not in a valid group to join the queue.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_NO_WEEKLY_RATED_BG": {
-      "en": "Currently there is no rated battleground available.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_PARTY_SIZE": {
-      "en": "Party Members: %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PVP_POWER_DAMAGE_TOOLTIP": {
-      "en": "\n\nPower %s \n+%.2f%% Damage \n+%.2f%% Healing",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
-    "PVP_POWER_HEALING_TOOLTIP": {
-      "en": "\n\nPower %s \n+%.2f%% Healing \n+%.2f%% Damage",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
-    "PVP_POWER_TOOLTIP": {
-      "en": "Increases %s in PvP combat by %d.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "PVP_PRESTIGE_RANK_UP_ACCEPT": {
-      "en": "Rank Up",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_PRESTIGE_RANK_UP_HONOR_TRADE": {
-      "en": "You may trade in your Honor Levels to earn the next Prestige rank:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_PRESTIGE_RANK_UP_WARNING": {
-      "en": "Your Honor Level will be reset to 1 but you will keep all of your Honor Talents.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATEDBG_NEED_LESS": {
-      "en": "Your group needs %d less |4player:players; to join a rated battleground.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATEDBG_NEED_MORE": {
-      "en": "Your group needs %d more |4player:players; to join a rated battleground.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATED_BATTLEGROUND": {
-      "en": "Rated Battleground",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATED_BATTLEGROUNDS": {
-      "en": "Rated Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATED_BATTLEGROUND_EXPLANATION": {
-      "en": "You earn Conquest Points and increase your personal battleground rating when you win a rated battleground.  A higher rating can increase the number of Conquest Points you may earn the next week.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_RATING": {
-      "en": "Rating:",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -34545,50 +32480,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "PVP_REWARD_EXPLANATION": {
-      "en": "Winning a match will earn you the following:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_REWARD_FAILURE": {
-      "en": "You must be in a valid group and at the maximum level to earn Conquest points.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_REWARD_TOOLTIP": {
-      "en": "Reward for winning:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "PVP_SUSPENDED_QUEUE_STATUS": {
       "en": "Your queue has been suspended because you or a party member are currently participating in another activity. You will retain your place in the queue.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_TAB_CONQUEST": {
-      "en": "Rated",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_TAB_GROUPS": {
-      "en": "Premade Groups",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "PVP_TAB_HONOR": {
-      "en": "Casual",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -34671,13 +32564,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "QUEST_DETAILS": {
-      "en": "Quest Details",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "QUEST_KING_ANDUIN_WRYNN": {
       "en": "King|nAnduin Wrynn",
       "field": "ui",
@@ -34748,43 +32634,8 @@
       "placeholders": 1,
       "reason": "user-visible chrome"
     },
-    "QUEST_WATCH_CLICK_TO_COMPLETE": {
-      "en": "(click to complete)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "QUEST_WATCH_NO_OBJECTIVES": {
       "en": "This quest has no objectives to track",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "QUEST_WATCH_POPUP_CLICK_TO_COMPLETE": {
-      "en": "Click to complete quest",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "QUEST_WATCH_POPUP_CLICK_TO_VIEW": {
-      "en": "Click to view quest",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "QUEST_WATCH_POPUP_QUEST_DISCOVERED": {
-      "en": "Quest Discovered!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "QUEST_WATCH_QUEST_COMPLETE": {
-      "en": "Quest Complete",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -35084,13 +32935,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "RAIDS": {
-      "en": "Raids",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "RAID_ASSISTANT": {
       "en": "Raid Assistant",
       "field": "ui",
@@ -35149,20 +32993,6 @@
     },
     "RAID_DIFFICULTY2": {
       "en": "25 Player",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_DIFFICULTY3": {
-      "en": "10 Player (Heroic)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_DIFFICULTY4": {
-      "en": "25 Player (Heroic)",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -35247,48 +33077,6 @@
     },
     "RAID_LEADER": {
       "en": "Raid Leader",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS": {
-      "en": "Restrict Pings to Assistants",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS_PARTY": {
-      "en": "Restrict Pings to Lead",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS_TO": {
-      "en": "Restrict Pings To:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST": {
-      "en": "Assist",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS_TO_LEAD": {
-      "en": "Lead",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS": {
-      "en": "Tanks/Healers",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -35408,27 +33196,6 @@
     },
     "RAID_WARNING": {
       "en": "Raid Warning",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RANDOM_BATTLEGROUND": {
-      "en": "Random Battleground",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RANDOM_BATTLEGROUNDS": {
-      "en": "Random Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "RANDOM_BATTLEGROUND_EXPLANATION": {
-      "en": "Completing Random Battlegrounds will earn you extra rewards.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -36148,13 +33915,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "REPUTATION_ABBR": {
-      "en": "Reputation",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "REPUTATION_AT_WAR_DESCRIPTION": {
       "en": "This determines how you will interact with members of this faction. If you have at war checked then your default behavior will be to attack them. If you do not have it checked you will not be able to attack them. ",
       "field": "ui",
@@ -36164,20 +33924,6 @@
     },
     "REPUTATION_FACTION_DESCRIPTION": {
       "en": "These are the factions that you have interacted with.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "REPUTATION_MOVE_TO_INACTIVE": {
-      "en": "Moves the reputation bar to the bottom of your list under the inactive heading. Useful for reputations you are no longer interested in tracking.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "REPUTATION_SHOW_AS_XP": {
-      "en": "Displays this reputation bar along the bottom of your screen just above your action bar.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -36568,13 +34314,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "RETURN_TO_DEFAULT": {
-      "en": "Return to default",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "RETURN_TO_GAME": {
       "en": "Return to Game",
       "field": "ui",
@@ -36591,13 +34330,6 @@
     },
     "REVERT": {
       "en": "Revert",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "REWARDS": {
-      "en": "Rewards",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -36897,41 +34629,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SCENARIO_BONUS_LABEL": {
-      "en": "Bonus",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_BONUS_OBJECTIVES": {
-      "en": "Bonus Objectives",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_BONUS_OBJECTIVES_DESCRIPTION": {
-      "en": "Complete all of the bonus objectives for extra rewards.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_BONUS_REWARD": {
-      "en": "Reward:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_BONUS_SUCCESS": {
-      "en": "Success",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SCENARIO_COMPLETED": {
       "en": "Scenario Complete!",
       "field": "ui",
@@ -36958,27 +34655,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_STAGE": {
-      "en": "Stage %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_STAGE_FINAL": {
-      "en": "Final Stage",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SCENARIO_STAGE_STATUS": {
-      "en": "Stage %d of %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "SCORE_DAMAGE_DONE": {
@@ -37527,20 +35203,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SHADOW_ORBS": {
-      "en": "Shadow Orbs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SHADOW_ORBS_TOOLTIP": {
-      "en": "Generated by Mind Blast and Shadow Word: Death. Used to cast Devouring Plague and empower Psychic Horror.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SHADOW_QUALITY": {
       "en": "Shadow Quality",
       "field": "ui",
@@ -37569,22 +35231,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SHARDS": {
-      "en": "Shards",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SHARE_QUEST": {
       "en": "Share Quest",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SHARE_QUEST_ABBREV": {
-      "en": "Share",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -37739,13 +35387,6 @@
     },
     "SHOW_HELM": {
       "en": "Show Helm",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SHOW_MAP": {
-      "en": "Show Map",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -37954,22 +35595,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SKILLUP_TOOLTIP": {
-      "en": "Crafting this will grant %s skill ups.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
     "SKIN_COLOR": {
       "en": "Skin Color",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SKIRMISH": {
-      "en": "Arena Skirmish",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -38122,20 +35749,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SOUL_SHARDS_POWER": {
-      "en": "Soul Shards",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SOUL_SHARDS_TOOLTIP": {
-      "en": "Used to fuel your most powerful Warlock spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SOUND": {
       "en": "Sound",
       "field": "ui",
@@ -38185,48 +35798,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SPECIALIZATION": {
-      "en": "Specialization",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPECIALIZATION_PRIMARY": {
-      "en": "Primary Specialization",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPECIALIZATION_PRIMARY_ACTIVE": {
-      "en": "Primary Specialization - Active",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPECIALIZATION_SECONDARY": {
-      "en": "Secondary Specialization",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPECIALIZATION_SECONDARY_ACTIVE": {
-      "en": "Secondary Specialization - Active",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPECIFIC_BATTLEGROUNDS": {
-      "en": "Specific Battlegrounds",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SPECIFIC_DUNGEONS": {
       "en": "Specific Dungeons",
       "field": "ui",
@@ -38250,27 +35821,6 @@
     },
     "SPECIFIC_SCENARIOS": {
       "en": "Specific Scenarios",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPEC_FRAME_HELP_1": {
-      "en": "These are the specializations for your class.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPEC_FRAME_HELP_2": {
-      "en": "The specialization you learn affects what base abilities you get.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPEC_FRAME_HELP_3": {
-      "en": "Clicking \"Activate\" will finalize your choice.\n\nYou can change your specialization choice while you are not in combat.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -38320,41 +35870,6 @@
     },
     "SPELLBOOK_ABILITIES_BUTTON": {
       "en": "Spellbook & Abilities",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPELLBOOK_AVAILABLE_AT": {
-      "en": "Level %d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "SPELLBOOK_HELP_1": {
-      "en": "Drag spells to your action bar from here.  Your active spells are sorted before passive spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPELLBOOK_HELP_2": {
-      "en": "These tabs display your current spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPELLBOOK_HELP_3": {
-      "en": "These tabs display all the spells you would get if you choose a different specialization.\n\nSome spells will be available in multiple specializations.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "SPELLBOOK_TRAINABLE": {
-      "en": "See your trainer",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -43008,13 +40523,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "SPELL_PASSIVE_SECOND": {
-      "en": "Passive",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "SPELL_PENETRATION": {
       "en": "Penetration",
       "field": "ui",
@@ -43148,13 +40656,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "STABLE_PET_INFO_TOOLTIP_TEXT": {
-      "en": "Level %1$d %2$s|n%3$s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 4,
-      "reason": "user-visible chrome"
-    },
     "STABLE_SLOT_TEXT": {
       "en": "Do you wish to purchase another stable slot?",
       "field": "ui",
@@ -43167,13 +40668,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "STAGE_COMPLETE": {
-      "en": "Stage Complete",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "STANDING": {
@@ -43204,36 +40698,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "START_WARGAME": {
-      "en": "Start War Game",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT4_NOSPELLPOWER_TOOLTIP": {
-      "en": "Increases Spell Critical Hit by %.2f%%",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
     "STATISTICS": {
       "en": "Statistics",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STATS_COLLAPSE_TOOLTIP": {
-      "en": "Hide Character Information",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STATS_EXPAND_TOOLTIP": {
-      "en": "Show Character Information",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -43337,20 +40803,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "STAT_AVERAGE_ITEM_LEVEL_EQUIPPED": {
-      "en": "(Equipped %d)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "STAT_AVERAGE_ITEM_LEVEL_TOOLTIP": {
-      "en": "The average item level of your equipment.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "STAT_BLOCK": {
       "en": "Block",
       "field": "ui",
@@ -43372,27 +40824,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "STAT_DPS_SHORT": {
-      "en": "DPS",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_ENERGY_REGEN": {
-      "en": "Energy Regen",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_ENERGY_REGEN_TOOLTIP": {
-      "en": "Energy regenerated every second.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "STAT_EXPERTISE": {
       "en": "Expertise",
       "field": "ui",
@@ -43400,183 +40831,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "STAT_FOCUS_REGEN": {
-      "en": "Focus Regen",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_FOCUS_REGEN_TOOLTIP": {
-      "en": "Focus regenerated every second.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HASTE": {
-      "en": "Haste",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HASTE_BASE_TOOLTIP": {
-      "en": "\n\nHaste: %s [+%.2f%%]",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HASTE_MELEE_TOOLTIP": {
-      "en": "Increases attack speed.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HASTE_RANGED_TOOLTIP": {
-      "en": "Increases attack speed.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HASTE_SPELL_TOOLTIP": {
-      "en": "Increases spell casting speed.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HEALTH_PET_TOOLTIP": {
-      "en": "Maximum health.  If a creature's health reaches zero, it will die.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HEALTH_TOOLTIP": {
-      "en": "Maximum health.  If your health reaches zero, you will die.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_CHANCE": {
-      "en": "Hit Chance",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_MELEE_TOOLTIP": {
-      "en": "Hit %s (+%.2f%% hit chance)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_NORMAL_ATTACKS": {
-      "en": "Normal Attacks",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_RANGED_TOOLTIP": {
-      "en": "Hit %s (+%.2f%% hit chance)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_SPECIAL_ATTACKS": {
-      "en": "Special Attacks",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_HIT_SPELL_TOOLTIP": {
-      "en": "Hit %s (+%.2f%% hit chance)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MANA_TOOLTIP": {
-      "en": "Maximum mana.  Mana is used to cast spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MASTERY": {
-      "en": "Mastery",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MASTERY_TOOLTIP": {
-      "en": "Mastery: %s [+%.2f%%]",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MASTERY_TOOLTIP_NOT_KNOWN": {
-      "en": "You must learn Mastery from your trainer before this will have an effect.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MASTERY_TOOLTIP_NO_TALENT_SPEC": {
-      "en": "You must select a class specialization in order to activate Mastery.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MOVEMENT_FLIGHT_TOOLTIP": {
-      "en": "Flight Speed: %d%%",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MOVEMENT_GROUND_TOOLTIP": {
-      "en": "Run Speed: %d%%",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MOVEMENT_SPEED": {
-      "en": "Movement Speed",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_MOVEMENT_SWIM_TOOLTIP": {
-      "en": "Swim Speed: %d%%",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
     "STAT_PARRY": {
       "en": "Parry",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_PVP_POWER": {
-      "en": "PvP Power",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -43587,90 +40843,6 @@
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_RESILIENCE_BASE_TOOLTIP": {
-      "en": "\nResilience %s (+%.2f%% Resilience)",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 3,
-      "reason": "user-visible chrome"
-    },
-    "STAT_RUNE_REGEN": {
-      "en": "Rune Speed",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_RUNE_REGEN_TOOLTIP": {
-      "en": "The recharge time for each of your Runes.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLDAMAGE": {
-      "en": "Spell Damage",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLDAMAGE_TOOLTIP": {
-      "en": "Increases the power of damaging spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLHEALING": {
-      "en": "Spell Healing",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLHEALING_TOOLTIP": {
-      "en": "Increases the power of healing spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLPOWER": {
-      "en": "Spell Power",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_SPELLPOWER_TOOLTIP": {
-      "en": "Increases the damage and healing of spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_TARGET_LEVEL": {
-      "en": "Target Level",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_TOOLTIP_BONUS_AP": {
-      "en": "Increases the magnitude of your attacks and abilities",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "STAT_USELESS_TOOLTIP": {
-      "en": "|cff808080Provides no benefit for your class|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
       "reason": "user-visible chrome"
     },
     "STOPWATCH_TITLE": {
@@ -43897,36 +41069,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT": {
-      "en": "Talent",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENTS": {
       "en": "Talents",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENTS_CHOOSE_SPEC_HEADER": {
-      "en": "Select a %s Specialization",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "TALENTS_CHOOSE_SPEC_SUBHEADER": {
-      "en": "Each one comes with its own spells.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENTS_HIDE_SUMMARIES": {
-      "en": "View Talent Trees",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -43941,13 +41085,6 @@
     },
     "TALENTS_INVOLUNTARILY_RESET_PET": {
       "en": "Your pet's talents have been reset.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENTS_SHOW_SUMMARIES": {
-      "en": "View Summaries",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -44016,48 +41153,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT_EARLY_SPELLS_LABEL": {
-      "en": "Learned early: %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_FRAME_HELP_1": {
-      "en": "You can only choose one talent per row.\n\nYou can change your talent choice while you are in an inn or major city.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_FRAME_HELP_2": {
-      "en": "You will unlock more talent rows as you gain levels.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_MASTERY_LABEL": {
-      "en": "Mastery: %s",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 1,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_MASTERY_TOOLTIP_NOT_KNOWN": {
-      "en": "You must learn Mastery from your trainer.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_MICRO_BUTTON_NO_SPEC": {
-      "en": "You have not chosen a class specialization.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENT_MICRO_BUTTON_SPEC_TUTORIAL": {
       "en": "You can now pick a new class specialization. Click here to view your specialization choices.",
       "field": "ui",
@@ -44065,29 +41160,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT_MICRO_BUTTON_TALENT_TUTORIAL": {
-      "en": "Talents are now available! Click here, and select your \"Talents\" tab to choose your talent.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_MICRO_BUTTON_UNSAVED_CHANGES": {
-      "en": "You have unsaved changes to your Talents.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENT_MICRO_BUTTON_UNSPENT_TALENTS": {
       "en": "You have unspent Talent points.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_PASSIVE": {
-      "en": "Passive Talent",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -44107,13 +41181,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT_SPEC_CHANGE_AT_CLASS_TRAINER": {
-      "en": "You can change your specialization at your class trainer",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENT_SPEC_PET_PRIMARY": {
       "en": "Pet Talents",
       "field": "ui",
@@ -44128,22 +41195,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT_SPEC_PRIMARY_ACTIVE": {
-      "en": "Primary Talents - Active",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENT_SPEC_PRIMARY_GLYPH": {
       "en": "Primary Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_SPEC_PRIMARY_GLYPH_ACTIVE": {
-      "en": "Primary Glyphs - Active",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -44156,36 +41209,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TALENT_SPEC_SECONDARY_ACTIVE": {
-      "en": "Secondary Talents - Active",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TALENT_SPEC_SECONDARY_GLYPH": {
       "en": "Secondary Glyphs",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_SPEC_SECONDARY_GLYPH_ACTIVE": {
-      "en": "Secondary Glyphs - Active",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_TREE_LOCKED": {
-      "en": "Locked",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TALENT_TREE_LOCKED_TOOLTIP": {
-      "en": "You must spend 31 points in your primary tree to unlock these talents.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -45157,48 +42182,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TOOLTIP_TRACKER_FILTER_ACHIEVEMENTS": {
-      "en": "Uncheck this to hide tracked achievements.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TOOLTIP_TRACKER_FILTER_COMPLETED_QUESTS": {
-      "en": "Uncheck this to hide completed quests.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TOOLTIP_TRACKER_FILTER_REMOTE_ZONES": {
-      "en": "Uncheck this to hide quests that are not in your current zone.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TOOLTIP_TRACKER_SORT_DIFFICULTY_HIGH": {
-      "en": "Check this to sort quests in decreasing order of difficulty.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TOOLTIP_TRACKER_SORT_DIFFICULTY_LOW": {
-      "en": "Check this to sort quests in increasing order of difficulty.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TOOLTIP_TRACKER_SORT_MANUAL": {
-      "en": "Check this to be able to list the quests in any order you want.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TOO_MANY_LUA_ERRORS": {
       "en": "Your AddOns are experiencing a large number of errors and may be slowing down the game.  You can turn on display of Lua errors in the interface options.",
       "field": "ui",
@@ -45248,13 +42231,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TOYBOX_MICRO_BUTTON_SPEC_TUTORIAL": {
-      "en": "Visit the Toy Box to view your toy collection.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TOYBOX_MOUSEWHEEL_PAGING_HELP": {
       "en": "Tip: You can use your mouse wheel to quickly page through the Toy Box.",
       "field": "ui",
@@ -45264,97 +42240,6 @@
     },
     "TOY_BOX": {
       "en": "Toy Box",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_FILTER_ACHIEVEMENTS": {
-      "en": "Achievements",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_FILTER_COMPLETED_QUESTS": {
-      "en": "Completed Quests",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_FILTER_LABEL": {
-      "en": "Display",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_FILTER_REMOTE_ZONES": {
-      "en": "Remote Zones",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_DIFFICULTY_HIGH": {
-      "en": "Difficulty High",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_DIFFICULTY_LOW": {
-      "en": "Difficulty Low",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_LABEL": {
-      "en": "Sort Quests",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL": {
-      "en": "Manual",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL_BOTTOM": {
-      "en": "Move to Bottom",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL_DOWN": {
-      "en": "Move Down",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL_TOP": {
-      "en": "Move to Top",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL_UP": {
-      "en": "Move Up",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRACKER_SORT_MANUAL_WARNING": {
-      "en": "Quest sorting changed to Manual",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -45388,13 +42273,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "TRACK_QUEST_ABBREV": {
-      "en": "Track",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "TRADE": {
       "en": "Trade",
       "field": "ui",
@@ -45418,27 +42296,6 @@
     },
     "TRADESKILLS": {
       "en": "Tradeskills",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRADESKILL_FILTER_CATEGORY": {
-      "en": "Category",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRADESKILL_FILTER_HAS_SKILL_UP": {
-      "en": "Has skill up",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRADESKILL_FILTER_SLOTS": {
-      "en": "Slots",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -45649,13 +42506,6 @@
     },
     "TRAVEL_PASS_INVITE": {
       "en": "Invite to Group",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "TRIAL_LEVEL_CAPPED": {
-      "en": "Free Trial level cap reached.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -46851,13 +43701,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "UNLOCKS_AT_LABEL": {
-      "en": "Unlocks at",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "UNLOCK_WINDOW": {
       "en": "Unlock Window",
       "field": "ui",
@@ -46916,13 +43759,6 @@
     },
     "UPGRADED_RECIPE_LEARNED_TITLE": {
       "en": "Recipe Upgraded!",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "UPGRADE_MISSING_ITEM": {
-      "en": "Drag an item here to upgrade it.",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -48202,13 +45038,6 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "WARDROBE_ITEMS": {
-      "en": "Items",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "WARDROBE_NO_SEARCH": {
       "en": "Search is not available for this category.",
       "field": "ui",
@@ -48218,13 +45047,6 @@
     },
     "WARDROBE_OTHER_ITEMS": {
       "en": "Other items using this appearance:",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WARDROBE_SETS": {
-      "en": "Sets",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -48279,60 +45101,11 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "WARGAMES": {
-      "en": "War Games",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "WARGAME_CHALLENGED": {
       "en": "|cffffd200%s|r has challenged your group to a War Game in |cffffd200%s|r!",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 6,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_MINIMUM": {
-      "en": "Minimum %dv%d",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 2,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_REQ": {
-      "en": "|cffffffff%s|r\nRequirements: %s%d-%d Players.|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 7,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_REQ_ARENA": {
-      "en": "|cffffffff%s|r\nRequirements: %s2, 3, or 5 Players.|r",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 5,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_REQ_LEADER": {
-      "en": "You must be a party leader to start a War Game.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_REQ_TARGET": {
-      "en": "You must target another party leader to start a War Game.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WARGAME_TOOLTIP": {
-      "en": "War Games allow you to challenge groups of other players to a showdown in a battleground or arena of your choice. To start a War Game you must be the party leader, select a battleground or arena, target an opposing party leader, and click the Start War Game button.",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
       "reason": "user-visible chrome"
     },
     "WATER_COLLISION": {
@@ -48489,29 +45262,8 @@
       "placeholders": 0,
       "reason": "user-visible chrome"
     },
-    "WIN": {
-      "en": "Win",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
     "WINDOW_SIZE": {
       "en": "Window Size",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WINS": {
-      "en": "Wins",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WINTERGRASP_IN_PROGRESS": {
-      "en": "In Progress",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -48540,13 +45292,6 @@
     },
     "WORLDMAP_BUTTON": {
       "en": "World Map",
-      "field": "ui",
-      "gender_branches": [],
-      "placeholders": 0,
-      "reason": "user-visible chrome"
-    },
-    "WORLD_BATTLES": {
-      "en": "World Battles",
       "field": "ui",
       "gender_branches": [],
       "placeholders": 0,
@@ -48893,7 +45638,7 @@
     "questie": "Questie/Questie@4aea09ec",
     "questtext": "cmangos/tbc-db@da2de07e",
     "rejected": 0,
-    "review": 74,
+    "review": 72,
     "skipped_by_reason": {
       "chat event plumbing; never render (spec §2)": 40,
       "combat log format template (spec §3)": 384,
@@ -48904,12 +45649,13 @@
       "not referenced anywhere in this flavour's UI source; cannot render": 7584,
       "parsed from chat by loot addons (spec §3)": 17,
       "physical key names; must match the keyboard": 78,
+      "referenced only by code for another flavour; cannot render here": 467,
       "sent to other players' chat, not shown to us": 1621,
       "value is the key; a placeholder or test string": 10,
       "value is the slash command itself; translating breaks macros": 875
     },
     "source_keys": 18260,
     "tool_version": "0.1.0",
-    "translate": 6983
+    "translate": 6518
   }
 }

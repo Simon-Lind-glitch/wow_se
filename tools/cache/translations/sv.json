@@ -323,6 +323,58 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "%d silver"
       },
+      "(Critical)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(kritisk)"
+      },
+      "(Crushing)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(krossande)"
+      },
+      "(Dead)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(död)"
+      },
+      "(Friend)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(vän)"
+      },
+      "(Glancing)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(snuddande)"
+      },
+      "(Guild)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(gille)"
+      },
+      "(Mutual)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(ömsesidig)"
+      },
+      "(Party)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(grupp)"
+      },
+      "(Sanctuary)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(fredat område)"
+      },
+      "(Whispered)": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "(viskat)"
+      },
+      "<AFK>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<BORTA>"
+      },
+      "<DND>": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "<STÖR EJ>"
+      },
+      "ARENA:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "ARENA:"
+      },
       "Abandon": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ge upp"
@@ -335,157 +387,1821 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Ge upp uppdrag"
       },
+      "Abilities": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förmågor"
+      },
+      "Ability": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förmåga"
+      },
+      "Absorb": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Absorbera"
+      },
+      "Abuse": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Missbruk"
+      },
       "Accept": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Acceptera"
+      },
+      "Accepted": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Accepterat"
+      },
+      "Accessibility": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillgänglighet"
+      },
+      "Accessories": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillbehör"
+      },
+      "Achievements": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Prestationer"
+      },
+      "Activate": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Aktivera"
+      },
+      "Active": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Aktiv"
       },
       "Add": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lägg till"
       },
+      "AddOns": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillägg"
+      },
+      "Advanced": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avancerat"
+      },
+      "Aggressive": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Aggressiv"
+      },
+      "Aggro": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Aggro"
+      },
+      "Agility": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Smidighet"
+      },
+      "All": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Alla"
+      },
+      "Alliance": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Alliansen"
+      },
+      "Alphabetical": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bokstavsordning"
+      },
+      "Always": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Alltid"
+      },
+      "Ambience": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Omgivning"
+      },
+      "Ammo": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ammunition"
+      },
+      "Announce": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Meddela"
+      },
+      "Appearances": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utseenden"
+      },
+      "Applicants": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sökande"
+      },
       "Apply": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Verkställ"
+      },
+      "Apprentice": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lärling"
+      },
+      "April": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "april"
+      },
+      "Arc": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Båge"
+      },
+      "Arcane": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Arkan"
+      },
+      "Archaeology": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Arkeologi"
+      },
+      "Areas": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Områden"
+      },
+      "Arena": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Arena"
       },
       "Armor": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Rustning"
       },
+      "Armor:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rustning:"
+      },
+      "Artisan": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mästare"
+      },
+      "Ashran": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ashran"
+      },
+      "Assist": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hjälp"
+      },
+      "Attack": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attack"
+      },
+      "Attack:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Attack:"
+      },
+      "Auctions": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Auktioner"
+      },
+      "Audio": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ljud"
+      },
+      "August": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "augusti"
+      },
+      "Auras": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Auror"
+      },
+      "Auto": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Automatiskt"
+      },
       "Available": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Tillgänglig"
+      },
+      "Away": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Borta"
+      },
+      "BUYOUT": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "KÖP NU"
       },
       "Back": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Tillbaka"
       },
+      "Background": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bakgrund"
+      },
+      "Backpack": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ryggsäck"
+      },
+      "Bags": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Väskor"
+      },
+      "Balance": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Balans"
+      },
+      "Ban": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bannlys"
+      },
+      "Base": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bas"
+      },
+      "Battle": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Strid"
+      },
+      "Battle!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Strid!"
+      },
+      "BattleTag": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "BattleTag"
+      },
+      "Battleground": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slagfält"
+      },
+      "Battlegrounds": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slagfält"
+      },
+      "Beneficial": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bra"
+      },
+      "Best": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bäst"
+      },
+      "Bid": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bud"
+      },
+      "Bids": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bud"
+      },
+      "Blindfolds": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ögonbindlar"
+      },
+      "Block": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Blockera"
+      },
+      "Bonus": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bonus"
+      },
+      "Border": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kant"
+      },
+      "Boss": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Boss"
+      },
+      "Bosses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bossar"
+      },
+      "Bosses:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bossar:"
+      },
+      "Both": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Båda"
+      },
+      "Brawl": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slagsmål"
+      },
+      "Brightness": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ljusstyrka"
+      },
+      "Broadcast": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sänd"
+      },
+      "Browse": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bläddra"
+      },
+      "Built-in": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inbyggd"
+      },
+      "Busy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Upptagen"
+      },
+      "Buy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Köp"
+      },
+      "Buyback": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Köp tillbaka"
+      },
+      "Buyout": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Köp nu"
+      },
+      "Camera": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kamera"
+      },
       "Cancel": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Avbryt"
       },
+      "Cast": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kasta"
+      },
+      "Casting": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kastar"
+      },
+      "Casual": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avslappnat"
+      },
+      "Cataclysm": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Cataclysm"
+      },
+      "Category": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kategori"
+      },
+      "Challenge": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utmaning"
+      },
+      "Change": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ändra"
+      },
+      "Channel": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kanal"
+      },
+      "Channels": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kanaler"
+      },
+      "Character": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Karaktär"
+      },
       "Character Info": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Din figur"
+        "sv": "Karaktär"
+      },
+      "Chat": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Chatt"
+      },
+      "Cheating": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fusk"
+      },
+      "Chest": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bröst"
+      },
+      "Chi": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Chi"
+      },
+      "Cinematics": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Filmscener"
+      },
+      "Circle": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Cirkel"
+      },
+      "Class": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klass"
+      },
+      "Classic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Classic"
+      },
+      "Click-to-Move": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klicka för att gå"
+      },
+      "Cloak": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mantel"
+      },
+      "Clock": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klocka"
       },
       "Close": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Stäng"
       },
+      "Collected": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Insamlat"
+      },
+      "Collections": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Samlingar"
+      },
+      "Color": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färg"
+      },
+      "Color-by-School": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färg per magityp"
+      },
+      "Colorize:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färglägg:"
+      },
+      "Colors": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färger"
+      },
+      "Combat": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Strid"
+      },
+      "Command": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kommando"
+      },
+      "Common": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vanlig"
+      },
+      "Communities": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grupper"
+      },
+      "Community": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grupp"
+      },
+      "Companions": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Följeslagare"
+      },
+      "Complete": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klart"
+      },
       "Complete Quest": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lämna in uppdrag"
+      },
+      "Complete!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klart!"
+      },
+      "Confirmation": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bekräftelse"
+      },
+      "Confirmed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bekräftat"
       },
       "Congratulations, you have reached level %d!": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Grattis, du har nått nivå %d!"
       },
+      "Conquest": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Erövring"
+      },
+      "Consumable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förbrukningsvara"
+      },
+      "Container": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Behållare"
+      },
+      "Continent": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kontinent"
+      },
       "Continue": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Fortsätt"
+      },
+      "Contrast": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kontrast"
+      },
+      "Controls": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kontroller"
+      },
+      "Convert": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Omvandla"
+      },
+      "Cooking": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Matlagning"
+      },
+      "Copy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kopiera"
       },
       "Corpse": {
         "by": "claude-opus-5 (in-session)",
         "sv": "|cffff2020Kropp|r"
       },
+      "Cost:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kostnad:"
+      },
+      "Countdown": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nedräkning"
+      },
+      "Create": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skapa"
+      },
+      "Creator": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skapare"
+      },
+      "Cross": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kors"
+      },
+      "Currency": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Valuta"
+      },
+      "Current": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nuvarande"
+      },
+      "Custom": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Eget"
+      },
+      "Cycloned": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Virvlad"
+      },
+      "DELETE": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "TA BORT"
+      },
+      "Daily": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Daglig"
+      },
       "Damage": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Skada"
+      },
+      "Damage:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skada:"
+      },
+      "Dark": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mörk"
       },
       "Dead": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Död"
       },
+      "Deaths": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dödsfall"
+      },
+      "Debuff": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nedsättning"
+      },
+      "December": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "december"
+      },
       "Decline": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nej tack"
+      },
+      "Declined": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avvisat"
+      },
+      "Default": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Standard"
+      },
+      "Defaults": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Standard"
+      },
+      "Defeated": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Besegrad"
       },
       "Defense": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Försvar"
       },
+      "Defense:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Försvar:"
+      },
+      "Defenses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Försvar"
+      },
+      "Defensive": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Defensiv"
+      },
+      "Deflect": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avvärj"
+      },
       "Delete": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ta bort"
+      },
+      "Delist": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avlista"
+      },
+      "Demote": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Degradera"
+      },
+      "Dependencies:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver:"
+      },
+      "Deposit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Insättning"
+      },
+      "Deposit:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Insättning:"
       },
       "Description": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Berättelse"
       },
+      "Deserter": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Desertör"
+      },
+      "Details": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Detaljer"
+      },
+      "Dethrone": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avsätt"
+      },
+      "Dialog": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dialog"
+      },
+      "Diamond": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Diamant"
+      },
+      "Difficulty": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Svårighetsgrad"
+      },
+      "Direction": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Riktning"
+      },
+      "Disable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stäng av"
+      },
+      "Disabled": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avstängd"
+      },
+      "Disenchant": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förtrolla bort"
+      },
+      "Dismiss": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skicka bort"
+      },
+      "Dismount": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kliv av"
+      },
+      "Dispels": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rensningar"
+      },
+      "Display": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skärm"
+      },
+      "Dodge": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Undvik"
+      },
+      "Dodges/Parries/Misses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Undvikta/parerade/missade"
+      },
       "Done": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Klar"
+      },
+      "Down": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ner"
+      },
+      "Drag": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dra"
+      },
+      "Drains": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dräneringar"
+      },
+      "Draw": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Oavgjort"
+      },
+      "Duel": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Duell"
+      },
+      "Dungeon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grotta"
+      },
+      "Dungeons": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grottor"
+      },
+      "Duration": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Längd"
+      },
+      "Earned": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Intjänat"
+      },
+      "Edit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ändra"
+      },
+      "Edited": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ändrad"
+      },
+      "Effects": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Effekter"
+      },
+      "Empty": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tom"
+      },
+      "Enable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slå på"
+      },
+      "Enabled": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Påslagen"
+      },
+      "Enchants": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förtrollningar"
+      },
+      "Enemy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fiende"
+      },
+      "Energy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Energi"
+      },
+      "Enter": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Enter"
+      },
+      "Epic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Episk"
       },
       "Equip": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ta på"
       },
+      "Equipment": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utrustning"
+      },
+      "Error": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fel"
+      },
+      "Errors": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fel"
+      },
+      "Evade": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Undkom"
+      },
+      "Everyone": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Alla"
+      },
+      "Excellent": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utmärkt"
+      },
+      "Exit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avsluta"
+      },
       "Exit Game": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Avsluta spelet"
+      },
+      "Expansion": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Expansion"
+      },
+      "Experience": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Erfarenhet"
+      },
+      "Experience:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Erfarenhet:"
+      },
+      "Expert": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Expert"
+      },
+      "Expertise": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skicklighet"
+      },
+      "Expired": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utgången"
+      },
+      "Expires": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Går ut"
+      },
+      "Expires:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Går ut:"
+      },
+      "FPS:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "FPS:"
+      },
+      "Face": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ansikte"
+      },
+      "Faction": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fraktion"
+      },
+      "Failed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Misslyckades"
+      },
+      "Failures": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Misslyckanden"
+      },
+      "Fair": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Okej"
+      },
+      "Fast": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Snabb"
+      },
+      "Favorites": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Favoriter"
+      },
+      "February": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "februari"
+      },
+      "Feet": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fötter"
+      },
+      "Female": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kvinna"
+      },
+      "Filter": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Filter"
+      },
+      "Filters": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Filter"
+      },
+      "Finger": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Finger"
+      },
+      "Fire": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Eld"
+      },
+      "Fireball": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fireball"
+      },
+      "Fishing": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fiske"
+      },
+      "Fizzled": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slocknade"
+      },
+      "Flash": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Blink"
+      },
+      "Focus": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fokus"
+      },
+      "Follow": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Följ"
+      },
+      "Forfeit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ge upp"
+      },
+      "Format": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Format"
+      },
+      "Formatting": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Formatering"
+      },
+      "Fragments": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fragment"
+      },
+      "Frames": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rutor"
+      },
+      "Frequency": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Frekvens"
+      },
+      "Friday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "fredag"
+      },
+      "Friend": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vän"
+      },
+      "Friendly": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vänlig"
       },
       "Friends": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vänner"
       },
+      "From,": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Från,"
+      },
+      "From:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Från:"
+      },
+      "Frost": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Frost"
+      },
+      "Frostbolt": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Frostbolt"
+      },
+      "Fuel": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bränsle"
+      },
+      "Full": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Full"
+      },
+      "Fury": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raseri"
+      },
+      "Game": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spel"
+      },
+      "Gameplay": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spelupplägg"
+      },
+      "Games": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spel"
+      },
+      "Gamma": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gamma"
+      },
+      "Gems": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ädelstenar"
+      },
+      "General": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Allmänt"
+      },
+      "Glyphs": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Glyfer"
+      },
+      "Gold": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Guld"
+      },
+      "Good": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bra"
+      },
       "Goodbye": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Hej då"
+      },
+      "Graphics": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grafik"
+      },
+      "Greed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Girig"
+      },
+      "Ground": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mark"
+      },
+      "Group": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grupp"
+      },
+      "Groups": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grupper"
+      },
+      "Guide": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Guide"
       },
       "Guild": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Gille"
       },
+      "Guilds": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gillen"
+      },
+      "HONOR:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "ÄRA:"
+      },
+      "Hands": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Händer"
+      },
+      "Happiness": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Trivsel"
+      },
+      "Haste": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Snabbhet"
+      },
+      "Head": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Huvud"
+      },
+      "Healer": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Helare"
+      },
+      "Healing": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Helande"
+      },
+      "Heals": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Helningar"
+      },
       "Health": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Liv"
+      },
+      "Height": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Höjd"
+      },
+      "Heirlooms": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Arvegods"
       },
       "Help Request": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Be om hjälp"
       },
+      "Heroic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Heroisk"
+      },
+      "Hidden": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gömd"
+      },
+      "Hide": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Göm"
+      },
+      "High": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hög"
+      },
+      "Highlighting:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Markering:"
+      },
+      "History": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Historik"
+      },
+      "Holy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Helig"
+      },
+      "Home": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hem"
+      },
+      "Honor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ära"
+      },
+      "Horde": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Horden"
+      },
+      "Horizontal": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vågrätt"
+      },
+      "Hostile": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fientlig"
+      },
+      "Icon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ikon"
+      },
+      "Ignore": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ignorera"
+      },
+      "Ignored": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ignorerad"
+      },
+      "Illustrious": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lysande"
+      },
+      "Immune": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Immun"
+      },
+      "Import": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Importera"
+      },
+      "In-line": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "På rad"
+      },
+      "Inbox": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inkorg"
+      },
+      "Incompatible": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Passar inte"
+      },
+      "Incomplete": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ofärdig"
+      },
+      "Info": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Info"
+      },
+      "Insanity": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vansinne"
+      },
       "Inspect": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Titta på"
+      },
+      "Instance": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Instans"
+      },
+      "Intellect": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Intelligens"
+      },
+      "Interact": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Använd"
+      },
+      "Interface": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gränssnitt"
+      },
+      "Interrupt": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avbryt"
+      },
+      "Interrupted": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avbruten"
+      },
+      "Interrupts": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avbrott"
       },
       "Inventory is full.": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Din väska är full."
       },
+      "Invite": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bjud in"
+      },
+      "Invited": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inbjuden"
+      },
+      "Item": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sak"
+      },
+      "Items": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Saker"
+      },
+      "January": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "januari"
+      },
+      "Join": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gå med"
+      },
+      "Joined": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Med i"
+      },
+      "Journeyman": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gesäll"
+      },
+      "July": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "juli"
+      },
+      "June": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "juni"
+      },
+      "Keybindings": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tangenter"
+      },
       "Keyring": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nyckelring"
+      },
+      "Kick": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sparka ut"
+      },
+      "Kills": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dödade"
+      },
+      "Language": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Språk"
+      },
+      "Languages": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Språk"
+      },
+      "Large": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stor"
+      },
+      "Latency:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fördröjning:"
+      },
+      "Later": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Senare"
+      },
+      "Layout:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Layout:"
+      },
+      "Lead": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Led"
+      },
+      "Leader": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ledare"
+      },
+      "Learn": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lär dig"
+      },
+      "Leave": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lämna"
+      },
+      "Left": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vänster"
+      },
+      "Legacy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gammal"
+      },
+      "Legs": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ben"
       },
       "Level": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nivå"
       },
+      "Lifetime": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Totalt"
+      },
+      "Light": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ljus"
+      },
+      "Link": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Länk"
+      },
+      "Listed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Listad"
+      },
+      "Loading": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Laddar"
+      },
+      "Loading...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Laddar..."
+      },
+      "Lock": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lås"
+      },
+      "Locked": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Låst"
+      },
+      "Log": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Logg"
+      },
       "Logout": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Logga ut"
+      },
+      "Long": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lång"
       },
       "Loot": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Byte"
       },
+      "Loss": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förlust"
+      },
+      "Losses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förluster"
+      },
+      "Low": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Låg"
+      },
+      "Lvl": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nivå"
+      },
+      "Macro": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Makro"
+      },
+      "Macros": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Makron"
+      },
+      "Maelstrom": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Malström"
+      },
+      "Magic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Magi"
+      },
+      "Male": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Man"
+      },
       "Mana": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Mana"
+      },
+      "Manual": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Manuell"
+      },
+      "March": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "mars"
+      },
+      "Marker": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Markör"
+      },
+      "Master": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mästare"
+      },
+      "Mastery": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mästerskap"
+      },
+      "Max": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Max"
+      },
+      "Maximum": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Högsta"
+      },
+      "May": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "maj"
+      },
+      "Medium": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mellan"
+      },
+      "Meeting": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Möte"
+      },
+      "Melee": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Närstrid"
+      },
+      "Member": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Medlem"
+      },
+      "Members": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Medlemmar"
+      },
+      "Menu": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Meny"
+      },
+      "Merchant": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Handlare"
+      },
+      "Minimap": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Minikarta"
+      },
+      "Minimum": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lägsta"
+      },
+      "Minions": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tjänare"
+      },
+      "Minor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Liten"
+      },
+      "Misc": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Övrigt"
+      },
+      "Miscellaneous": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Övrigt"
+      },
+      "Misfire": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Felskott"
+      },
+      "Miss": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Miss"
+      },
+      "Misses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Missar"
+      },
+      "Mode": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Läge"
+      },
+      "Model": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Modell"
+      },
+      "Moderator": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Moderator"
+      },
+      "Modern": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Modern"
+      },
+      "Monday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "måndag"
       },
       "Money": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Pengar"
       },
+      "Monitor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skärm"
+      },
+      "Monster": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Monster"
+      },
+      "Moon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Måne"
+      },
+      "Mount": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Riddjur"
+      },
+      "Mounts": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Riddjur"
+      },
+      "Mouse": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mus"
+      },
+      "Music": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Musik"
+      },
+      "Mute": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tysta"
+      },
+      "Muted": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tystad"
+      },
+      "Mythic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mytisk"
+      },
+      "NEW": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "NY"
+      },
+      "Name": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Namn"
+      },
+      "Nameplates": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Namnskyltar"
+      },
+      "Names": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Namn"
+      },
+      "Narrow": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Smal"
+      },
+      "Nature": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Natur"
+      },
+      "Neck": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hals"
+      },
+      "Need": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Behöver"
+      },
+      "Network": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nätverk"
+      },
+      "Neutral": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Neutral"
+      },
+      "Never": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Aldrig"
+      },
+      "New": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ny"
+      },
       "Next": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nästa"
+      },
+      "None": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ingen"
+      },
+      "Normal": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Normal"
+      },
+      "Note": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Anteckning"
+      },
+      "Note:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Obs:"
+      },
+      "Notifications": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Meddelanden"
+      },
+      "November": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "november"
+      },
+      "Objectives": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mål"
+      },
+      "October": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "oktober"
+      },
+      "Off": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Av"
+      },
+      "Officer": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Officer"
+      },
+      "Offline": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Utloggad"
       },
       "Okay": {
         "by": "claude-opus-5 (in-session)",
         "sv": "OK"
       },
+      "One-Hand": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Enhands"
+      },
+      "One-Handed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Enhands"
+      },
+      "Ongoing": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pågår"
+      },
+      "Online": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inloggad"
+      },
+      "Opacity": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Genomskinlighet"
+      },
+      "Opening": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Öppnar"
+      },
+      "Opening...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Öppnar..."
+      },
+      "Optional": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Valfritt"
+      },
       "Options": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Inställningar"
+      },
+      "Order": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ordning"
+      },
+      "Orientation": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Riktning"
+      },
+      "Other": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Annat"
+      },
+      "Out": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ut"
       },
       "Out of range": {
         "by": "claude-opus-5 (in-session)",
@@ -495,9 +2211,185 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "För långt bort."
       },
+      "Outbid": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Överbjuden"
+      },
+      "Overlap": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Överlappa"
+      },
+      "Overview": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Översikt"
+      },
+      "Owner": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ägare"
+      },
+      "Pain": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Smärta"
+      },
+      "Parry": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Parera"
+      },
       "Party": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Grupp"
+      },
+      "Pass": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avstå"
+      },
+      "Passive": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Passiv"
+      },
+      "Paste": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klistra in"
+      },
+      "Pause": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pausa"
+      },
+      "Paused": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pausad"
+      },
+      "Penetration": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Genomslag"
+      },
+      "Percentage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Procent"
+      },
+      "Periodic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återkommande"
+      },
+      "Perks": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förmåner"
+      },
+      "Pet": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Djur"
+      },
+      "Pets": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Djur"
+      },
+      "Physical": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fysisk"
+      },
+      "Play": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spela"
+      },
+      "Play/Pause": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spela/pausa"
+      },
+      "Played": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spelad"
+      },
+      "Player": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spelare"
+      },
+      "Point": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Poäng"
+      },
+      "Poor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dålig"
+      },
+      "Postage:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Porto:"
+      },
+      "Power": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kraft"
+      },
+      "Power:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kraft:"
+      },
+      "Prev": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Föreg"
+      },
+      "Preview": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Förhandsvisning"
+      },
+      "Previous": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Föregående"
+      },
+      "Price": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pris"
+      },
+      "Primary": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Främst"
+      },
+      "Private": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Privat"
+      },
+      "Processing...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bearbetar..."
+      },
+      "Profession": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Yrke"
+      },
+      "Professions": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Yrken"
+      },
+      "Progressive": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Progressiv"
+      },
+      "Projectile": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Projektil"
+      },
+      "Promote": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Befordra"
+      },
+      "Purchase": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Köp"
+      },
+      "Purchased": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Köpt"
+      },
+      "Push-to-Talk": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tryck för att tala"
+      },
+      "Quality": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kvalitet"
+      },
+      "Quantity": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Antal"
       },
       "Quest Log": {
         "by": "claude-opus-5 (in-session)",
@@ -507,9 +2399,137 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Mål"
       },
+      "Quit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avsluta"
+      },
+      "Quiver": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pilkoger"
+      },
+      "Race": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ras"
+      },
+      "Races": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raser"
+      },
+      "Rage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raseri"
+      },
+      "Raid": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raid"
+      },
+      "Raids": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Raider"
+      },
+      "Ranged": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avstånd"
+      },
+      "Rank": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rang"
+      },
+      "Rank:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rang:"
+      },
+      "Rare": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sällsynt"
+      },
+      "Rare!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sällsynt!"
+      },
+      "Rarity": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sällsynthet"
+      },
+      "Rated": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rankad"
+      },
+      "Rating": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ranking"
+      },
+      "Rating:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ranking:"
+      },
+      "Ready": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klar"
+      },
+      "Reagent": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ingrediens"
+      },
+      "Realm": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Server"
+      },
+      "Realm:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Server:"
+      },
+      "Received!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mottaget!"
+      },
+      "Recipe": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Recept"
+      },
+      "Recommended": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rekommenderat"
+      },
+      "Recruitment": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rekrytering"
+      },
+      "Reduced": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Minskad"
+      },
+      "Reflect": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Reflektera"
+      },
+      "Refresh": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Uppdatera"
+      },
+      "Reincarnate": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återfödas"
+      },
+      "Reincarnate!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återfödas!"
+      },
+      "Release": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Släpp"
+      },
+      "Relic": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Relik"
+      },
       "Remove": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ta bort"
+      },
+      "Rename": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Byt namn"
       },
       "Repair All Items": {
         "by": "claude-opus-5 (in-session)",
@@ -519,45 +2539,445 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Reparera saker"
       },
+      "Reply": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Svara"
+      },
+      "Report": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rapportera"
+      },
+      "Reputation": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rykte"
+      },
+      "Requires:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kräver:"
+      },
       "Reset": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Återställ"
+      },
+      "Resilience": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Motståndskraft"
+      },
+      "Resist": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Motstå"
+      },
+      "Resisted": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Motstod"
+      },
+      "Resurrections": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återupplivningar"
+      },
+      "Return": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillbaka"
       },
       "Return to Game": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Tillbaka till spelet"
       },
+      "Reverse": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Omvänd"
+      },
+      "Revert": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återgå"
+      },
+      "Reward:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Belöning:"
+      },
       "Rewards": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Belöningar"
+      },
+      "Right": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Höger"
+      },
+      "Role": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Roll"
+      },
+      "Roles": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Roller"
+      },
+      "Roles:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Roller:"
+      },
+      "Roll": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slå"
+      },
+      "Rolling": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slår"
+      },
+      "Roster": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lista"
+      },
+      "Rune": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Runa"
+      },
+      "Runes": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Runor"
+      },
+      "Sale!": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rea!"
+      },
+      "Saturday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "lördag"
       },
       "Save": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Spara"
       },
+      "Say": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Säg"
+      },
+      "Scenarios": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Scenarier"
+      },
+      "Score:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Poäng:"
+      },
       "Search": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Sök"
+      },
+      "Searching": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Söker"
+      },
+      "Searching...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Söker..."
+      },
+      "Select": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Välj"
+      },
+      "Sell": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sälj"
       },
       "Sell Price": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Säljpris"
       },
+      "Seller": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Säljare"
+      },
+      "Seller:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Säljare:"
+      },
+      "Send": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skicka"
+      },
+      "September": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "september"
+      },
+      "Sets": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Set"
+      },
+      "Settings": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inställningar"
+      },
+      "Shadow": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skugga"
+      },
+      "Shards": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skärvor"
+      },
+      "Share": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dela"
+      },
+      "Shirt": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skjorta"
+      },
+      "Shop": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Butik"
+      },
+      "Short": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kort"
+      },
+      "Shoulder": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skuldra"
+      },
+      "Shoulders": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skuldror"
+      },
+      "Show": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Visa"
+      },
+      "Show:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Visa:"
+      },
+      "Size": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Storlek"
+      },
+      "Skill": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighet"
+      },
+      "Skill-ups": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdighetsökningar"
+      },
       "Skills": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Färdigheter"
+      },
+      "Skirmish": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skärmytsling"
+      },
+      "Skull": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Dödskalle"
+      },
+      "Slots": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Platser"
+      },
+      "Slow": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Långsam"
+      },
+      "Small": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Liten"
+      },
+      "Smart": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Smart"
       },
       "Social": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vänner"
       },
+      "Solo": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ensam"
+      },
+      "Solve": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lös"
+      },
+      "Sound": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ljud"
+      },
+      "Source:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Källa:"
+      },
+      "Sources": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Källor"
+      },
+      "Spamming": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spam"
+      },
+      "Special": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Speciell"
+      },
+      "Specialization": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Specialisering"
+      },
+      "Speed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hastighet"
+      },
+      "Spell": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Trollformel"
+      },
+      "Spellbook": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Trollformelbok"
+      },
       "Spells": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Trollformler"
       },
+      "Spirit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ande"
+      },
+      "Square": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kvadrat"
+      },
+      "Stables": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stall"
+      },
+      "Stamina": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tålighet"
+      },
+      "Standard": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Standard"
+      },
+      "Standby": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vänteläge"
+      },
+      "Standing": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ställning"
+      },
+      "Star": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stjärna"
+      },
+      "Start": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Starta"
+      },
+      "Statistics": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Statistik"
+      },
+      "Stats": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Egenskaper"
+      },
+      "Status": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Status"
+      },
+      "Stopwatch": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tidtagarur"
+      },
+      "Strength": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Styrka"
+      },
+      "Style": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stil"
+      },
+      "Subject:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ämne:"
+      },
+      "Submit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skicka"
+      },
+      "Subtitles": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Undertexter"
+      },
+      "Success": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lyckades"
+      },
+      "Summary": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sammanfattning"
+      },
+      "Summon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kalla fram"
+      },
+      "Summons": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Frammaningar"
+      },
+      "Sunday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "söndag"
+      },
+      "Support": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Support"
+      },
+      "Surrender?": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ge upp?"
+      },
+      "Switch": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Byt"
+      },
+      "System": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "System"
+      },
+      "TODAY": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "IDAG"
+      },
+      "Tabard": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vapenrock"
+      },
+      "Talent": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Talang"
+      },
       "Talents": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Talanger"
+      },
+      "Tall": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hög"
+      },
+      "Tank": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tank"
+      },
+      "Tanks/Healers": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tanks/helare"
+      },
+      "Target": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mål"
       },
       "Target needs to be in front of you.": {
         "by": "claude-opus-5 (in-session)",
@@ -567,9 +2987,65 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Du kan inte se fienden"
       },
+      "Team": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lag"
+      },
+      "Tentative": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Osäker"
+      },
       "The item was not found.": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Saken hittades inte."
+      },
+      "Throttle": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Begränsning"
+      },
+      "Thrown": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kastvapen"
+      },
+      "Thursday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "torsdag"
+      },
+      "Timestamp:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tidsstämpel:"
+      },
+      "Timewalking": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tidsvandring"
+      },
+      "Title": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Titel"
+      },
+      "Titles": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Titlar"
+      },
+      "To:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Till:"
+      },
+      "Today": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Idag"
+      },
+      "Tools": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Verktyg"
+      },
+      "Total": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Totalt"
+      },
+      "Toy": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Leksak"
       },
       "Track": {
         "by": "claude-opus-5 (in-session)",
@@ -579,29 +3055,257 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Följ uppdrag"
       },
+      "Tracking": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spårning"
+      },
       "Trade": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Byt"
+      },
+      "Tradeskills": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Yrken"
       },
       "Train": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lär dig"
       },
+      "Transmogrify": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Omforma"
+      },
+      "Triangle": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Triangel"
+      },
+      "Trinket": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Smycke"
+      },
+      "Tuesday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "tisdag"
+      },
+      "Tutorials": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Guider"
+      },
+      "Two-Hand": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tvåhands"
+      },
+      "Two-Handed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tvåhands"
+      },
+      "Type": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Typ"
+      },
+      "Type:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Typ:"
+      },
+      "Ultra": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ultra"
+      },
+      "Unavailable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inte tillgänglig"
+      },
+      "Uncommon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ovanlig"
+      },
+      "Unconscious": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Medvetslös"
+      },
+      "Uninvite": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta bort"
+      },
+      "Unique": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Unik"
+      },
+      "Unit": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Enhet"
+      },
+      "Unknown": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Okänd"
+      },
+      "Unlearn": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Glöm"
+      },
+      "Unlimited": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Obegränsat"
+      },
+      "Unlock": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lås upp"
+      },
+      "Unmute": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Slå på ljud"
+      },
+      "Unread": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Oläst"
+      },
+      "Unusable": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kan inte användas"
+      },
+      "Unused": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Oanvänd"
+      },
+      "Unwrap": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Packa upp"
+      },
+      "Up": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Upp"
+      },
+      "Update": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Uppdatera"
+      },
+      "Upgrade": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Uppgradera"
+      },
       "Use": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Använd"
+      },
+      "Uses": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Användningar"
+      },
+      "Verifying...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Kontrollerar..."
+      },
+      "Vertical": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lodrätt"
+      },
+      "Visibility": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Synlighet"
+      },
+      "Voice": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Röst"
+      },
+      "Volume": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Volym"
+      },
+      "WINNER": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "VINNARE"
+      },
+      "Waist": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Midja"
+      },
+      "Waiting...": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Väntar..."
+      },
+      "Wave:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Våg:"
+      },
+      "Weapons": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vapen"
+      },
+      "Weather": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Väder"
+      },
+      "Wednesday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "onsdag"
+      },
+      "Weekly": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Varje vecka"
+      },
+      "Whisper": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Viska"
       },
       "Who": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vilka"
       },
+      "Wide": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bred"
+      },
+      "Width": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Bredd"
+      },
+      "Win": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vinst"
+      },
+      "Windowed": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fönsterläge"
+      },
+      "Wins": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vinster"
+      },
+      "Withdraw": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta ut"
+      },
+      "Withdraw:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta ut:"
+      },
+      "World": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Värld"
+      },
       "World Map": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Karta"
       },
+      "Wrist": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Handled"
+      },
+      "Yell": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ropa"
+      },
       "Yes": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ja"
+      },
+      "Yesterday": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Igår"
+      },
+      "You": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du"
       },
       "You don't have enough money.": {
         "by": "claude-opus-5 (in-session)",
@@ -619,6 +3323,10 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Du måste komma närmare."
       },
+      "Your": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Din"
+      },
       "Your quest log is full.": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Din uppdragslogg är full."
@@ -630,11 +3338,31 @@
       "Zone": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Område"
+      },
+      "Zone:": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Område:"
+      },
+      "gold": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "guld"
+      },
+      "optional": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "valfritt"
+      },
+      "seconds": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "sekunder"
+      },
+      "silver": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "silver"
       }
     }
   },
   "meta": {
-    "count": 155,
+    "count": 837,
     "glossary_version": 1,
     "tool_version": "0.1.0"
   }

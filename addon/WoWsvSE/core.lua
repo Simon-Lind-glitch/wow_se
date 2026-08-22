@@ -30,6 +30,9 @@ local DEFAULTS = {
   -- for; the inline grey line it originally specified was tried and rejected
   -- as cluttered (see render.lua).
   hover = true,
+  -- Seconds the pointer must rest before the English appears. Long on purpose:
+  -- scrolling a quest drags the pointer across the text repeatedly.
+  hoverDelay = 5,
   debug = false,
 }
 
@@ -67,6 +70,9 @@ function SVSE.Settings()
   local db = WoWsvSEDB
   if db.hover == nil then
     db.hover = DEFAULTS.hover
+  end
+  if type(db.hoverDelay) ~= "number" then
+    db.hoverDelay = DEFAULTS.hoverDelay
   end
   if db.debug == nil then
     db.debug = DEFAULTS.debug
@@ -194,6 +200,14 @@ function SVSE.HandleCommand(input)
   end
 
   if command == "hover" then
+    -- `/svse hover 2` sets the delay; bare `/svse hover` turns it off and on.
+    local seconds = tonumber(argument)
+    if seconds and seconds >= 0 then
+      db.hoverDelay = seconds
+      db.hover = seconds > 0
+      report(("engelskan visas efter %s sekunder"):format(tostring(seconds)))
+      return
+    end
     db.hover = not db.hover
     report("engelskan vid pekning: " .. (db.hover and "på" or "av"))
     return

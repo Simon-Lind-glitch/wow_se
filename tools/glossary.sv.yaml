@@ -17,6 +17,7 @@ version: 1
 # Recurring game vocabulary. Left side is the English term as it appears in
 # source text; right side is the only Swedish rendering allowed.
 terms:
+  character: karaktär
   quest: uppdrag
   quest log: uppdragslogg
   objective: mål

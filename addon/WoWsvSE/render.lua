@@ -90,16 +90,31 @@ function SVSE.AttachOriginal(region, english)
     end
     overlay = CreateFrame("Frame", nil, parent)
     overlay:EnableMouse(true)
+
+    -- Deliberately slow. The pointer crosses this text constantly while
+    -- scrolling a quest, and a tooltip that fires on contact is in the way
+    -- rather than available. Showing it only after the pointer has rested
+    -- means it appears when someone is actually stuck on a word.
     overlay:SetScript("OnEnter", function(self)
-      if not self.english or self.english == "" or not GameTooltip then
-        return
-      end
-      GameTooltip:SetOwner(self, "ANCHOR_BOTTOMRIGHT")
-      GameTooltip:AddLine("Engelska originalet", 1, 0.82, 0)
-      GameTooltip:AddLine(self.english, 0.85, 0.85, 0.85, true)
-      GameTooltip:Show()
+      self.resting = 0
+      self:SetScript("OnUpdate", function(overlaySelf, elapsed)
+        overlaySelf.resting = (overlaySelf.resting or 0) + elapsed
+        if overlaySelf.resting < (SVSE.Settings().hoverDelay or 5) then
+          return
+        end
+        overlaySelf:SetScript("OnUpdate", nil)
+        if not overlaySelf.english or overlaySelf.english == "" or not GameTooltip then
+          return
+        end
+        GameTooltip:SetOwner(overlaySelf, "ANCHOR_BOTTOMRIGHT")
+        GameTooltip:AddLine("Engelska originalet", 1, 0.82, 0)
+        GameTooltip:AddLine(overlaySelf.english, 0.85, 0.85, 0.85, true)
+        GameTooltip:Show()
+      end)
     end)
-    overlay:SetScript("OnLeave", function()
+    overlay:SetScript("OnLeave", function(self)
+      self:SetScript("OnUpdate", nil)
+      self.resting = 0
       if GameTooltip then
         GameTooltip:Hide()
       end

@@ -29,6 +29,17 @@ from pathlib import Path
 from common.normalize import is_translatable
 
 _IDENTIFIER = re.compile(rb"\b([A-Z][A-Z0-9_]{2,})\b")
+
+# Blizzard ships one UI source tree for every flavour, split by directory and by
+# .toc suffix. A key referenced only from Mainline/Mists/Cata/Wrath code cannot
+# render on a 2.5.6 client, however many times it appears.
+#
+# This is why the plain "is it referenced anywhere" test was too weak: it kept
+# raid difficulties, pet battles and transmog, all of which are referenced —
+# just never by code this client loads.
+_FOREIGN_FLAVOR = re.compile(
+    r"/(Mainline|Mists|Cata|Wrath)/|_(Mainline|Mists|Cata|Wrath)\.toc$", re.IGNORECASE
+)
 # `string.find(msg, ERR_SOMETHING)` / `msg:match(PATTERN_KEY)` and friends.
 _PARSE_CALL = re.compile(rb"(?:find|match|gmatch|gsub)\s*\([^()]{0,200}?\b([A-Z][A-Z0-9_]{2,})\b")
 
@@ -79,13 +90,15 @@ _REVIEW_SUFFIX: tuple[tuple[str, str], ...] = (
 )
 
 
-def _read_ui_identifiers(tarball: Path) -> tuple[set[bytes], set[bytes]]:
-    """Identifiers referenced by this flavour's UI source, and parse-pattern uses.
+def _read_ui_identifiers(tarball: Path) -> tuple[set[bytes], set[bytes], set[bytes]]:
+    """Identifiers in this flavour's UI source, split by whether it can load.
 
-    Returns (referenced, used_in_find). Read straight out of the tarball — there
-    is no reason to write 3,500 files to disk to grep them once.
+    Returns (referenced_by_loadable_code, used_in_find, referenced_only_elsewhere).
+    Read straight out of the tarball — there is no reason to write 3,500 files
+    to disk to grep them once.
     """
-    referenced: set[bytes] = set()
+    native: set[bytes] = set()
+    foreign: set[bytes] = set()
     parsed: set[bytes] = set()
     with tarfile.open(tarball, "r:gz") as archive:
         for member in archive:
@@ -95,17 +108,21 @@ def _read_ui_identifiers(tarball: Path) -> tuple[set[bytes], set[bytes]]:
             if handle is None:
                 continue
             blob = handle.read()
-            referenced.update(_IDENTIFIER.findall(blob))
+            target = foreign if _FOREIGN_FLAVOR.search(member.name) else native
+            target.update(_IDENTIFIER.findall(blob))
             parsed.update(_PARSE_CALL.findall(blob))
-    return referenced, parsed
+    return native, parsed, foreign - native
 
 
 class Classifier:
     def __init__(self, ui_source_tarball: Path | None = None):
         self.referenced: set[bytes] = set()
         self.parsed: set[bytes] = set()
+        self.other_flavor: set[bytes] = set()
         if ui_source_tarball is not None and ui_source_tarball.exists():
-            self.referenced, self.parsed = _read_ui_identifiers(ui_source_tarball)
+            self.referenced, self.parsed, self.other_flavor = _read_ui_identifiers(
+                ui_source_tarball
+            )
 
     @property
     def has_ui_source(self) -> bool:
@@ -123,6 +140,11 @@ class Classifier:
         encoded = key.encode()
         server_pushed = key.startswith(_SERVER_PUSHED)
         if self.has_ui_source:
+            if encoded in self.other_flavor and not server_pushed:
+                return Decision(
+                    Verdict.SKIP,
+                    "referenced only by code for another flavour; cannot render here",
+                )
             if encoded not in self.referenced and not server_pushed:
                 return Decision(
                     Verdict.SKIP,
