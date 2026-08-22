@@ -1,0 +1,600 @@
+{
+  "entries": {
+    "ADVANCED_ANTIALIASING_MSAA_FORMAT": {
+      "en": "Color %dx / Depth %dx",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "8e4e47a466c39eb1",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "ARENA_CHARTER_TEMPLATE": {
+      "en": "%s Team Petition",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "fc56c30c916c55fb",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_BUYER_FORMAT": {
+      "en": "Buyer: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "c5612d79f55de49d",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_HIGH_BIDDER_FORMAT": {
+      "en": "High Bidder: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "9fc67ab98226ed04",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_NONE_AVAILABLE_FORMAT": {
+      "en": "None available at item level %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "14a20523c724ba01",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_QUANTITY_AVAILABLE_FORMAT": {
+      "en": "%s Available",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "f9ae544c1603a0c2",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_TOOLTIP_DURATION_FORMAT": {
+      "en": "Time Left: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "a65a48064db9af04",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_TOOLTIP_MULTIPLE_SELLERS_FORMAT": {
+      "en": "Sellers: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "c1208cf254d6d865",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT": {
+      "en": "Sellers: |cffffffff%s, and %s more|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "ed34dc85e410fe34",
+      "placeholders": 4,
+      "reason": "format string; verify nothing parses it"
+    },
+    "AUCTION_HOUSE_TOOLTIP_SELLER_FORMAT": {
+      "en": "Seller: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "f7a6d5ebdf4c2516",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "BLIZZARD_STORE_SPLASH_BANNER_DISCOUNT_FORMAT": {
+      "en": "|cff224f01%d%% OFF!|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "9d8874c0502a2743",
+      "placeholders": 4,
+      "reason": "format string; verify nothing parses it"
+    },
+    "BLIZZARD_STORE_VAS_ERROR_LABEL": {
+      "en": "Error. Please address these issues:",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "3f5c82da310c7223",
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
+    },
+    "BONUS_OBJECTIVE_ARTIFACT_XP_FORMAT": {
+      "en": "%s |cffe6cc80Artifact Power|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "b2bed2fba5bf8a41",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "BONUS_OBJECTIVE_EXPERIENCE_FORMAT": {
+      "en": "%s XP",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "9510b6354e8585ae",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_DEBUFF_SELF_ALERT_FORMAT": {
+      "en": "%s debuff",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "1a7fc09077af5b55",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_PLAYER_HEALTH_FORMAT": {
+      "en": "Say Your Health Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "7faee3723ee15bd2",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_RESOURCE_1_FORMAT": {
+      "en": "Say Resource 1 Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "68ae374cb1ebc195",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_RESOURCE_2_FORMAT": {
+      "en": "Say Resource 2 Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "ce9d594fd4f88a9f",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_TARGET_CASTS_FORMAT": {
+      "en": "Say Target Casts Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "b970fe9a4a339a4b",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_TARGET_HEALTH_FORMAT": {
+      "en": "Say Target Health Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "14d0f360fd7903aa",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_YOUR_CASTS_FORMAT": {
+      "en": "Say Your Casts Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "4ff4f652ed7728d2",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_SAY_YOUR_DEBUFFS_FORMAT": {
+      "en": "Say Your Debuffs Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "65d0bf72c4359eba",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CAA_WHEN_TARGET_DIES_USE_FORMAT": {
+      "en": "Use Target Health Format",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "c9e61fdf4834850b",
+      "placeholders": 0,
+      "reason": "format string; verify nothing parses it"
+    },
+    "CHANNEL": {
+      "en": "Channel",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "cb971c5a21f10a52",
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
+    },
+    "CHAT_NAME_TEMPLATE": {
+      "en": "Chat %d",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "c6c584813276df0a",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "COMMUNITIES_INVITE_MANAGER_TICKET_FORMAT": {
+      "en": "https://blizzard.com/invite/%s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "3e3c9ee72e21d1a1",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "COMMUNITIES_INVIVATION_FRAME_LEADER_FORMAT": {
+      "en": "Leader: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "8fe37c5308804213",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "COMMUNITIES_MEMBER_LIST_MEMBER_COUNT_FORMAT": {
+      "en": "%s/%s Online",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "200bec38afc946b3",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "COMMUNITIES_MESSAGE_OF_THE_DAY_FORMAT": {
+      "en": "Message of the Day: \"%s\"",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "864b16341af6f17c",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "COMMUNITY_MEMBER_CHARACTER_INFO_FORMAT": {
+      "en": "Level %d %s %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "455d6cc21217fdaf",
+      "placeholders": 3,
+      "reason": "format string; verify nothing parses it"
+    },
+    "DAILY_QUEST_TAG_TEMPLATE": {
+      "en": "Daily %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "0e3b3f7e8d5ca100",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "DPS_TEMPLATE": {
+      "en": "(%s damage per second)",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "d4c28daea4dfb741",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "FRIENDS_LEVEL_TEMPLATE": {
+      "en": "Level %d %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "0ea8ee9f55e6f65c",
+      "placeholders": 2,
+      "reason": "format template; verify nothing parses it"
+    },
+    "GUILDBANK_AWARD_MONEY_SUMMARY_FORMAT": {
+      "en": "A total of %s was deposited last week from Guild Perk: Cash Flow ",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "e8ba38b6e8a6f509",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_BUYTAB_MONEY_FORMAT": {
+      "en": "%s purchased a guild bank tab for %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "331d3e102f3c6ae2",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_DEPOSIT_FORMAT": {
+      "en": "%s deposited %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "28af01dca457403b",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_DEPOSIT_MONEY_FORMAT": {
+      "en": "%s deposited %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "28af01dca457403b",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_INFO_TITLE_FORMAT": {
+      "en": "%s Info",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "2d88ac0041b6b238",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_LOG_TITLE_FORMAT": {
+      "en": "%s  Log",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "75396fe2357e9cae",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_MOVE_FORMAT": {
+      "en": "%s moved %s x %d from %s to %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "3705c77668e94049",
+      "placeholders": 5,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_REPAIR_MONEY_FORMAT": {
+      "en": "%s withdrew %s for repairs",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "53cacb34e38876e4",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_UNLOCKTAB_FORMAT": {
+      "en": "%s unlocked a guild bank tab with a Guild Vault Voucher.",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "d1817f76032148f8",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_WITHDRAWFORTAB_MONEY_FORMAT": {
+      "en": "%s withdrew %s to purchase a guild bank tab",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "cec19602f6ba02f4",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_WITHDRAW_FORMAT": {
+      "en": "%s |cffff2020withdrew|r %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "e60e95e116855fc0",
+      "placeholders": 4,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILDBANK_WITHDRAW_MONEY_FORMAT": {
+      "en": "%s |cffff2020withdrew|r %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "e60e95e116855fc0",
+      "placeholders": 4,
+      "reason": "format string; verify nothing parses it"
+    },
+    "GUILD_CHARTER_TEMPLATE": {
+      "en": "%s Guild Charter",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "004361f526c36341",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "GUILD_MOTD_TEMPLATE": {
+      "en": "Guild Message of the Day: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "1e8688e7d116d09c",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "GUILD_TITLE_TEMPLATE": {
+      "en": "%s of %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "b5f65a7a3ef49341",
+      "placeholders": 2,
+      "reason": "format template; verify nothing parses it"
+    },
+    "LEARN_SKILL_TEMPLATE": {
+      "en": "Learn %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "2527d6ce58de9277",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "NUMBER_OF_RESULTS_TEMPLATE": {
+      "en": "Items %d - %d  ( %d total )",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "3039b0b5c7725be3",
+      "placeholders": 3,
+      "reason": "format template; verify nothing parses it"
+    },
+    "PET_DIET_TEMPLATE": {
+      "en": "Diet: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "b28565a8498f4544",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "PVP_REWARD_XP_FORMAT": {
+      "en": "%s XP",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "9510b6354e8585ae",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "QUEST_LOG_COUNT_TEMPLATE": {
+      "en": "Quests: |cffffffff%d/%d|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "a9f537207b6574b4",
+      "placeholders": 4,
+      "reason": "format template; verify nothing parses it"
+    },
+    "QUEST_LOG_DAILY_COUNT_TEMPLATE": {
+      "en": "Daily: |cffffffff%d/%d|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "861058e01b629d26",
+      "placeholders": 4,
+      "reason": "format template; verify nothing parses it"
+    },
+    "RAID": {
+      "en": "Raid",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "7d7ac464268f0184",
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
+    },
+    "SINGLE_PAGE_RESULTS_TEMPLATE": {
+      "en": "%d Items",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "c72d37157f3b78e9",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "STAT_RUNE_REGEN_FORMAT": {
+      "en": "%.2fs",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "85be11207c30090b",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "STAT_TEMPLATE": {
+      "en": "%s Stats",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "137384ac09f68a17",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "TALENT_BUTTON_TOOLTIP_COST_FORMAT": {
+      "en": "Cost: %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "576e020f8ef938cb",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TALENT_BUTTON_TOOLTIP_RANK_FORMAT": {
+      "en": "Rank %s/%s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "ec2ac7e07b4d2eaf",
+      "placeholders": 2,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TALENT_BUTTON_TOOLTIP_REPLACED_BY_FORMAT": {
+      "en": "Replaced by %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "62a94a7606e061fa",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TEXTTOSPEECH_NEGATIVE_QUANTITY_FORMAT": {
+      "en": "negative %d",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "e33e0e3ba9b188ae",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TOKEN_REDEEM_BALANCE_ERROR_CAP_FORMAT": {
+      "en": "|cffff2020You can't choose this option because your Blizzard Balance (%s) is near or at the maximum.|r |cffffd000|HurlIndex:34|h[Click Here]|h|r|cffff2020 for more information.|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "609cace988f5a8c1",
+      "placeholders": 8,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TOKEN_REDEEM_BALANCE_FORMAT": {
+      "en": "Current Balance: |cffffffff%s|r|nNew Balance: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "08f2c652366c5fdc",
+      "placeholders": 7,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TOKEN_REDEEM_GAME_TIME_EXPIRATION_FORMAT": {
+      "en": "Current Account Expiration Date: |cffffffff%s|r|nNew Expiration Date: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "96ec8f03759b8a75",
+      "placeholders": 7,
+      "reason": "format string; verify nothing parses it"
+    },
+    "TOKEN_REDEEM_GAME_TIME_RENEWAL_FORMAT": {
+      "en": "Current Account Renewal Date: |cffffffff%s|r|nNew Renewal Date: |cffffffff%s|r",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "f6733d32f7d78e4f",
+      "placeholders": 7,
+      "reason": "format string; verify nothing parses it"
+    },
+    "UNIT_LEVEL_TEMPLATE": {
+      "en": "Level %d",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "b654048473a61c44",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "UNIT_TYPE_LETHAL_LEVEL_TEMPLATE": {
+      "en": "Level ?? %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "53f2e4cff3aa2246",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "UNIT_TYPE_LEVEL_FACTION_TEMPLATE": {
+      "en": "Level %d %s (%s)",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "f59c93e5d2308efb",
+      "placeholders": 3,
+      "reason": "format template; verify nothing parses it"
+    },
+    "UNIT_TYPE_LEVEL_TEMPLATE": {
+      "en": "Level %d %s",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "0ea8ee9f55e6f65c",
+      "placeholders": 2,
+      "reason": "format template; verify nothing parses it"
+    },
+    "VOICE_GENERIC_FORMAT": {
+      "en": "English Voice %d",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "4f3aa517a61b0de0",
+      "placeholders": 1,
+      "reason": "format string; verify nothing parses it"
+    },
+    "WHISPER": {
+      "en": "Whisper",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "e1e75558ebe42422",
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
+    },
+    "WHO_FRAME_SHOWN_TEMPLATE": {
+      "en": "(%d displayed)",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "4b15451cb759f4e0",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    },
+    "WHO_FRAME_TOTAL_TEMPLATE": {
+      "en": "%d |4Person:People; Found",
+      "field": "ui",
+      "gender_branches": [],
+      "hash": "5ae6f2189992b534",
+      "placeholders": 1,
+      "reason": "format template; verify nothing parses it"
+    }
+  },
+  "meta": {
+    "note": "Flagged by §5 as possibly parsed rather than rendered. Move an entry into globalstrings.json to translate it.",
+    "rejected": {}
+  }
+}
