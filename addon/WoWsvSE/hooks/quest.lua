@@ -21,6 +21,9 @@ local function apply(frame, origin, questID, field, english)
   local rendered = SVSE.RenderQuest(origin, questID, field, english)
   if rendered and rendered ~= english then
     frame:SetText(rendered)
+    -- Only offer the original where we actually replaced something; a hover
+    -- that repeats what is already on screen is noise.
+    SVSE.AttachOriginal(frame, english)
   end
 end
 

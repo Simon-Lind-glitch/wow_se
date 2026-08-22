@@ -30,6 +30,7 @@ TOC_FILES = (
     "hooks/quest.lua",
     "hooks/gossip.lua",
     "hooks/tooltip.lua",
+    "hooks/frames.lua",
     "devtools/misslog.lua",
 )
 

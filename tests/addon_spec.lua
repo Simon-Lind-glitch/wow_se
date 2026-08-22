@@ -18,6 +18,7 @@ local ADDON_FILES = {
   "hooks/quest.lua",
   "hooks/gossip.lua",
   "hooks/tooltip.lua",
+  "hooks/frames.lua",
   "devtools/misslog.lua",
 }
 
@@ -44,6 +45,18 @@ local function stubFrame()
   function frame:GetText()
     return self.text
   end
+  frame.EnableMouse = function() end
+  frame.ClearAllPoints = function() end
+  frame.SetAllPoints = function() end
+  frame.Show = function(self)
+    self.shown = true
+  end
+  frame.Hide = function(self)
+    self.shown = false
+  end
+  frame.GetParent = function()
+    return nil
+  end
   return frame
 end
 
@@ -61,6 +74,22 @@ local function stubClient()
   _G.SlashCmdList = {}
   _G.WoWsvSEDB = nil
   _G.GameTooltip = stubFrame()
+  _G.GameTooltip.SetOwner = function() end
+  _G.GameTooltip.AddLine = function() end
+  _G.GameTooltip.Show = function() end
+  _G.GameTooltip.Hide = function() end
+  _G.UnitName = function()
+    return "Grommash"
+  end
+  _G.UnitClass = function()
+    return "krigare"
+  end
+  _G.UnitRace = function()
+    return "orch"
+  end
+  _G.UnitSex = function()
+    return 2
+  end
   return created
 end
 
@@ -132,31 +161,79 @@ describe("the addon", function()
     assert.is_truthy(SVSE.quests[788].objectives:find("fläckiga vildsvin"))
   end)
 
+  describe("token expansion", function()
+    local SVSE
+    before_each(function()
+      SVSE = loadAddon()
+    end)
+
+    it("expands the tokens the client would have expanded itself", function()
+      -- The client only substitutes these in text it receives from the server.
+      -- Text an addon writes into a FontString is drawn literally, so leaving
+      -- them alone puts "$N" in front of the player.
+      assert.are.equal("Hej Grommash!", SVSE.Expand("Hej $N!"))
+      assert.are.equal("du är krigare", SVSE.Expand("du är $C"))
+      assert.are.equal("du är orch", SVSE.Expand("du är $R"))
+      assert.are.equal("en\ntvå", SVSE.Expand("en$Btvå"))
+    end)
+
+    it("expands the lowercase spellings too", function()
+      assert.are.equal("Hej Grommash!", SVSE.Expand("Hej $n!"))
+      assert.are.equal("en\ntvå", SVSE.Expand("en$btvå"))
+    end)
+
+    it("picks the gender branch from the player's sex", function()
+      assert.are.equal("en stolt pojke", SVSE.Expand("en stolt $Gpojke:flicka;"))
+      _G.UnitSex = function()
+        return 3
+      end
+      assert.are.equal("en stolt flicka", SVSE.Expand("en stolt $Gpojke:flicka;"))
+    end)
+
+    it("leaves format specifiers alone", function()
+      -- These are consumed by string.format in whatever code owns the string;
+      -- expanding them here would corrupt it.
+      assert.are.equal("nivå %d", SVSE.Expand("nivå %d"))
+      assert.are.equal("%1$s och %2$d", SVSE.Expand("%1$s och %2$d"))
+    end)
+
+    it("is a no-op on text with no tokens", function()
+      local plain = "Döda 10 fläckiga vildsvin."
+      assert.are.equal(plain, SVSE.Expand(plain))
+      assert.is_nil(SVSE.Expand(nil))
+    end)
+  end)
+
   describe("rendering", function()
     local SVSE
     before_each(function()
       SVSE = loadAddon()
     end)
 
-    it("shows Swedish with the English beneath it in grey", function()
+    it("puts Swedish in the frame and nothing else", function()
+      -- No inline English: the grey second line was rejected in testing as
+      -- cluttered, and it doubled the height of every paragraph.
       local english = "Kill 10 Mottled Boars then return to Gornek at the Den."
       local out = SVSE.RenderQuest("objective", 788, "objectives", english)
       assert.is_truthy(out:find("fläckiga vildsvin"), out)
-      assert.is_truthy(out:find("|cff808080", 1, true), "missing grey escape")
-      assert.is_truthy(out:find(english, 1, true), "missing the English original")
+      assert.is_nil(out:find("|cff808080", 1, true), "grey escape should be gone")
+      assert.is_nil(out:find(english, 1, true), "English should not be inlined")
     end)
 
-    it("shows Swedish alone when dual language is off", function()
-      SVSE.Settings().dual = false
-      local out = SVSE.RenderQuest("objective", 788, "objectives", "whatever")
-      assert.is_nil(out:find("|cff808080", 1, true))
-      assert.is_truthy(out:find("fläckiga vildsvin"))
+    it("expands tokens in the Swedish it writes", function()
+      -- Regression: quest prose from the world DB carries $N and $B, and they
+      -- were rendering as literal characters in game.
+      local out = SVSE.RenderQuest("quest", 788, "progress", "whatever")
+      assert.is_nil(out:find("$N", 1, true), "raw $N reached the frame: " .. out)
+      assert.is_nil(out:find("$B", 1, true), "raw $B reached the frame")
+      assert.is_truthy(out:find("Grommash", 1, true), "player name not substituted")
     end)
 
-    it("can be turned off for one category only", function()
+    it("hands back the English when a category is switched off", function()
+      -- The path off the addon: objectives first, then the rest (spec §7).
       SVSE.Settings().categories.objective = false
-      local out = SVSE.RenderQuest("objective", 788, "objectives", "whatever")
-      assert.is_nil(out:find("|cff808080", 1, true))
+      local english = "Kill 10 Mottled Boars then return to Gornek at the Den."
+      assert.are.equal(english, SVSE.RenderQuest("objective", 788, "objectives", english))
     end)
 
     it("renders the English unchanged on a miss", function()
@@ -168,7 +245,7 @@ describe("the addon", function()
 
     it("fails closed on an unknown origin", function()
       local english = "Kill 10 Mottled Boars then return to Gornek at the Den."
-      -- An untagged string must render as-is even though a translation exists.
+      -- An untagged string renders as-is even though a translation exists.
       assert.are.equal(english, SVSE.Render("combatlog", english))
       assert.are.equal(english, SVSE.Render(nil, english))
     end)
@@ -180,10 +257,74 @@ describe("the addon", function()
     end)
 
     it("finds a quest by id even when the English has drifted", function()
-      -- The ID is preferred over the text, so a wording change upstream still
-      -- resolves (spec §7).
       local out = SVSE.RenderQuest("objective", 788, "objectives", "totally different wording")
       assert.is_truthy(out:find("fläckiga vildsvin"))
+    end)
+  end)
+
+  describe("the hover original", function()
+    local SVSE
+    before_each(function()
+      SVSE = loadAddon()
+    end)
+
+    it("attaches one reusable overlay carrying the English", function()
+      local region = stubFrame()
+      region.GetParent = function()
+        return stubFrame()
+      end
+      region.ClearAllPoints = function() end
+      region.SetAllPoints = function() end
+
+      SVSE.AttachOriginal(region, "Kill 10 Mottled Boars.")
+      local overlay = region.svseOverlay
+      assert.is_truthy(overlay, "no overlay created")
+      assert.are.equal("Kill 10 Mottled Boars.", overlay.english)
+
+      -- Called again for the next quest: same frame, new text. Creating one per
+      -- quest would leak a frame for every quest the kids ever read.
+      SVSE.AttachOriginal(region, "Something else.")
+      assert.are.equal(overlay, region.svseOverlay)
+      assert.are.equal("Something else.", overlay.english)
+    end)
+
+    it("expands tokens in the English it shows", function()
+      local region = stubFrame()
+      region.GetParent = function()
+        return stubFrame()
+      end
+      region.ClearAllPoints = function() end
+      region.SetAllPoints = function() end
+      SVSE.AttachOriginal(region, "Well done, $N.")
+      assert.are.equal("Well done, Grommash.", region.svseOverlay.english)
+    end)
+
+    it("does nothing when hover is switched off", function()
+      SVSE.Settings().hover = false
+      local region = stubFrame()
+      SVSE.AttachOriginal(region, "anything")
+      assert.is_nil(region.svseOverlay)
+    end)
+  end)
+
+  describe("relabelling frames built before we loaded", function()
+    it("sets a button's text from the Swedish global", function()
+      -- Regression: ACCEPT held "Acceptera" but the quest frame still said
+      -- "Accept", because FrameXML baked the label in before any addon ran.
+      local SVSE = loadAddon()
+      local button = stubFrame()
+      _G.QuestFrameAcceptButton = button
+      SVSE.Relabel()
+      assert.are.equal("Acceptera", button:GetText())
+      _G.QuestFrameAcceptButton = nil
+    end)
+
+    it("skips frame names the client does not have", function()
+      -- Frames get renamed between expansions; that must not error on login.
+      local SVSE = loadAddon()
+      assert.has_no.errors(function()
+        SVSE.Relabel()
+      end)
     end)
   end)
 

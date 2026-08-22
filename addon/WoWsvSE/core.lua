@@ -26,7 +26,10 @@ local ORIGINS = {
 SVSE.ORIGINS = ORIGINS
 
 local DEFAULTS = {
-  dual = true,
+  -- English original in a tooltip on hover. This is the reading aid §7 asks
+  -- for; the inline grey line it originally specified was tried and rejected
+  -- as cluttered (see render.lua).
+  hover = true,
   debug = false,
 }
 
@@ -62,8 +65,8 @@ function SVSE.Settings()
     WoWsvSEDB = {}
   end
   local db = WoWsvSEDB
-  if db.dual == nil then
-    db.dual = DEFAULTS.dual
+  if db.hover == nil then
+    db.hover = DEFAULTS.hover
   end
   if db.debug == nil then
     db.debug = DEFAULTS.debug
@@ -109,6 +112,50 @@ function SVSE.LookupQuest(questID, field)
   return quest[field]
 end
 
+--- Expand the quest tokens the client would have expanded itself.
+--
+-- The client substitutes $N, $B, $C, $R and $G only in text it receives from
+-- the server. Text an addon writes into a FontString is drawn literally, so a
+-- translation carrying $N renders as the three characters "$N" in front of the
+-- player. We therefore expand them here, at display time.
+--
+-- The stored translation keeps its tokens: the cache stays faithful to the
+-- source, and expansion is a property of rendering, not of the data.
+--
+-- Format specifiers (%s, %d) are deliberately NOT touched. Those are consumed
+-- by string.format in whatever Blizzard code owns the string, and expanding
+-- them here would corrupt it.
+function SVSE.Expand(text)
+  if type(text) ~= "string" or text == "" then
+    return text
+  end
+  if not text:find("$", 1, true) then
+    return text
+  end
+
+  -- $G male:female; and $g male:female; — resolved before the single-letter
+  -- tokens, because its branches may themselves contain them.
+  local sex = UnitSex and UnitSex("player") or nil
+  text = text:gsub("%$[Gg]%s*([^:;]*):([^;]*);", function(male, female)
+    -- 2 is male, 3 is female. Anything else (unknown, or no API in tests)
+    -- keeps the male branch rather than showing both or neither.
+    if sex == 3 then
+      return female
+    end
+    return male
+  end)
+
+  local name = (UnitName and UnitName("player")) or ""
+  local class = (UnitClass and UnitClass("player")) or ""
+  local race = (UnitRace and UnitRace("player")) or ""
+
+  text = text:gsub("%$[Bb]", "\n")
+  text = text:gsub("%$[Nn]", name)
+  text = text:gsub("%$[Cc]", class)
+  text = text:gsub("%$[Rr]", race)
+  return text
+end
+
 --- Replaced by devtools/misslog.lua when the debug flag is set.
 function SVSE.LogMiss() end
 
@@ -137,16 +184,18 @@ function SVSE.HandleCommand(input)
     local quests, strings = SVSE.Count()
     report(("%d uppdrag och %d texter laddade."):format(quests, strings))
     report(
-      "/svse dual — visa engelska under svenskan (nu: " .. (db.dual and "på" or "av") .. ")"
+      "/svse hover — visa engelskan när du pekar på texten (nu: "
+        .. (db.hover and "på" or "av")
+        .. ")"
     )
-    report("/svse quest|objective|gossip|tooltip — slå av eller på en kategori")
+    report("/svse quest|objective|title|gossip|tooltip — svenska eller engelska")
     report("/svse debug — logga saknade texter (bara för utveckling)")
     return
   end
 
-  if command == "dual" then
-    db.dual = not db.dual
-    report("engelska under svenskan: " .. (db.dual and "på" or "av"))
+  if command == "hover" then
+    db.hover = not db.hover
+    report("engelskan vid pekning: " .. (db.hover and "på" or "av"))
     return
   end
 

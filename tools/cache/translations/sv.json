@@ -307,6 +307,26 @@
       }
     },
     "ui": {
+      "%d %s until release": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%d %s kvar"
+      },
+      "%d Copper": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%d koppar"
+      },
+      "%d Gold": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%d guld"
+      },
+      "%d Silver": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "%d silver"
+      },
+      "Abandon": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ge upp"
+      },
       "Abandon \"%s\"?": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Ge upp \"%s\"?"
@@ -318,6 +338,38 @@
       "Accept": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Acceptera"
+      },
+      "Add": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Lägg till"
+      },
+      "Apply": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Verkställ"
+      },
+      "Armor": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Rustning"
+      },
+      "Available": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillgänglig"
+      },
+      "Back": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillbaka"
+      },
+      "Cancel": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avbryt"
+      },
+      "Character Info": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Din figur"
+      },
+      "Close": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Stäng"
       },
       "Complete Quest": {
         "by": "claude-opus-5 (in-session)",
@@ -331,42 +383,258 @@
         "by": "claude-opus-5 (in-session)",
         "sv": "Fortsätt"
       },
+      "Corpse": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "|cffff2020Kropp|r"
+      },
+      "Damage": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Skada"
+      },
+      "Dead": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Död"
+      },
       "Decline": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Nej tack"
+      },
+      "Defense": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Försvar"
+      },
+      "Delete": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta bort"
+      },
+      "Description": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Berättelse"
+      },
+      "Done": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Klar"
+      },
+      "Equip": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta på"
+      },
+      "Exit Game": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Avsluta spelet"
+      },
+      "Friends": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vänner"
+      },
+      "Goodbye": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Hej då"
+      },
+      "Guild": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Gille"
+      },
+      "Health": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Liv"
+      },
+      "Help Request": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Be om hjälp"
+      },
+      "Inspect": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Titta på"
       },
       "Inventory is full.": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Din väska är full."
       },
+      "Keyring": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nyckelring"
+      },
+      "Level": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nivå"
+      },
+      "Logout": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Logga ut"
+      },
+      "Loot": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Byte"
+      },
+      "Mana": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mana"
+      },
+      "Money": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Pengar"
+      },
+      "Next": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Nästa"
+      },
+      "Okay": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "OK"
+      },
+      "Options": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Inställningar"
+      },
       "Out of range": {
         "by": "claude-opus-5 (in-session)",
         "sv": "För långt bort"
+      },
+      "Out of range.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "För långt bort."
+      },
+      "Party": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Grupp"
+      },
+      "Quest Log": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Uppdragslogg"
+      },
+      "Quest Objectives": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Mål"
+      },
+      "Remove": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ta bort"
+      },
+      "Repair All Items": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Reparera allt"
       },
       "Repair Items": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Reparera saker"
       },
+      "Reset": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Återställ"
+      },
+      "Return to Game": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Tillbaka till spelet"
+      },
+      "Rewards": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Belöningar"
+      },
+      "Save": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Spara"
+      },
+      "Search": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Sök"
+      },
+      "Sell Price": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Säljpris"
+      },
+      "Skills": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Färdigheter"
+      },
       "Social": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Vänner"
+      },
+      "Spells": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Trollformler"
       },
       "Talents": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Talanger"
       },
+      "Target needs to be in front of you.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fienden måste vara framför dig."
+      },
+      "Target not in line of sight": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du kan inte se fienden"
+      },
+      "The item was not found.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Saken hittades inte."
+      },
+      "Track": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Följ"
+      },
+      "Track Quest": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Följ uppdrag"
+      },
+      "Trade": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Byt"
+      },
       "Train": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Lär dig"
       },
+      "Use": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Använd"
+      },
+      "Who": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Vilka"
+      },
+      "World Map": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Karta"
+      },
+      "Yes": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Ja"
+      },
+      "You don't have enough money.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du har inte tillräckligt med pengar."
+      },
+      "You have completed that quest.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du har redan klarat det uppdraget."
+      },
+      "You must be behind your target.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du måste stå bakom fienden."
+      },
+      "You need to be closer to interact with that target.": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Du måste komma närmare."
+      },
       "Your quest log is full.": {
         "by": "claude-opus-5 (in-session)",
         "sv": "Din uppdragslogg är full."
+      },
+      "Your target is dead": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Fienden är död"
+      },
+      "Zone": {
+        "by": "claude-opus-5 (in-session)",
+        "sv": "Område"
       }
     }
   },
   "meta": {
-    "count": 88,
+    "count": 155,
     "glossary_version": 1,
     "tool_version": "0.1.0"
   }

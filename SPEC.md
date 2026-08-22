@@ -221,11 +221,43 @@ Allowlist by origin — untagged strings are rendered as-is. Fail closed.
 
 ### Dual-language rendering
 
-Default ON. Swedish as primary text, English below in smaller grey type
-(`|cff808080`, ~85% size). Toggleable per-category via `/svse`.
+**Revised 2026-08-22 after in-game testing.** The original design — Swedish as
+primary text with the English below in smaller grey type, default on — was
+built, tried, and rejected by the requester: cluttered, hard to read, and it
+doubled the height of every quest paragraph in a frame laid out for one
+language. It is removed, not left behind a flag.
 
-This makes the addon a reading aid rather than a crutch, and gives the kids a
-path off it. Support a per-zone toggle so it can be faded out as they improve.
+The intent it served is kept by two other means:
+
+- **The English original on hover.** Pointing at translated text shows it in a
+  tooltip. One gesture away instead of permanently in the way, and it depends
+  on no frame's layout, which the inline version did.
+- **Per-category switch back to English** (`/svse objective`, `/svse quest`, …).
+  This is the path off the addon: turn off objectives once they can read them,
+  then descriptions, category by category.
+
+### Rendering the tokens
+
+The client expands `$N`, `$B`, `$C`, `$R` and `$G` only in text it receives
+from the server. Text an addon writes into a FontString is drawn literally, so
+a translation carrying `$N` renders as those two characters in front of the
+player, and `$B$B` collapses every paragraph break — which is exactly what
+happened in the first build.
+
+So the addon expands them itself at display time (`SVSE.Expand`). Format
+specifiers (`%s`, `%d`) are deliberately left alone: those belong to whatever
+Blizzard code owns the string and calls `format()` on it.
+
+The stored translation keeps its tokens. Expansion is a property of rendering,
+not of the data.
+
+### GlobalStrings that are already on screen
+
+§5's claim that reassigning the globals is enough holds only for strings the
+client reads at the moment it uses them. Labels baked into a frame when
+FrameXML built it — buttons, tab names — already hold the English, and
+reassigning the global they came from does nothing. `hooks/frames.lua` re-applies
+those after login from a small explicit table.
 
 ### Dev-only miss logger
 

@@ -1,26 +1,16 @@
 {
   "glossary_notes": {
-    "quest:784.objectives": [
+    "ui:QUEST_OBJECTIVES": [
+      "'quest' should render as 'uppdrag'"
+    ],
+    "ui:RETURN_TO_GAME": [
       "'return to' should render as 'gå tillbaka till'"
     ],
-    "quest:788.objectives": [
-      "'return to' should render as 'gå tillbaka till'"
-    ],
-    "quest:791.progress": [
-      "'Alliance' should render as 'Alliansen'"
-    ],
-    "quest:792.description": [
-      "'return to' should render as 'gå tillbaka till'",
-      "'coven' should render as 'sekt'"
-    ],
-    "quest:792.progress": [
-      "'return to' should render as 'gå tillbaka till'"
-    ],
-    "quest:794.description": [
-      "'north' should render as 'norr'"
+    "ui:TRADE": [
+      "'trade' should render as 'byta'"
     ]
   },
   "rejected": {},
   "translator": "claude-opus-5 (in-session)",
-  "written": 74
+  "written": 67
 }
