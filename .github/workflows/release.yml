@@ -128,6 +128,16 @@ jobs:
 
       - name: Report what is being shipped
         run: |
+          {
+            echo "### Where to download"
+            echo ""
+            echo "* **Releases page** — a single \`.zip\`, ready to extract."
+            echo "* **Artifacts on this run** — also a single zip; GitHub names it"
+            echo "  after the artifact and wraps the \`WoWsvSE/\` folder directly."
+            echo ""
+            echo "Extract so the result is \`Interface/AddOns/WoWsvSE/WoWsvSE.toc\`."
+            echo ""
+          } >> "$GITHUB_STEP_SUMMARY"
           echo "### Package contents" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           find addon/WoWsvSE -type f | sort >> "$GITHUB_STEP_SUMMARY"
@@ -145,26 +155,35 @@ jobs:
                   print(f"| `{name}` | {len(entries[name])} |")
           PY
 
-      # Zip with WoWsvSE/ at the archive root, so it extracts straight into
+      # WoWsvSE/ sits at the archive root so it extracts straight into
       # Interface/AddOns/ with no nested folder to fix by hand.
-      - name: Build the zip
+      - name: Stage the addon and build the release zip
         id: zip
         run: |
           set -euo pipefail
           name="WoWsvSE-${{ steps.version.outputs.version }}-tbc-2.5.6"
-          staging="$(mktemp -d)"
-          cp -r addon/WoWsvSE "$staging/WoWsvSE"
+          rm -rf dist && mkdir -p dist
+          cp -r addon/WoWsvSE dist/WoWsvSE
           # Never ship build scaffolding.
-          find "$staging" -name '.gitkeep' -delete
-          (cd "$staging" && zip -qr "$name.zip" WoWsvSE)
-          mv "$staging/$name.zip" .
+          find dist -name '.gitkeep' -delete
+          (cd dist && zip -qr "../$name.zip" WoWsvSE)
           echo "name=$name" >> "$GITHUB_OUTPUT"
           unzip -l "$name.zip"
 
+      # Upload the staged DIRECTORY, never the zip.
+      #
+      # upload-artifact always wraps what it is handed in an archive of its
+      # own, so giving it a .zip yields a zip of a zip on download. Handing it
+      # dist/ makes GitHub's wrapper the deliverable instead: one zip, with
+      # WoWsvSE/ at the root, same shape as the release asset.
+      #
+      # dist/ is the path rather than dist/WoWsvSE/ on purpose — upload-artifact
+      # strips the common root, so pointing at the addon folder itself would put
+      # core.lua and friends loose at the archive root and lose the folder.
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.zip.outputs.name }}
-          path: ${{ steps.zip.outputs.name }}.zip
+          path: dist
           if-no-files-found: error
 
       # gh is preinstalled on the runner and already authenticated, so no
