@@ -1,0 +1,8 @@
+# Build-time only. Never shipped to the client.
+anthropic>=0.40
+PyYAML>=6.0
+platformdirs>=4.2
+
+# dev
+pytest>=8.0
+ruff>=0.6

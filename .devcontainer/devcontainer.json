@@ -1,0 +1,121 @@
+// WoW Classic Swedish translation addon — build toolchain container.
+// The addon itself is plain Lua loaded by the game client; this container only
+// runs the offline build toolchain (extract -> translate -> emit) and the tests.
+{
+  "name": "wow-swe (addon build toolchain)",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "PYTHON_VARIANT": "3.12-bookworm"
+    }
+  },
+
+  // The translation backend key lives ONLY on the developer's machine, which is
+  // this container's host. Spec non-goal "no API key on the user's machine"
+  // refers to the kids' game machine, not the build box.
+  // Export ANTHROPIC_API_KEY on the host before opening the container.
+  "remoteEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+    "PYTHONPATH": "${containerWorkspaceFolder}/tools",
+    "LUA_PATH": "${containerWorkspaceFolder}/addon/WoWsvSE/?.lua;${containerWorkspaceFolder}/tools/lua/?.lua;;"
+  },
+
+  // A named volume for ~/.claude, NOT a bind to the host's. This holds the
+  // agent's credentials and the cloned plugin marketplaces, so `claude` login
+  // and the ai-skills plugin survive container rebuilds. Keeping it off the
+  // host's ~/.claude avoids the container inheriting host user-scope settings.
+  //
+  // Optional second mount: if you have client files extracted (CascView,
+  // wago.tools export), uncomment the /wow line and fix the source path so
+  // tools/extract can read them. Read-only is deliberate — never write there.
+  "mounts": [
+    "source=wow-swe-claude-home,target=/home/vscode/.claude,type=volume"
+    // ,"source=/mnt/c/Games/World of Warcraft/_classic_era_,target=/wow,type=bind,consistency=cached,readonly"
+  ],
+
+  // The volume mounts as root; hand it to vscode before postCreate runs.
+  "postStartCommand": "sudo chown -R vscode:vscode /home/vscode/.claude || true",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sumneko.lua",
+        "JohnnyMorganz.stylua",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "redhat.vscode-yaml",
+        "EditorConfig.EditorConfig"
+      ],
+      "settings": {
+        // --- Lua: match the game's VM exactly ---
+        "Lua.runtime.version": "Lua 5.1",
+        "Lua.runtime.pathStrict": true,
+        "Lua.diagnostics.disable": ["lowercase-global"],
+        // Authoritative WoW global list lives in .luacheckrc; this is the
+        // subset the editor needs to stop underlining every API call.
+        "Lua.diagnostics.globals": [
+          "hooksecurefunc",
+          "GetQuestText",
+          "GetObjectiveText",
+          "GetRewardText",
+          "GetProgressText",
+          "GetTitleText",
+          "GetQuestLogQuestText",
+          "GetQuestID",
+          "GetQuestLogTitle",
+          "C_GossipInfo",
+          "GameTooltip",
+          "TooltipDataProcessor",
+          "QuestInfoDescriptionText",
+          "QuestInfoObjectivesText",
+          "QuestInfoRewardText",
+          "SlashCmdList",
+          "SLASH_SVSE1",
+          "CreateFrame",
+          "UnitName",
+          "UnitClass",
+          "UnitRace",
+          "UnitSex",
+          "GetLocale",
+          "GetBuildInfo",
+          "print",
+          "WoWsvSEDB"
+        ],
+
+        "[lua]": {
+          "editor.defaultFormatter": "JohnnyMorganz.stylua",
+          "editor.formatOnSave": true
+        },
+
+        // --- Python ---
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": ["tools"],
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
+        },
+
+        // Generated files are toolchain output (spec §4: never hand-edit).
+        // Hide them from search/watch so they don't drown out real code.
+        "files.watcherExclude": {
+          "**/addon/WoWsvSE/data/**": true,
+          "**/tools/cache/**": true
+        },
+        "search.exclude": {
+          "**/addon/WoWsvSE/data/**": true,
+          "**/tools/cache/**": true
+        },
+
+        "files.encoding": "utf8",
+        "files.eol": "\n"
+      }
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "remoteUser": "vscode"
+}

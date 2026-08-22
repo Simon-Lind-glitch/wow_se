@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# --- Secrets ---
+# The API key is passed in via the host environment, never committed.
+.env
+*.key
+
+# --- Build scratch ---
+# NOTE: tools/cache/ is deliberately NOT ignored. The translation cache is
+# committed so a clean checkout reproduces byte-identical output (spec §9.3).
+tools/**/*.tmp
+build/
+dist/
+*.log
+
+# SavedVariables pulled off the game machine for miss-log analysis (spec §7).
+# Raw dumps are throwaway inputs; the fixes they produce belong in the glossary.
+misslog/*.lua
+
+# --- Editor / agent ---
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# .claude/settings.json IS committed — it declares the ai-skills marketplace and
+# enables the plugin, which is how the in-container agent picks them up.
+# Personal overrides go in settings.local.json, which is not.
+.claude/settings.local.json
+.claude/*.local.json

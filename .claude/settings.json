@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "ai-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Simon-Lind-glitch/ai-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "ai-skills@ai-skills": true
+  }
+}
