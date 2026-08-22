@@ -1,0 +1,139 @@
+# Locked term translations. The authority for consistency across every string.
+#
+# Spec §6: "Consistency across quests matters more than any individual best
+# rendering." A child reading two quests that call the same thing by two names
+# has to stop and work out whether they are the same thing. So this file wins
+# over any nicer one-off phrasing a model proposes.
+#
+# Register: a Swedish nine-year-old. Everyday words, not the literary or
+# archaic register WoW's English often uses.
+#
+# Editing this file invalidates nothing automatically — run
+# `make translate ARGS=--recheck-glossary` to find cached translations that now
+# disagree with it.
+
+version: 1
+
+# Recurring game vocabulary. Left side is the English term as it appears in
+# source text; right side is the only Swedish rendering allowed.
+terms:
+  quest: uppdrag
+  quest log: uppdragslogg
+  objective: mål
+  reward: belöning
+  experience: erfarenhet
+  level: nivå
+  health: liv
+  mana: mana
+  spell: trollformel
+  ability: förmåga
+  talent: talang
+  skill: färdighet
+  bag: väska
+  inventory: väska
+  bank: bank
+  gold: guld
+  silver: silver
+  copper: koppar
+  vendor: handlare
+  merchant: handlare
+  trainer: lärare
+  innkeeper: värdshusvärd
+  guard: vakt
+  quest giver: uppdragsgivare
+  party: grupp
+  guild: gille
+  raid: raid
+  dungeon: grotta
+  flight path: flygrutt
+  reputation: rykte
+  faction: fraktion
+  weapon: vapen
+  armor: rustning
+  shield: sköld
+  potion: dryck
+  food: mat
+  drink: dryck
+  mount: riddjur
+  pet: djur
+  corpse: kropp
+  graveyard: kyrkogård
+  respawn: återuppstå
+  loot: byte
+  trade: byta
+  repair: reparera
+  train: lära dig
+  learn: lära dig
+  kill: döda
+  slay: döda
+  collect: samla
+  gather: samla
+  deliver: lämna
+  speak with: prata med
+  return to: gå tillbaka till
+  travel to: res till
+  north: norr
+  south: söder
+  east: öster
+  west: väster
+  Horde: Horden
+  Alliance: Alliansen
+  Warchief: krigshövding
+
+# Never translated, even when they look like ordinary words. Proper nouns stay
+# English so the kids can still read guides, look things up on Wowhead, and
+# talk to other players (spec §6).
+#
+# This list is a backstop for the cases a model is most likely to "helpfully"
+# translate. The general rule — all NPC, zone, item, spell and creature names
+# stay English — is in the system prompt.
+keep_english:
+  - Horde
+  - Alliance
+  - Durotar
+  - Orgrimmar
+  - Valley of Trials
+  - Razor Hill
+  - Sen'jin Village
+  - Echo Isles
+  - Tiragarde Keep
+  - Kolkar Crag
+  - Burning Blade
+  - Thunder Ridge
+  - Barrens
+  - Hearthstone
+  - Mottled Boar
+  - Scorpid Worker
+  - Vile Familiar
+  - Sarkoth
+  - Gornek
+  - Eitrigg
+  - Thrall
+  - Zureetha Fargaze
+  - Hana'zua
+  - Master Gadrin
+  - Foreman Thazz'ril
+  - Kaltunk
+  - Galgar
+  - Magga
+  - Lieutenant Benedict
+  - Gar'Thok
+  - Lar Prowltusk
+  - Kul Tiras
+  - Admiral Proudmoore
+  - Jaina Proudmoore
+  - Archimonde
+  - Burning Legion
+  - Warrior
+  - Hunter
+  - Rogue
+  - Priest
+  - Shaman
+  - Mage
+  - Warlock
+  - Druid
+  - Orc
+  - Troll
+  - Tauren
+  - Undead
+  - Blood Elf
