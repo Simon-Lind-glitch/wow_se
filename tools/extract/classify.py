@@ -217,8 +217,6 @@ class Classifier:
         return bool(self.referenced)
 
     def classify(self, key: str, value: str) -> Decision:
-        if normalize(value) in self.already_translated:
-            return Decision(Verdict.TRANSLATE, "already translated; kept regardless of scope")
         if value == key:
             return Decision(Verdict.SKIP, "value is the key; a placeholder or test string")
         if not is_translatable(value):
@@ -227,15 +225,23 @@ class Classifier:
             if key.startswith(prefix):
                 return Decision(Verdict.SKIP, reason)
 
+        # Exempt from the SCOPE filters only, and only below the denylist above.
+        #
+        # Placing this before the denylist let a translated word re-admit a
+        # forbidden key: "Yell" -> "Ropa" pulled CHAT_MSG_YELL back into the
+        # corpus, and `make guard` failed the build on it. The safety rules are
+        # not negotiable by coincidence of shared wording.
+        exempt = normalize(value) in self.already_translated
+
         encoded = key.encode()
         server_pushed = key.startswith(_SERVER_PUSHED)
         if self.has_ui_source:
-            if encoded in self.other_flavor and not server_pushed:
+            if encoded in self.other_flavor and not server_pushed and not exempt:
                 return Decision(
                     Verdict.SKIP,
                     "referenced only by code for another flavour; cannot render here",
                 )
-            if encoded not in self.referenced and not server_pushed:
+            if encoded not in self.referenced and not server_pushed and not exempt:
                 return Decision(
                     Verdict.SKIP,
                     "not referenced anywhere in this flavour's UI source; cannot render",
@@ -247,7 +253,7 @@ class Classifier:
                 )
 
         for prefix, area in _OUT_OF_SCOPE:
-            if key.startswith(prefix):
+            if key.startswith(prefix) and not exempt:
                 return Decision(Verdict.SKIP, f"out of scope: {area}")
 
         for suffix, reason in _REVIEW_SUFFIX:

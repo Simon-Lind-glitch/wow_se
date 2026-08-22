@@ -28,6 +28,13 @@
       "placeholders": 1,
       "reason": "format string; verify nothing parses it"
     },
+    "CHANNEL": {
+      "en": "Channel",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
+    },
     "CHAT_NAME_TEMPLATE": {
       "en": "Chat %d",
       "field": "ui",
@@ -111,6 +118,13 @@
       "gender_branches": [],
       "placeholders": 4,
       "reason": "format template; verify nothing parses it"
+    },
+    "RAID": {
+      "en": "Raid",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
     },
     "SINGLE_PAGE_RESULTS_TEMPLATE": {
       "en": "%d Items",
@@ -209,6 +223,13 @@
       "gender_branches": [],
       "placeholders": 2,
       "reason": "format template; verify nothing parses it"
+    },
+    "WHISPER": {
+      "en": "Whisper",
+      "field": "ui",
+      "gender_branches": [],
+      "placeholders": 0,
+      "reason": "used inside a find/match/gsub call; likely a parse pattern (spec §5)"
     },
     "WHO_FRAME_SHOWN_TEMPLATE": {
       "en": "(%d displayed)",

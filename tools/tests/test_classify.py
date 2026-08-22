@@ -59,3 +59,26 @@ def test_keys_used_in_find_calls_are_flagged():
     decision = classifier.classify("SOME_PATTERN_KEY", "You have slain %s.")
     assert decision.verdict is Verdict.REVIEW
     assert "parse pattern" in decision.reason
+
+
+def test_an_existing_translation_never_re_admits_a_forbidden_key():
+    """Regression: `make guard` failed the v0.4.0 build on this.
+
+    The scope filter exempts keys that already have a translation, so
+    narrowing the corpus cannot un-translate text that is on screen. Placed
+    before the safety denylist, that exemption let a translated word drag a
+    forbidden key back in: "Yell" -> "Ropa" re-admitted CHAT_MSG_YELL, and
+    emitting a CHAT_MSG_* assignment is exactly what spec §2 forbids.
+    """
+    classifier = Classifier(already_translated={"Yell"})
+    assert classifier.classify("CHAT_MSG_YELL", "Yell").verdict is Verdict.SKIP
+    assert classifier.classify("SLASH_YELL1", "Yell").verdict is Verdict.SKIP
+    assert classifier.classify("COMBATLOG_YELL", "Yell").verdict is Verdict.SKIP
+
+
+def test_an_existing_translation_does_survive_the_scope_filter():
+    # The exemption must still do its job for ordinary keys.
+    classifier = Classifier(already_translated={"Options"})
+    assert classifier.classify("OPTION_TOOLTIP_X", "Options").verdict is Verdict.TRANSLATE
+    # ...and a key with no translation is still cut by scope.
+    assert classifier.classify("OPTION_TOOLTIP_Y", "Something else").verdict is Verdict.SKIP
