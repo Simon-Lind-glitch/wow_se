@@ -1,0 +1,181 @@
+# Package the addon as a downloadable zip.
+#
+# Two ways in:
+#   * push a tag like v0.2.0  -> builds, attaches the zip to a GitHub Release
+#   * Actions -> "Run workflow" -> builds, leaves the zip as a run artifact
+#
+# The second exists so a zip can be pulled down without cutting a release.
+#
+# No API key is involved. `make emit` reads the committed translation cache
+# (spec §9.3), so the build is offline and reproducible — which is also the
+# point of running it here rather than trusting a laptop.
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to stamp on the package (default: dev-<sha>)"
+        required: false
+        type: string
+
+permissions:
+  contents: write # needed only to attach the zip to a Release
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Lua 5.1 is the version the game runs. Used here purely to syntax-check
+      # the generated files — shipping a .lua that fails to parse means a dead
+      # addon in a child's game, and it is the one failure this job can catch
+      # cheaply without the full dev toolchain.
+      - name: Install Lua 5.1
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lua5.1
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # emit needs PyYAML only; the Anthropic SDK is a translate-time dep.
+          pip install "PyYAML>=6.0"
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            version="${GITHUB_REF_NAME#v}"
+          elif [ -n "${{ inputs.version }}" ]; then
+            version="${{ inputs.version }}"
+          else
+            version="dev-$(git rev-parse --short HEAD)"
+          fi
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "Packaging version ${version}"
+
+      # Fail with an explanation rather than a Python traceback, so a run that
+      # cannot possibly produce a package says why in one line.
+      - name: Check the build stages exist
+        run: |
+          set -euo pipefail
+          missing=""
+          [ -f tools/emit/__main__.py ] || missing="$missing tools/emit/__main__.py"
+          [ -f addon/WoWsvSE/core.lua ] || missing="$missing addon/WoWsvSE/core.lua"
+          if [ -n "$missing" ]; then
+            echo "::error::Cannot package yet — not written:$missing"
+            echo "The emit stage writes the generated Lua tables, and the addon"
+            echo "runtime renders them. Until both exist there is nothing to ship."
+            exit 1
+          fi
+
+      # Regenerate the Lua tables from the committed cache. If this produces a
+      # diff against what is checked in, the checked-in output is stale.
+      - name: Generate the addon (make emit)
+        run: make emit
+
+      # Spec §2/§3 are enforced, not just documented. Chat translation is the
+      # one that could get an account actioned, so it blocks the release.
+      - name: Enforce forbidden API surface (make guard)
+        run: make guard
+
+      - name: Refuse to ship an empty or unparseable addon
+        run: |
+          set -euo pipefail
+          addon=addon/WoWsvSE
+          toc="$addon/WoWsvSE.toc"
+
+          count=$(find "$addon" -name '*.lua' -type f | wc -l)
+          if [ "$count" -eq 0 ]; then
+            echo "::error::No .lua files in $addon — nothing to package."
+            echo "The emit stage and the addon runtime are not written yet."
+            exit 1
+          fi
+          echo "found $count Lua file(s)"
+
+          if [ ! -f "$toc" ]; then
+            echo "::error::$toc is missing; the game will not load the addon."
+            exit 1
+          fi
+
+          # The Interface number must match the build the tables were generated
+          # for, or the client silently treats the addon as out of date.
+          expected=$(python -c "import sys; sys.path.insert(0,'tools'); \
+            from extract.sources import INTERFACE; print(INTERFACE)")
+          actual=$(grep -oP '^##\s*Interface:\s*\K[0-9]+' "$toc" || true)
+          if [ "$actual" != "$expected" ]; then
+            echo "::error::TOC says Interface $actual, sources.py says $expected."
+            exit 1
+          fi
+          echo "Interface $actual matches the pinned game build"
+
+          # Parse every generated file with the game's own Lua version.
+          fail=0
+          while IFS= read -r f; do
+            if ! lua5.1 -e "assert(loadfile('$f'))" 2>/dev/null; then
+              echo "::error file=$f::does not parse under Lua 5.1"
+              fail=1
+            fi
+          done < <(find "$addon" -name '*.lua' -type f)
+          [ "$fail" -eq 0 ] || exit 1
+          echo "all Lua files parse under 5.1"
+
+      - name: Report what is being shipped
+        run: |
+          echo "### Package contents" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          find addon/WoWsvSE -type f | sort >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("tools/cache/translations/sv.json")
+          if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+              print(f"\n**{len(data)} translated strings** in this build.\n")
+          PY
+
+      # Zip with WoWsvSE/ at the archive root, so it extracts straight into
+      # Interface/AddOns/ with no nested folder to fix by hand.
+      - name: Build the zip
+        id: zip
+        run: |
+          set -euo pipefail
+          name="WoWsvSE-${{ steps.version.outputs.version }}-tbc-2.5.6"
+          staging="$(mktemp -d)"
+          cp -r addon/WoWsvSE "$staging/WoWsvSE"
+          # Never ship build scaffolding.
+          find "$staging" -name '.gitkeep' -delete
+          (cd "$staging" && zip -qr "$name.zip" WoWsvSE)
+          mv "$staging/$name.zip" .
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          unzip -l "$name.zip"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.zip.outputs.name }}
+          path: ${{ steps.zip.outputs.name }}.zip
+          if-no-files-found: error
+
+      # gh is preinstalled on the runner and already authenticated, so no
+      # third-party action is pulled into the release path.
+      - name: Attach to the Release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            --title "${GITHUB_REF_NAME}" \
+            --notes "Swedish translation addon for WoW Classic TBC Anniversary 2.5.6 (Interface 20506).
+
+          Install: unzip into \`<WoW>/_classic_/Interface/AddOns/\` so the folder lands at \`Interface/AddOns/WoWsvSE\`.
+
+          Confirm the install path on the machine the kids play on — the Anniversary product does not use \`_classic_era_\`." \
+            --generate-notes \
+            "${{ steps.zip.outputs.name }}.zip" \
+          || gh release upload "${GITHUB_REF_NAME}" "${{ steps.zip.outputs.name }}.zip" --clobber
