@@ -1,0 +1,35 @@
+{
+  "glossary_notes": {
+    "0f963c86ac14d63d": [
+      "proper noun 'Warrior' was dropped or translated"
+    ],
+    "227c458a04d22208": [
+      "proper noun 'Warrior' was dropped or translated"
+    ],
+    "2de3c148ed4938f6": [
+      "'north' should render as 'norr'"
+    ],
+    "4841052c6af7d6c8": [
+      "'return to' should render as 'gå tillbaka till'"
+    ],
+    "51f7e0b9fae7cac6": [
+      "'return to' should render as 'gå tillbaka till'"
+    ],
+    "585b3f588811ff0f": [
+      "proper noun 'Mage' was dropped or translated"
+    ],
+    "8f9fbbde5f854263": [
+      "'return to' should render as 'gå tillbaka till'"
+    ],
+    "9ce512d5a9c68bf3": [
+      "proper noun 'Warrior' was dropped or translated"
+    ],
+    "db6bd62bd5d3a50b": [
+      "'Alliance' should render as 'Alliansen'",
+      "proper noun 'Alliance' was dropped or translated"
+    ]
+  },
+  "rejected": {},
+  "translator": "claude-opus-5 (in-session)",
+  "written": 60
+}
