@@ -44,8 +44,8 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          # emit needs PyYAML only; the Anthropic SDK is a translate-time dep.
-          pip install "PyYAML>=6.0"
+          # One source of truth. The toolchain has no LLM SDK, so this is small.
+          pip install -r requirements.txt
 
       - name: Determine version
         id: version
@@ -136,8 +136,13 @@ jobs:
           import json, pathlib
           p = pathlib.Path("tools/cache/translations/sv.json")
           if p.exists():
-              data = json.loads(p.read_text(encoding="utf-8"))
-              print(f"\n**{len(data)} translated strings** in this build.\n")
+              entries = json.loads(p.read_text(encoding="utf-8")).get("entries", {})
+              total = sum(len(v) for v in entries.values())
+              print(f"\n**{total} translated strings** in this build.\n")
+              print("| field | strings |")
+              print("|---|---|")
+              for name in sorted(entries):
+                  print(f"| `{name}` | {len(entries[name])} |")
           PY
 
       # Zip with WoWsvSE/ at the archive root, so it extracts straight into
