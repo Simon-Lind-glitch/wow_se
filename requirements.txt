@@ -1,5 +1,7 @@
 # Build-time only. Never shipped to the client.
-anthropic>=0.40
+# 1.x required: the Batches request types live at
+# anthropic.types.messages.batch_create_params, and 1.x runs on httpx2.
+anthropic>=1.0
 PyYAML>=6.0
 platformdirs>=4.2
 

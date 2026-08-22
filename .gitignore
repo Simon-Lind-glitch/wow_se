@@ -11,6 +11,11 @@ __pycache__/
 *.key
 
 # --- Build scratch ---
+# Raw upstream artifacts (GlobalStrings dump, Questie DB, cmangos world DB,
+# Blizzard UI source tarball). Re-fetchable from the SHA pins in
+# tools/extract/sources.py, so they are cache, not source of truth.
+tools/cache/downloads/
+
 # NOTE: tools/cache/ is deliberately NOT ignored. The translation cache is
 # committed so a clean checkout reproduces byte-identical output (spec §9.3).
 tools/**/*.tmp

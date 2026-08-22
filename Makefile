@@ -4,7 +4,9 @@
 .PHONY: help all extract translate emit verify guard lint fmt fmt-check test clean
 
 ADDON := addon/WoWsvSE
-PY    := python
+# `tools/` is the import root: the stages are top-level modules (extract,
+# translate, emit) so `python -m extract` reads the same from make and by hand.
+PY    := PYTHONPATH=$(CURDIR)/tools python
 LUA   := lua5.1
 
 help: ## List targets
