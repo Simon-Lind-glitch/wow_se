@@ -80,32 +80,25 @@ terms:
   Alliance: Alliansen
   Warchief: krigshövding
 
-# Never translated, even when they look like ordinary words. Proper nouns stay
-# English so the kids can still read guides, look things up on Wowhead, and
-# talk to other players (spec §6).
+# Never translated: the names of individual people and places.
 #
-# This list is a backstop for the cases a model is most likely to "helpfully"
-# translate. The general rule — all NPC, zone, item, spell and creature names
-# stay English — is in the system prompt.
+# Policy, decided 2026-08-22: translate everything EXCEPT names. Earlier this
+# list also held creature types, item names and class names, kept English so
+# the kids could search Wowhead and ask in chat. That reason is retired — the
+# dual-language rendering shows the English original directly beneath the
+# Swedish, so the lookup path is already there.
+#
+# What stays English is now only what a name is: individuals and places. A
+# creature type ("Mottled Boar"), an item ("Burning Blade Medallion") or a
+# class word ("warrior") gets translated like any other noun.
+#
+# The rough edge to know about: mob nameplates and bag item names come from the
+# server and cannot be translated, so Swedish quest text will not match them
+# word-for-word. The grey English line underneath is what bridges that — which
+# is fine while it is on screen, and is why the quest tracker (no room for two
+# languages) is the place to watch.
 keep_english:
-  - Horde
-  - Alliance
-  - Durotar
-  - Orgrimmar
-  - Valley of Trials
-  - Razor Hill
-  - Sen'jin Village
-  - Echo Isles
-  - Tiragarde Keep
-  - Kolkar Crag
-  - Burning Blade
-  - Thunder Ridge
-  - Barrens
-  - Hearthstone
-  - Mottled Boar
-  - Scorpid Worker
-  - Vile Familiar
-  - Sarkoth
+  # People
   - Gornek
   - Eitrigg
   - Thrall
@@ -119,21 +112,36 @@ keep_english:
   - Lieutenant Benedict
   - Gar'Thok
   - Lar Prowltusk
-  - Kul Tiras
   - Admiral Proudmoore
   - Jaina Proudmoore
   - Archimonde
+  - Sarkoth
+  - Zalazane
+  - Minshina
+  - Fizzle Darkstorm
+  - Orgnil Soulscar
+  - Ak'Zeloth
+  - Neeru
+  - Kor'ghan
+  - Rhinag
+  - Furl Scornbrow
+  # Places
+  - Durotar
+  - Orgrimmar
+  - Valley of Trials
+  - Razor Hill
+  - Sen'jin Village
+  - Echo Isles
+  - Tiragarde Keep
+  - Kolkar Crag
+  - Thunder Ridge
+  - Barrens
+  - Tanaris
+  - Dreadmist Peak
+  - Far Watch Post
+  - Cleft of Shadow
+  - Kul Tiras
+  # Named organisations
+  - Burning Blade
   - Burning Legion
-  - Warrior
-  - Hunter
-  - Rogue
-  - Priest
-  - Shaman
-  - Mage
-  - Warlock
-  - Druid
-  - Orc
-  - Troll
-  - Tauren
-  - Undead
-  - Blood Elf
+  - Darkspear

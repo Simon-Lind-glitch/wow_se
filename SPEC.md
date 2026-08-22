@@ -12,7 +12,7 @@ table.
 | `## Interface` number | **20506** — from the client itself: `GetBuildInfo()` → `"2.5.6", "69110", 20506`, `WOW_PROJECT_ID = WOW_PROJECT_BURNING_CRUSADE_CLASSIC (5)` |
 | Faction/race | **Horde, orc/troll** → phase 2 zone is **Durotar** |
 | Reading age / English level | **~9**, dual-language **ON** by default |
-| Translation backend | **Anthropic API, Message Batches** (batch, not sync) |
+| Translation backend | **None in the toolchain.** Translation happens outside it (in a Claude Code session, or by hand) and is imported through a validating offline path. Revised 2026-08-22: the requester has no API key, and the batch client was deleted rather than left unused. |
 
 Consequences of the flavor answer, resolved once here so no stage has to guess:
 
@@ -169,10 +169,18 @@ Pass these to the model as system-level instruction, not as a suffix:
 - Target reader: a Swedish child, roughly age 9. Short sentences, everyday
   vocabulary. Prefer clarity over literary fidelity.
 - Tone: adventurous, warm. This is a game, not a manual.
-- **Keep proper nouns in English**: NPC names, zone names, item names, spell
-  names, creature names. Rationale: the kids can still follow guides, look
-  things up, and communicate with other players — and it sidesteps Swedish
-  compound-noun and adjective-agreement problems.
+- **Translate everything except names.** Revised 2026-08-22. Only the names of
+  individual people, places and named organisations stay English (Gornek,
+  Razor Hill, Burning Blade). Creature types, item names and class words are
+  translated like any other noun.
+  The original rule kept all of those English so the kids could follow guides,
+  search Wowhead and talk to other players. That rationale is retired: the
+  dual-language rendering puts the English original directly beneath the
+  Swedish, so the lookup path already exists.
+  Known rough edge: mob nameplates and bag item names come from the server and
+  cannot be translated, so Swedish quest text will not match them word for
+  word. The grey English line bridges that wherever it is on screen — the quest
+  tracker, which has no room for two languages, is where to watch for trouble.
 - Apply `glossary.sv.yaml` for recurring game terms. Consistency across quests
   matters more than any individual best rendering.
 - Preserve paragraph structure and `$B` breaks.
