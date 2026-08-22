@@ -833,15 +833,15 @@
       },
       "Binds when equipped": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Binds när du tar på den"
+        "sv": "Blir din när du tar på den"
       },
       "Binds when picked up": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Binds när du tar upp den"
+        "sv": "Blir din när du plockar upp den"
       },
       "Binds when used": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Binds när du använder den"
+        "sv": "Blir din när du använder den"
       },
       "Blacksmithing Skill": {
         "by": "claude-opus-5 (in-session)",
@@ -4073,7 +4073,7 @@
       },
       "Soulbound": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Bunden till dig"
+        "sv": "Din för alltid"
       },
       "Sound": {
         "by": "claude-opus-5 (in-session)",

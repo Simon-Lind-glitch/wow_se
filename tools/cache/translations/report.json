@@ -1,34 +1,6 @@
 {
-  "glossary_notes": {
-    "ui:ITEM_MOD_BLOCK_RATING": [
-      "'shield' should render as 'sköld'"
-    ],
-    "ui:ITEM_MOD_CRIT_SPELL_RATING": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_CRIT_SPELL_RATING_SHORT": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_HIT_SPELL_RATING": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_HIT_SPELL_RATING_SHORT": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_SPELL_PENETRATION": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_SPELL_PENETRATION_SHORT": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_SPELL_POWER": [
-      "'spell' should render as 'trollformel'"
-    ],
-    "ui:ITEM_MOD_SPELL_POWER_SHORT": [
-      "'spell' should render as 'trollformel'"
-    ]
-  },
+  "glossary_notes": {},
   "rejected": {},
   "translator": "claude-opus-5 (in-session)",
-  "written": 195
+  "written": 5
 }
