@@ -5,11 +5,12 @@
 -- them is how you end up mis-handling an escaped quote in one quest out of two
 -- hundred and never noticing, so we run them in the interpreter the game uses.
 --
--- usage:  lua5.1 dump.lua <file.lua> [global-to-dump]
+-- usage:  lua5.1 dump.lua <file.lua> [global-to-dump | --return]
 --
 -- With no global named, every string-valued global the chunk assigned is
 -- dumped (that is the GlobalStrings shape). With one named, that value is
--- dumped whole (that is the Questie shape).
+-- dumped whole (that is the Questie shape). With --return, the chunk's own
+-- return value is dumped (that is the test-fixture shape).
 
 local path, wanted = ...
 if not path then
@@ -32,10 +33,23 @@ end
 local env = setmetatable({}, { __index = _G })
 setfenv(chunk, env)
 
-local ok, runtime_err = pcall(chunk)
+local ok, returned = pcall(chunk)
 if not ok then
-  io.stderr:write("execute failed: " .. tostring(runtime_err) .. "\n")
+  io.stderr:write("execute failed: " .. tostring(returned) .. "\n")
   os.exit(1)
+end
+
+-- `--return` dumps what the chunk returned rather than what it assigned. Test
+-- fixtures are written as `return { ... }`, which is the natural shape for a
+-- Lua data file but assigns no global.
+if wanted == "--return" then
+  if returned == nil then
+    io.stderr:write("chunk returned nothing\n")
+    os.exit(1)
+  end
+  io.write(encode(returned))
+  io.write("\n")
+  return
 end
 
 if wanted then

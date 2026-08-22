@@ -1,0 +1,18 @@
+## Interface: 20506
+## Title: WoWsvSE
+## Notes: Svensk text för gränssnitt och uppdrag.
+## Author: privat bygge
+## Version: 0.1.0-dev
+## SavedVariables: WoWsvSEDB
+
+# Generated for TBC Anniversary 2.5.6 (69110) by emit 0.1.0.
+# Load order is significant — see tools/emit/__main__.py.
+
+core.lua
+render.lua
+locale/globalstrings.lua
+data/quests_durotar.lua
+hooks/quest.lua
+hooks/gossip.lua
+hooks/tooltip.lua
+devtools/misslog.lua

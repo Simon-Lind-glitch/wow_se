@@ -22,15 +22,21 @@ read_globals = {
   "GetQuestText", "GetObjectiveText", "GetRewardText", "GetProgressText",
   "GetTitleText", "GetQuestID", "GetQuestLogQuestText", "GetQuestLogTitle",
   "GetNumQuestLeaderBoards", "GetQuestLogLeaderBoard",
-  -- Gossip
-  "C_GossipInfo",
+  -- Gossip. C_GossipInfo on modern-engine builds, GetGossipText on older ones;
+  -- hooks/gossip.lua detects which is present (spec §0).
+  "C_GossipInfo", "GetGossipText", "GossipGreetingText",
+  -- Quest log
+  "GetQuestLogSelection", "QuestLogQuestDescription", "QuestLogObjectivesText",
+  "QuestLog_UpdateQuestDetails",
   -- Tooltips (which one exists depends on the target flavor — verify per §7)
   "GameTooltip", "TooltipDataProcessor",
   -- Frames we write into
   "QuestInfoDescriptionText", "QuestInfoObjectivesText", "QuestInfoRewardText",
-  "QuestInfoTitleHeader", "QuestLogQuestTitle",
-  -- Slash commands
-  "SlashCmdList",
+  "QuestInfoTitleHeader", "QuestLogQuestTitle", "QuestProgressText",
+  -- Panels we test for visibility, and the display function we hook
+  "QuestFrameDetailPanel", "QuestFrameRewardPanel", "QuestInfo_Display",
+  -- Enum table, present only where TooltipDataProcessor is
+  "Enum",
   -- Misc
   "string", "table", "math", "wipe", "strtrim", "format",
 }
@@ -38,6 +44,8 @@ read_globals = {
 globals = {
   -- SavedVariables declared in the .toc
   "WoWsvSEDB",
+  -- Addons register commands by writing into this table; that is the API.
+  "SlashCmdList",
   -- Slash command registration writes these
   "SLASH_SVSE1", "SLASH_SVSE2",
 }
