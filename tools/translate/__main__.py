@@ -27,6 +27,11 @@ def main(argv: list[str] | None = None) -> int:
         "--field", help="restrict export to a field, e.g. quest or quest.objectives"
     )
     parser.add_argument(
+        "--redo",
+        action="store_true",
+        help="re-export strings that are already translated, for a policy change",
+    )
+    parser.add_argument(
         "--translator",
         default="manual",
         help="provenance recorded against imported entries (default: manual)",
@@ -52,7 +57,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.export_pending:
         count = exchange.export_pending(
-            args.export_pending, limit=args.limit, field_prefix=args.field
+            args.export_pending, limit=args.limit, field_prefix=args.field, redo=args.redo
         )
         print(f"exported {count} pending string(s) to {args.export_pending}")
         return 0

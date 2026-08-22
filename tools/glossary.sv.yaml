@@ -77,6 +77,33 @@ terms:
   east: öster
   west: väster
   Horde: Horden
+  # Creature types and species. Translated since 2026-08-22 (see keep_english
+  # below) — these are common nouns, not names, and they recur across quests,
+  # so they need locking more than most.
+  boar: vildsvin
+  mottled boar: fläckigt vildsvin
+  scorpid: skorpion
+  vile familiar: elak demon
+  familiar: demon
+  centaur: centaur
+  peon: arbetare
+  human: människa
+  marine: marinsoldat
+  sailor: sjöman
+  # Recurring item words. Item names are built from these plus a name that
+  # stays English, e.g. "Burning Blade-medaljongen".
+  medallion: medaljong
+  antidote: motgift
+  claw: klo
+  skull: skalle
+  tail: svans
+  canvas: tyg
+  # Classes and roles
+  warlock: svartkonstnär
+  warrior: krigare
+  recruit: rekryt
+  coven: sekt
+  cult: kult
   Alliance: Alliansen
   Warchief: krigshövding
 
@@ -141,6 +168,10 @@ keep_english:
   - Far Watch Post
   - Cleft of Shadow
   - Kul Tiras
+  - the Den
+  - the Valley
+  - Sen'jin
+  - Kolkar
   # Named organisations
   - Burning Blade
   - Burning Legion

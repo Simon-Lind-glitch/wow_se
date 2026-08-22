@@ -98,9 +98,30 @@ def pending(units: list[Unit], entries: dict, *, field_prefix: str | None = None
     return out
 
 
-def export_pending(path, *, limit: int | None = None, field_prefix: str | None = None) -> int:
-    """Write untranslated strings to a file for whoever is translating."""
-    todo = pending(load_units(), load_translations(), field_prefix=field_prefix)
+def export_pending(
+    path,
+    *,
+    limit: int | None = None,
+    field_prefix: str | None = None,
+    redo: bool = False,
+) -> int:
+    """Write untranslated strings to a file for whoever is translating.
+
+    With `redo`, already-translated strings are included too, each carrying its
+    current translation as `previous` for reference. Needed whenever a policy
+    changes under text that was already done — the glossary is not versioned
+    per entry, so the alternative is hand-picking strings out of the cache.
+    """
+    entries = load_translations()
+    units = load_units()
+    if redo:
+        todo = [
+            u
+            for u in units
+            if not field_prefix or u.field == field_prefix or u.field.startswith(f"{field_prefix}.")
+        ]
+    else:
+        todo = pending(units, entries, field_prefix=field_prefix)
     if limit is not None:
         todo = todo[:limit]
 
@@ -117,6 +138,9 @@ def export_pending(path, *, limit: int | None = None, field_prefix: str | None =
         if masked.gender_branches:
             item["gender_branches"] = [list(p) for p in masked.gender_branches]
             item["gender"] = []
+        existing = entries.get(unit.field, {}).get(unit.key)
+        if redo and existing:
+            item["previous"] = existing["sv"]
         items.append(item)
 
     cache.write(

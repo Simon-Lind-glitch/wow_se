@@ -3,7 +3,7 @@
     "quest.completion": {
       "$N, you've saved my life. Thank you.$B$BPlease take this; I hope it can at least help you in your travels, if not bring you some coin. From what you say, I won't be usin' it anytime soon. Kor'ghan is gonna march me through more of his rituals until I prove myself. More killin' boars, more gatherin' scorpid tails... <sigh>": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "$N, du har räddat mitt liv. Tack.$B$BTa det här; jag hoppas att det kan hjälpa dig på dina resor, eller ge dig några mynt. Som du säger kommer jag inte att använda det på ett bra tag. Kor'ghan kommer att låta mig göra fler av sina ritualer tills jag bevisat mig. Fler vildsvin att döda, fler scorpid-svansar att samla... <suck>"
+        "sv": "$N, du har räddat mitt liv. Tack.$B$BTa det här; jag hoppas att det kan hjälpa dig på dina resor, eller ge dig några mynt. Som du säger kommer jag inte att använda det på ett bra tag. Kor'ghan kommer att låta mig göra fler av sina ritualer tills jag bevisat mig. Fler vildsvin att döda, fler skorpionsvansar att samla... <suck>"
       },
       "Aha! You got him!$b$bYou do your clan proud, $N. And because of you, Durotar is free of one more agent of evil.": {
         "by": "claude-opus-5 (in-session)",
@@ -23,7 +23,7 @@
       },
       "Hm... your report comes at a bad time. The Burning Blade is not seen here in Sen'jin, but their evil has taken seed off the coast, on the Echo Isles.$b$bThe orcs are friends of the Darkspear Trolls. Honorable friends. We want to help the orcs, but... we need help too.$b": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Hm... din rapport kommer olyckligt. The Burning Blade syns inte här i Sen'jin, men deras ondska har slagit rot utanför kusten, på the Echo Isles.$b$bOrcherna är vänner med the Darkspear Trolls. Ärliga vänner. Vi vill hjälpa orcherna, men... vi behöver också hjälp.$b"
+        "sv": "Hm... din rapport kommer olyckligt. The Burning Blade syns inte här i Sen'jin, men deras ondska har slagit rot utanför kusten, på the Echo Isles.$b$bOrcherna är vänner med Darkspear-trollen. Ärliga vänner. Vi vill hjälpa orcherna, men... vi behöver också hjälp.$b"
       },
       "Hmmm, not bad, $N. But don't let it get to your head...you'll fight tougher than boars in your career.$b$bNonetheless, you've proven yourself well, and your next trial will be against a considerably more dangerous opponent, so you'll need some extra protection.": {
         "by": "claude-opus-5 (in-session)",
@@ -39,7 +39,7 @@
       },
       "Neeru wants the Demon Seed destroyed, does he? Strange...$b$bVery well. If he wishes the seed gone, then I will tell you how to remove it.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Vill Neeru att the Demon Seed förstörs? Märkligt...$b$bNåväl. Om han vill att fröet försvinner ska jag berätta hur man tar bort det."
+        "sv": "Vill Neeru att Demonfröet förstörs? Märkligt...$b$bNåväl. Om han vill att fröet försvinner ska jag berätta hur man tar bort det."
       },
       "Thank you, $N. You have saved Minshina. You have saved my brother's spirit from slavery!": {
         "by": "claude-opus-5 (in-session)",
@@ -51,7 +51,7 @@
       },
       "There is an important lesson that you must take away from fighting scorpids. The smallest or largest of opponents can still send you to your doom. In fierce combat, any number of things can prove your downfall.$b$bI have no more to teach you, $N. You have done well, and I will watch your progress with interest.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Det finns en viktig läxa att lära av att slåss mot scorpids. Både den minsta och den största fienden kan bli din död. I en hård strid kan vad som helst gå fel.$b$bJag har inget mer att lära dig, $N. Du har gjort det bra, och jag ska följa dig med stort intresse."
+        "sv": "Det finns en viktig läxa att lära av att slåss mot skorpioner. Både den minsta och den största fienden kan bli din död. I en hård strid kan vad som helst gå fel.$b$bJag har inget mer att lära dig, $N. Du har gjort det bra, och jag ska följa dig med stort intresse."
       },
       "Word of your bravery travels fast, $C. Tales of your victory at Tiragarde Keep will be heralded in Orgrimmar.": {
         "by": "claude-opus-5 (in-session)",
@@ -59,25 +59,25 @@
       },
       "You have done well, $N.$b$bAlthough the Vile Familiars were merely pets of the darker powers within the Burning Blade, your success against them foretells greater deeds ahead.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Du har gjort det bra, $N.$b$bVile Familiars var bara husdjur till de mörkare krafterna i the Burning Blade, men din seger över dem visar att större dåd väntar."
+        "sv": "Du har gjort det bra, $N.$b$bDe elaka demonerna var bara husdjur till de mörkare krafterna i the Burning Blade, men din seger över dem visar att större dåd väntar."
       },
       "You retrieved it! Well done!$b$bYour efforts within the Burning Blade Coven are key in rooting out this cult in the Valley of Trials. But I fear they have further aims in our land.$b$bWe have not seen the end of them.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Du hittade den! Bra gjort!$b$bDitt arbete i the Burning Blade Coven är viktigt för att rensa bort kulten från the Valley of Trials. Men jag är rädd att de har större planer i vårt land.$b$bVi har inte sett det sista av dem."
+        "sv": "Du hittade den! Bra gjort!$b$bDitt arbete i Burning Blade-sekten är viktigt för att rensa bort kulten från the Valley of Trials. Men jag är rädd att de har större planer i vårt land.$b$bVi har inte sett det sista av dem."
       }
     },
     "quest.description": {
       "$C! I thought I would die out here with none to know of it. While I was hunting the scorpids of the Valley, I came across a particularly vicious-looking one. Hurling myself at it, I managed to inflict a massive blow to its claw before it closed around my leg.$b$bI wasn't ready for its stinger though, and it sliced down and into my chest, cutting into my flesh and letting my blood. Please, you must kill the scorpid for me! My honor must be upheld! I fought it up on the plateau to the south.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "$C! Jag trodde att jag skulle dö här utan att någon fick veta det. När jag jagade scorpids i the Valley stötte jag på en riktigt elak sådan. Jag kastade mig över den och lyckades skada dess klo, men sedan slöt den sig om mitt ben.$b$bJag var inte redo för gadden. Den högg ner i mitt bröst och skar upp mig så att blodet rann. Snälla, du måste döda scorpiden för mig! Min ära måste räddas! Jag slogs mot den på klippan i söder."
+        "sv": "$C! Jag trodde att jag skulle dö här utan att någon fick veta det. När jag jagade skorpioner i the Valley stötte jag på en riktigt elak sådan. Jag kastade mig över den och lyckades skada dess klo, men sedan slöt den sig om mitt ben.$b$bJag var inte redo för gadden. Den högg ner i mitt bröst och skar upp mig så att blodet rann. Snälla, du måste döda skorpionen för mig! Min ära måste räddas! Jag slogs mot den på klippan i söder."
       },
       "$N... your timing is perfect. I just hope I can compliment your haste as well.$B$BI was careless while fighting a few of the venomtails nearby, and one of them stung me deeply. I can feel its poison weakening me even as we speak. At this rate, I got maybe an hour left to live. But I'll need your help if I'm to do so...$B$BKor'ghan in Orgrimmar knows how to make the antidote. Find him... and hurry, $N. I won't be able to last much longer. He should be in the Cleft of Shadow.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "$N... du kommer precis i rätt tid. Jag hoppas bara att du är lika snabb som du är punktlig.$B$BJag var oförsiktig när jag slogs mot några venomtails här i närheten, och en av dem stack mig djupt. Jag känner hur giftet gör mig svagare medan vi pratar. I den här farten har jag ungefär en timme kvar att leva. Men jag behöver din hjälp för att klara mig...$B$BKor'ghan i Orgrimmar vet hur man gör motgiftet. Hitta honom... och skynda dig, $N. Jag håller inte ut så mycket längre. Han borde vara i the Cleft of Shadow."
+        "sv": "$N... du kommer precis i rätt tid. Jag hoppas bara att du är lika snabb som du är punktlig.$B$BJag var oförsiktig när jag slogs mot några giftsvansar här i närheten, och en av dem stack mig djupt. Jag känner hur giftet gör mig svagare medan vi pratar. I den här farten har jag ungefär en timme kvar att leva. Men jag behöver din hjälp för att klara mig...$B$BKor'ghan i Orgrimmar vet hur man gör motgiftet. Hitta honom... och skynda dig, $N. Jag håller inte ut så mycket längre. Han borde vara i the Cleft of Shadow."
       },
       "Age has rendered me useless in battle. Now I make myself useful in other ways.$b$bFrom this vantage point I watch for invaders. As our strength here grows, I find myself blowing the signal horn less and less.$b$bTo pass the time I fashion goods to help younger, more able warriors defend our homeland.$b$bFor you, I can fashion you a bag for your belongings. If such an item would be of use to you, bring me some canvas, a material common to the humans and centaurs.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Åldern har gjort mig oduglig i strid. Nu gör jag mig nyttig på andra sätt.$b$bHärifrån håller jag utkik efter fiender. Ju starkare vi blir här, desto mer sällan behöver jag blåsa i signalhornet.$b$bFör att få tiden att gå tillverkar jag saker som hjälper yngre och starkare krigare att försvara vårt hemland.$b$bTill dig kan jag göra en väska för dina saker. Om du vill ha en sådan, ta med lite segelduk till mig. Det är ett material som människor och centaurer ofta har."
+        "sv": "Åldern har gjort mig oduglig i strid. Nu gör jag mig nyttig på andra sätt.$b$bHärifrån håller jag utkik efter fiender. Ju starkare vi blir här, desto mer sällan behöver jag blåsa i signalhornet.$b$bFör att få tiden att gå tillverkar jag saker som hjälper yngre och starkare krigare att försvara vårt hemland.$b$bTill dig kan jag göra en väska för dina saker. Om du vill ha en sådan, ta med lite tyg till mig. Det är ett material som människor och centaurer ofta har."
       },
       "Finally, you are of age, $N... of age to battle in the name of the Horde. To conquer for the glory of the Warchief.$B$BYes...$B$B<Kaltunk looks you over.>$B$BYou will do nicely.$B$BNo doubt you wish to find a great dragon or demon and strangle it with your bare hands, but perhaps it would be wise to start on something less... dangerous.$B$B<Kaltunk laughs.>$B$BReport to Gornek, he should be able to assign a task better suited to a young $c. You will find Gornek in the Den, to the west.": {
         "by": "claude-opus-5 (in-session)",
@@ -85,11 +85,11 @@
       },
       "I hear the voice of my brother, Minshina, calling to me in my dreams.$B$BHe was taken by Zalazane, the warlock on the Echo Isles to the east. And he is dead.$B$BBut death is not freedom for my brother. Minshina's spirit was trapped within his own skull by Zalazane's magics. In my dreams I see it with other skulls, in a circle of power on the largest Echo Isle. As long as it remains there my brother's soul is doomed.$B$BPlease, $N. Find the circle and retrieve Minshina's skull. Bring it to me.$B$BFree him!": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Jag hör min bror Minshinas röst kalla på mig i mina drömmar.$B$BHan togs av Zalazane, warlocken på the Echo Isles i öster. Och han är död.$B$BMen döden är ingen frihet för min bror. Minshinas ande fångades i hans egen skalle av Zalazanes magi. I mina drömmar ser jag den bland andra skallar, i en kraftcirkel på den största av the Echo Isles. Så länge den ligger där är min brors själ förlorad.$B$BSnälla, $N. Hitta cirkeln och hämta Minshina's Skull. Ta den till mig.$B$BBefria honom!"
+        "sv": "Jag hör min bror Minshinas röst kalla på mig i mina drömmar.$B$BHan togs av Zalazane, svartkonstnären på the Echo Isles i öster. Och han är död.$B$BMen döden är ingen frihet för min bror. Minshinas ande fångades i hans egen skalle av Zalazanes magi. I mina drömmar ser jag den bland andra skallar, i en kraftcirkel på den största av the Echo Isles. Så länge den ligger där är min brors själ förlorad.$B$BSnälla, $N. Hitta cirkeln och hämta Minshinas skalle. Ta den till mig.$B$BBefria honom!"
       },
       "I trust the Valley of Trials will teach you much, young $c.$B$BI was sent to the Valley to guide you, but I have discovered a growing taint here...$B$BA group that calls itself the Burning Blade has a coven here in the Valley of Trials. They are skulking in a cave to the northeast, and their Vile Familiars have spilled from its mouth to cause havoc.$B$BAs your first task against the Burning Blade, I bid you, defeat these familiars. Slay many and, if you survive, return to me.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Jag tror att the Valley of Trials kommer att lära dig mycket, unga $c.$B$BJag skickades till the Valley för att vägleda dig, men jag har hittat något ont som växer här...$B$BEn grupp som kallar sig the Burning Blade har ett gömställe här i the Valley of Trials. De håller till i en grotta i nordost, och deras Vile Familiars har strömmat ut därifrån och ställer till kaos.$B$BDin första uppgift mot the Burning Blade är att besegra dessa familiars. Döda många, och kom tillbaka till mig om du överlever."
+        "sv": "Jag tror att the Valley of Trials kommer att lära dig mycket, unga $c.$B$BJag skickades till the Valley för att vägleda dig, men jag har hittat något ont som växer här...$B$BEn grupp som kallar sig the Burning Blade har ett gömställe här i the Valley of Trials. De håller till i en grotta i nordost, och deras elaka demoner har strömmat ut därifrån och ställer till kaos.$B$BDin första uppgift mot the Burning Blade är att besegra dessa demoner. Döda många, och kom tillbaka till mig om du överlever."
       },
       "Led by Admiral Proudmoore, the humans of Kul Tiras encroached on Durotar, violating the Warchief's pact made with Jaina Proudmoore in order to defeat Archimonde years ago.$b$bThe human aggression was repelled and Tiragarde Keep fell. But recently, the Admiral's reserves, led by Lieutenant Benedict, have retaken the keep and once again pose a threat to our homeland. These humans show no respect for diplomacy.$b$bProve your honor and travel south to Tiragarde Keep to eliminate the human invaders.": {
         "by": "claude-opus-5 (in-session)",
@@ -101,7 +101,7 @@
       },
       "Powerful warrior and awkward novice alike have fallen to the venomous sting of the scorpid. You will find large numbers of scorpids northwest of here. Bring me ten of their tails as proof of your prowess in battle.$b$bThe antidote for their sting is actually made from venom extracted from their stingers. We keep large quantities of antidote for scorpid venom on hand to heal young bloods just like you...$b$bBut I'm sure you won't be needing any of that, will you?": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Både starka krigare och klumpiga nybörjare har dött av en scorpids giftiga gadd. Du hittar många scorpids nordväst om här. Ta med tio av deras svansar som bevis på att du klarar strid.$b$bMotgiftet mot gadden görs faktiskt av giftet från gadden själv. Vi har alltid mycket motgift redo för att bota unga vildhjärnor som du...$b$bMen du behöver nog inget sådant, eller hur?"
+        "sv": "Både starka krigare och klumpiga nybörjare har dött av en skorpions giftiga gadd. Du hittar många skorpioner nordväst om här. Ta med tio av deras svansar som bevis på att du klarar strid.$b$bMotgiftet mot gadden görs faktiskt av giftet från gadden själv. Vi har alltid mycket motgift redo för att bota unga vildhjärnor som du...$b$bMen du behöver nog inget sådant, eller hur?"
       },
       "Seeing the deed you have done for me steels my heart. I cannot fall so easily! I must endure!$b$bBut it remains that I cannot make the trek back to the Den unassisted. Please, $n, return to the Den and tell Gornek of my situation. Perhaps he can help me.": {
         "by": "claude-opus-5 (in-session)",
@@ -109,11 +109,11 @@
       },
       "Since the last great war when the Burning Legion was defeated, I have searched for sources of demonic corruption in orc society. The collar you brought me confirms my fears.$B$BIt belongs to the Burning Blade, a cult that rallies around an item of demonic power. It is called the Demon Seed, and it resides in the Barrens atop Dreadmist Peak. It must be destroyed!$B$BGo to Far Watch Post, on the border of the Barrens to the west, and speak with my assistant, Ak'Zeloth. He will direct you further.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Sedan det stora kriget då the Burning Legion besegrades har jag letat efter spår av demonisk ondska bland orcherna. Halsbandet du gav mig bekräftar det jag var rädd för.$B$BDet tillhör the Burning Blade, en kult som samlas kring ett föremål med demonisk kraft. Det kallas the Demon Seed och finns i the Barrens, på toppen av Dreadmist Peak. Det måste förstöras!$B$BGå till Far Watch Post vid gränsen till the Barrens i väster och prata med min medhjälpare Ak'Zeloth. Han berättar mer."
+        "sv": "Sedan det stora kriget då the Burning Legion besegrades har jag letat efter spår av demonisk ondska bland orcherna. Halsbandet du gav mig bekräftar det jag var rädd för.$B$BDet tillhör the Burning Blade, en kult som samlas kring ett föremål med demonisk kraft. Det kallas Demonfröet och finns i the Barrens, på toppen av Dreadmist Peak. Det måste förstöras!$B$BGå till Far Watch Post vid gränsen till the Barrens i väster och prata med min medhjälpare Ak'Zeloth. Han berättar mer."
       },
       "The first order of business will be to put a little strength in your backbone. I could send you out to the Barrens to hunt kodo, but well, in all honesty, you're more useful to us alive than dead.$b$bI believe you would find a good match with the mottled boars you'll find to the north of here.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Först måste vi göra dig starkare. Jag skulle kunna skicka dig till the Barrens för att jaga kodo, men ärligt talat är du mer värd för oss levande än död.$b$bJag tror att du passar bättre mot the Mottled Boars som finns norr om här."
+        "sv": "Först måste vi göra dig starkare. Jag skulle kunna skicka dig till the Barrens för att jaga kodo, men ärligt talat är du mer värd för oss levande än död.$b$bJag tror att du passar bättre mot de fläckiga vildsvinen som finns norr om här."
       },
       "Throm'ka, $c. I am Eitrigg, charged by Thrall to oversee the training of recruits.$b$bThe Horde has changed from what it once was. There was a time where I left the Horde, disillusioned by the growing influence of the power-hungry pawns of the Burning Legion. During my exile, I was taken prisoner by a group of humans, but was rescued by the Warchief. Hearing his vision of the Horde free of demonic influence, guided by the shamans, I returned.$b$bGornek will have further instructions for you.": {
         "by": "claude-opus-5 (in-session)",
@@ -121,25 +121,25 @@
       },
       "Through my divinations, I see that an item of power hides deep within the Burning Blade Coven, guarded by beasts and black magic.$B$BIt is called the Burning Blade Medallion, and your next task is to find it and remove it from the coven.$B$BBut be wary, for the medallion may be possessed by an agent of the Burning Blade, and if so then the agent's power would be greater than the familiars you have already encountered.$B$BGo, $N. You will find the coven in a cave, to the north and west.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Genom mina syner ser jag att ett mäktigt föremål ligger djupt inne i the Burning Blade Coven, vaktat av vidunder och svart magi.$B$BDet kallas the Burning Blade Medallion. Din nästa uppgift är att hitta det och ta det ut därifrån.$B$BMen var försiktig. Medaljongen kan bäras av en tjänare till the Burning Blade, och då är han starkare än de familiars du redan har mött.$B$BGå, $N. Du hittar deras gömställe i en grotta i nordväst."
+        "sv": "Genom mina syner ser jag att ett mäktigt föremål ligger djupt inne i Burning Blade-sekten, vaktat av vidunder och svart magi.$B$BDet kallas Burning Blade-medaljongen. Din nästa uppgift är att hitta det och ta det ut därifrån.$B$BMen var försiktig. Medaljongen kan bäras av en tjänare till the Burning Blade, och då är han starkare än de demoner du redan har mött.$B$BGå, $N. Du hittar deras gömställe i en grotta i nordväst."
       },
       "We cannot allow the Burning Blade a foothold in Durotar! We must destroy them before their evil festers!$B$BI have undergone my own investigations and found that a Burning Blade warlock, the goblin Fizzle Darkstorm, has camped within Thunder Ridge to the northwest. There he and his cultist minions spread chaos.$B$BFind and defeat Fizzle, and bring me his dead claw!": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Vi kan inte låta the Burning Blade få fäste i Durotar! Vi måste krossa dem innan deras ondska sprider sig!$B$BJag har gjort egna efterforskningar. En warlock från the Burning Blade, goblinen Fizzle Darkstorm, har slagit läger i Thunder Ridge i nordväst. Där sprider han och hans anhängare kaos.$B$BHitta Fizzle, besegra honom och ta med hans döda klo till mig!"
+        "sv": "Vi kan inte låta the Burning Blade få fäste i Durotar! Vi måste krossa dem innan deras ondska sprider sig!$B$BJag har gjort egna efterforskningar. En svartkonstnär från the Burning Blade, goblinen Fizzle Darkstorm, har slagit läger i Thunder Ridge i nordväst. Där sprider han och hans anhängare kaos.$B$BHitta Fizzle, besegra honom och ta med hans döda klo till mig!"
       },
       "Your trials against the Burning Blade are finished... here in the Valley. But I want you to report your findings.$B$BGo to the troll village of Sen'jin and seek out Master Gadrin. Sen'jin Village is east out of the valley, then right at the fork.$B$BTell Gadrin of the Burning Blade, and that they have reached the Valley of Trials. Discover from him if they have yet reached Sen'jin.$B$BGo, $N, and be swift. I fear the evil found in the Burning Blade Coven is but the herald of a larger threat...": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Dina prövningar mot the Burning Blade är över... här i the Valley. Men jag vill att du berättar vad du har sett.$B$BGå till trollbyn Sen'jin och sök upp Master Gadrin. Sen'jin Village ligger öster om the Valley, och sedan till höger vid vägskälet.$B$BBerätta för Gadrin om the Burning Blade, och att de har nått the Valley of Trials. Ta reda på om de också har nått Sen'jin.$B$BGå, $N, och skynda dig. Jag är rädd att ondskan i the Burning Blade Coven bara är början på något mycket större..."
+        "sv": "Dina prövningar mot the Burning Blade är över... här i the Valley. Men jag vill att du berättar vad du har sett.$B$BGå till trollbyn Sen'jin och sök upp Master Gadrin. Sen'jin Village ligger öster om the Valley, och sedan till höger vid vägskälet.$B$BBerätta för Gadrin om the Burning Blade, och att de har nått the Valley of Trials. Ta reda på om de också har nått Sen'jin.$B$BGå, $N, och skynda dig. Jag är rädd att ondskan i Burning Blade-sekten bara är början på något mycket större..."
       }
     },
     "quest.objectives": {
       "Bring Fizzle's Claw to Orgnil Soulscar in Razor Hill.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Ta Fizzle's Claw till Orgnil Soulscar i Razor Hill."
+        "sv": "Ta Fizzles klo till Orgnil Soulscar i Razor Hill."
       },
       "Bring the Burning Blade Medallion to Zureetha Fargaze, outside The Den.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Ta the Burning Blade Medallion till Zureetha Fargaze utanför the Den."
+        "sv": "Ta Burning Blade-medaljongen till Zureetha Fargaze utanför the Den."
       },
       "Bring the news of Hana'zua's plight to Gornek at the Den.": {
         "by": "claude-opus-5 (in-session)",
@@ -147,27 +147,27 @@
       },
       "Find Kor'ghan in Orgrimmar and get the Venomtail Antidote. Then bring the antidote to Rhinag near the northwestern border of Durotar.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Hitta Kor'ghan i Orgrimmar och hämta the Venomtail Antidote. Ta sedan motgiftet till Rhinag nära Durotars nordvästra gräns."
+        "sv": "Hitta Kor'ghan i Orgrimmar och hämta giftsvansmotgiftet. Ta sedan motgiftet till Rhinag nära Durotars nordvästra gräns."
       },
       "Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Furl Scornbrow i vakttornet i Razor Hill vill ha 8 Canvas Scraps."
+        "sv": "Furl Scornbrow i vakttornet i Razor Hill vill ha 8 tygbitar."
       },
       "Get 10 Scorpid Worker Tails for Gornek in the Den.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Hämta 10 Scorpid Worker Tails till Gornek i the Den."
+        "sv": "Hämta 10 skorpionsvansar till Gornek i the Den."
       },
       "Kill 10 Kul Tiras Sailors, 8 Kul Tiras Marines and Lieutenant Benedict and return to Gar'Thok in Razor Hill.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Döda 10 Kul Tiras Sailors, 8 Kul Tiras Marines och Lieutenant Benedict. Gå sedan tillbaka till Gar'Thok i Razor Hill."
+        "sv": "Döda 10 sjömän från Kul Tiras, 8 marinsoldater från Kul Tiras och Lieutenant Benedict. Gå sedan tillbaka till Gar'Thok i Razor Hill."
       },
       "Kill 10 Mottled Boars then return to Gornek at the Den.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Döda 10 Mottled Boars och gå sedan tillbaka till Gornek i the Den."
+        "sv": "Döda 10 fläckiga vildsvin och gå sedan tillbaka till Gornek i the Den."
       },
       "Kill 12 Vile Familiars.$B$BReturn to Zureetha Fargaze outside the Den.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Döda 12 Vile Familiars.$B$BGå tillbaka till Zureetha Fargaze utanför the Den."
+        "sv": "Döda 12 elaka demoner.$B$BGå tillbaka till Zureetha Fargaze utanför the Den."
       },
       "Kill Sarkoth and bring his claw back to Hana'zua.": {
         "by": "claude-opus-5 (in-session)",
@@ -175,7 +175,7 @@
       },
       "Lar Prowltusk outside of Sen'jin Village wants you to destroy the 3 sets of Attack Plans held within Kolkar Crag.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Lar Prowltusk utanför Sen'jin Village vill att du förstör de 3 Attack Plans inne i Kolkar Crag."
+        "sv": "Lar Prowltusk utanför Sen'jin Village vill att du förstör de 3 anfallsplanerna inne i Kolkar Crag."
       },
       "Report to Gornek in the Den.": {
         "by": "claude-opus-5 (in-session)",
@@ -183,7 +183,7 @@
       },
       "Retrieve Minshina's skull from the circle of power on the Echo Isles.$B$BBring it to Master Gadrin in Sen'jin Village.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Hämta Minshina's Skull från kraftcirkeln på the Echo Isles.$B$BTa den till Master Gadrin i Sen'jin Village."
+        "sv": "Hämta Minshinas skalle från kraftcirkeln på the Echo Isles.$B$BTa den till Master Gadrin i Sen'jin Village."
       },
       "Speak with Ak'Zeloth in the Barrens.": {
         "by": "claude-opus-5 (in-session)",
@@ -225,11 +225,11 @@
       },
       "Is your task complete, $N? Do you have the Burning Blade Medallion?": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Är din uppgift klar, $N? Har du the Burning Blade Medallion?"
+        "sv": "Är din uppgift klar, $N? Har du Burning Blade-medaljongen?"
       },
       "The carapace of a scorpid isn't so thick that the strength of a determined $C will be deterred. Strike strongly and without doubt, and the scorpids should prove easy prey.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Skalet på en Scorpid är inte så tjockt att en modig $C behöver ge upp. Slå hårt och tveka inte – då blir de lätta byten."
+        "sv": "Skalet på en skorpion är inte så tjockt att en modig $C behöver ge upp. Slå hårt och tveka inte – då blir de lätta byten."
       },
       "The centaurs have proven to be a consistent nuisance to the Horde. Their intentions to lay siege to our homeland cannot be tolerated.": {
         "by": "claude-opus-5 (in-session)",
@@ -237,7 +237,7 @@
       },
       "To prove yourself against the Burning Blade, you must first defeat its Vile Familiars. Return to me when you have done this.": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "För att bevisa dig mot the Burning Blade måste du först besegra deras Vile Familiars. Kom tillbaka till mig när du har gjort det."
+        "sv": "För att bevisa dig mot the Burning Blade måste du först besegra deras elaka demoner. Kom tillbaka till mig när du har gjort det."
       },
       "You have your orders, $N. The safety of Durotar is in question. Complete the task before you or hang your head in shame.$B$BShow your honor and defeat the humans of Tiragarde Keep.": {
         "by": "claude-opus-5 (in-session)",
@@ -251,7 +251,7 @@
       },
       "Burning Blade Medallion": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Burning Blade Medallion"
+        "sv": "Burning Blade-medaljongen"
       },
       "Carry Your Weight": {
         "by": "claude-opus-5 (in-session)",
@@ -267,7 +267,7 @@
       },
       "Minshina's Skull": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Minshina's Skull"
+        "sv": "Minshinas skalle"
       },
       "Need for a Cure": {
         "by": "claude-opus-5 (in-session)",
@@ -283,7 +283,7 @@
       },
       "Sting of the Scorpid": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Scorpidens gadd"
+        "sv": "Skorpionens gadd"
       },
       "The New Horde": {
         "by": "claude-opus-5 (in-session)",
@@ -299,7 +299,7 @@
       },
       "Vile Familiars": {
         "by": "claude-opus-5 (in-session)",
-        "sv": "Vile Familiars"
+        "sv": "Elaka demoner"
       },
       "Your Place In The World": {
         "by": "claude-opus-5 (in-session)",
