@@ -1,9 +1,10 @@
 # Build-time only. Never shipped to the client.
-# 1.x required: the Batches request types live at
-# anthropic.types.messages.batch_create_params, and 1.x runs on httpx2.
-anthropic>=1.0
+#
+# There is deliberately no LLM SDK here. Translation happens outside this
+# toolchain and comes back through `python -m translate --import-file`, which
+# validates it. So the whole pipeline runs offline, with no API key and no
+# account attached to it.
 PyYAML>=6.0
-platformdirs>=4.2
 
 # dev
 pytest>=8.0

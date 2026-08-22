@@ -18,20 +18,18 @@ for agents working in the container.
 `tools/emit`) and the addon itself are not written yet. The `make` targets are
 wired up and will fail until their modules exist.
 
-### Blocking decisions (spec §0)
+### Settled (spec §0)
 
-Nothing can be generated until these are answered. Do not guess them.
-
-| Input | Status |
+| Input | Answer |
 |---|---|
-| Classic flavor + version (Era / Anniversary / MoP) | **unanswered** |
-| Faction/race the kids play (→ Elwynn or Durotar) | **unanswered** |
-| Reading age / English level | **unanswered** |
-| Translation backend | assumed Anthropic API, batch |
+| Classic flavor + version | TBC Anniversary **2.5.6** (build 69110), `## Interface: 20506` |
+| Faction/race | Horde, orc/troll → phase 2 is **Durotar** |
+| Reading age | ~9, dual-language on |
+| Translation backend | **none in the toolchain** — see below |
 
-The flavor choice in particular decides the `## Interface` number, which Questie
-DB branch to pull, and — per §7 — whether tooltips hook `OnTooltipSetItem` or
-`TooltipDataProcessor.AddTooltipPostCall`.
+Tooltips and gossip are feature-detected at load rather than pinned to one API,
+because a 2.5.x game build on the modern client engine may expose either
+`OnTooltipSetItem` or `TooltipDataProcessor.AddTooltipPostCall`.
 
 ---
 
@@ -53,18 +51,17 @@ DB branch to pull, and — per §7 — whether tooltips hook `OnTooltipSetItem` 
 ### Open it
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...   # on the HOST, before opening
 code /home/simon/git/wow_swe
 ```
 
-Then *Dev Containers: Reopen in Container*. The key is only needed for `make
-translate`; extract, emit and all tests run without it.
+Then *Dev Containers: Reopen in Container*. No API key is needed — the whole
+pipeline runs offline.
 
 ### What's in the container
 
 | Tool | Why |
 |---|---|
-| Python 3.12 | orchestration, Anthropic batch API, glossary, hashing |
+| Python 3.12 | extract, glossary, emit |
 | Lua **5.1** | the exact VM the game runs |
 | `luacheck` | addon linting against a WoW global allowlist (`.luacheckrc`) |
 | `stylua` | addon formatting, `syntax = "Lua51"` |
@@ -109,10 +106,29 @@ warm it too.
 ## Build pipeline
 
 ```
-make all      # extract -> translate -> emit -> verify
-make verify   # guard + lint + fmt-check + test
-make help     # all targets
+make all       # extract -> emit -> verify
+make verify    # guard + lint + fmt-check + test
+make translate # how much is translated so far
+make help      # all targets
 ```
+
+### How translation works
+
+There is no LLM SDK in this repo and no API key anywhere. Translation happens
+*outside* the toolchain; the toolchain only lets strings in and out:
+
+```
+make pending              # writes strings.json — everything not yet translated
+                          #   FIELD=quest LIMIT=50 to narrow it
+<translate strings.json>  # in a Claude Code session, by hand, any tool
+make import BY="whoever"  # reads it back
+```
+
+`make import` is the gate. It re-masks each English source, checks that every
+`%s`, `%d`, `$N` and `$B` survived the round trip, and **refuses** anything that
+did not. A rejected string stays untranslated, so the addon renders English
+(§7) rather than something that errors in a child's game. Rejections and
+glossary disagreements land in `tools/cache/translations/report.json`.
 
 `make guard` fails the build if the addon tree contains `CHAT_MSG_*`,
 `ChatFrame_AddMessageEventFilter`, `io.*`, `os.execute`, `require`, or an

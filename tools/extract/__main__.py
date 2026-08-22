@@ -14,7 +14,6 @@ import sys
 
 from common import cache
 from common.glossary import load as load_glossary
-from common.hashkey import cache_key
 from common.luadata import load as load_lua
 from common.mask import mask, round_trips
 from common.paths import SOURCE, ensure_dirs
@@ -27,7 +26,6 @@ def _unit(text: str, field: str) -> dict:
     masked = mask(text)
     return {
         "en": text,
-        "hash": cache_key(text, field=field),
         "field": field,
         "placeholders": len(masked.tokens),
         "gender_branches": [list(pair) for pair in masked.gender_branches],

@@ -26,35 +26,30 @@
           "en": "Ah, this is the food Ukor brought to the Valley of Trials. Did they not need it? Well, I guess they like to starve you heroes in training. Builds spirit, they say!$b$bThank you for returning the food. I'll stick it back on the shelves... but here, let me offer you some refreshment first!$b$bAnd don't forget to rest here in the inn. You may be a brave $C ready to take on the world, but if your energy is sapped you won't be doing yourself, or the Horde, much good.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "5aea073131ebf58c",
           "placeholders": 5
         },
         "description": {
           "en": "Excuse me?  Can you help me?$B$BI have a load of food here.  I walked along the road and braved scorpids and spiders and worse!  I brought the food to the Valley of Trials because I thought they needed it and I like to help out.  But they don't need any food!  Now I have to take it back to Razor Hill and I'm afraid of all the beasts along the way...$B$BCan you take it for me?  I'm just a peon, but you're a hero.  You fear nothing!$B$BTake it to Innkeeper Grosk at the Razor Hill inn.  Thank you!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "f2128da3ce94b917",
           "placeholders": 6
         },
         "objectives": {
           "en": "Bring Ukor's Burden to Innkeeper Grosk in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "43b1b13a09149dcb",
           "placeholders": 0
         },
         "progress": {
           "en": "Welcome to Razor Hill!",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "6971b8e6c5d54cb7",
           "placeholders": 0
         },
         "title": {
           "en": "A Peon's Burden",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "e8c63819c21b4a12",
           "placeholders": 0
         }
       },
@@ -71,35 +66,30 @@
           "en": "Wonderful, $N! As promised, here is your cactus apple surprise plus a little something extra.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "2d72a39cc0f81e86",
           "placeholders": 1
         },
         "description": {
           "en": "It sure gets hot out here in the Valley of Trials.$B$B<Galgar wipes his brow.>$B$BIf only I had some cactus apples, I could make my famous cactus apple surprise! Nothing cools you off faster than a piece of that delicious treat.$B$BI'll tell you what, $N. If you bring me 10 cactus apples, I'll make you a few portions of cactus apple surprise to take with you on your adventures. If you're interested, you can find cactus apples growing near the cactus plants around here.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "e258302d93a567dd",
           "placeholders": 7
         },
         "objectives": {
           "en": "Bring Galgar 10 Cactus Apples. You remember him saying that they could be found near cactuses.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "a821ad43542ffede",
           "placeholders": 0
         },
         "progress": {
           "en": "Have you finished collecting cactus apples?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "577be8c8ff70ff01",
           "placeholders": 0
         },
         "title": {
           "en": "Galgar's Cactus Apple Surprise",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "d66ecfaa3f3d6341",
           "placeholders": 0
         }
       },
@@ -116,35 +106,30 @@
           "en": "Another one of Kaltunk's recruits, hm?$B$BA sorry state of affairs we find ourselves in if this is the best the Horde can produce. No matter. By the time we think you're ready to leave the Valley, you'll be a proud $C of the Horde.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "7cf4fe6a5f1577b3",
           "placeholders": 3
         },
         "description": {
           "en": "Finally, you are of age, $N... of age to battle in the name of the Horde. To conquer for the glory of the Warchief.$B$BYes...$B$B<Kaltunk looks you over.>$B$BYou will do nicely.$B$BNo doubt you wish to find a great dragon or demon and strangle it with your bare hands, but perhaps it would be wise to start on something less... dangerous.$B$B<Kaltunk laughs.>$B$BReport to Gornek, he should be able to assign a task better suited to a young $c. You will find Gornek in the Den, to the west.\r\n",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "71c2c6fd0fcebae0",
           "placeholders": 14
         },
         "objectives": {
           "en": "Speak with Gornek. You recall Kaltunk marking your map with his location and mentioning that Gornek resided in the Den, a building to the west. \r\n\r\n",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "2ae5d35f5dbc5228",
           "placeholders": 0
         },
         "progress": {
           "en": "The carapace of a scorpid isn't so thick that the strength of a determined $C will be deterred. Strike strongly and without doubt, and the scorpids should prove easy prey.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "775c7b3cd757d489",
           "placeholders": 1
         },
         "title": {
           "en": "Your Place In The World",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "80aa0d21c6876383",
           "placeholders": 0
         }
       },
@@ -161,35 +146,30 @@
           "en": "Good, good. Maybe they'll think twice before slacking next time! Thanks for the help!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "c7d138ada5e9b7e7",
           "placeholders": 0
         },
         "description": {
           "en": "Cursed peons!  They work hard gathering lumber from the trees of the valley, but they're always taking naps!  I need someone to help keep the peons in line.$B$BYou look like the right $r for my task.  Here, you take this blackjack and use it on any lazy peons you find sleeping on the job.  A good smack will get them right back to work!  Return the blackjack when you're done.$B$BLousy slacking peons...",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "fd505c397fb32097",
           "placeholders": 5
         },
         "objectives": {
           "en": "Use the Foreman's Blackjack on Lazy Peons when they're sleeping.  Wake up 5 peons, then return the Foreman's Blackjack to Foreman Thazz'ril in the Valley of Trials.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "a1613326169ea831",
           "placeholders": 0
         },
         "progress": {
           "en": "No good lazy...$b$b Eh? Do you have my blackjack? Did you catch any peons sleeping on the job?!",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "a984d2d00af55bab",
           "placeholders": 2
         },
         "title": {
           "en": "Lazy Peons",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "c6677f9f1fd7a197",
           "placeholders": 0
         }
       },
@@ -206,35 +186,30 @@
           "en": "You are indeed a special hero, $N. We welcome you to the world of Azeroth, and offer you one of these unique gifts!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "6ff3b174f4b3d76c",
           "placeholders": 1
         },
         "description": {
           "en": "Welcome to the World of Warcraft!$B$BAs special thanks for purchasing the World of Warcraft Collector's Edition, turn in this gift voucher to Magga in the Valley of Trials.  You'll then be given a gift: a little companion to join you on your quest for adventure and glory.$B$BThanks again, and enjoy your stay in the World of Warcraft!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "a60dff9a163d63ff",
           "placeholders": 4
         },
         "objectives": {
           "en": "Bring the Valley of Trials Gift Voucher to Magga.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "53107f149ae39f4e",
           "placeholders": 0
         },
         "progress": {
           "en": "Hello! It is a pleasure to meet you!$B$BI see you have a special voucher. Give it to me and I will offer you something in exchange.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "a5bfc439127cdd91",
           "placeholders": 2
         },
         "title": {
           "en": "Welcome!",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "f59235498f91f612",
           "placeholders": 0
         }
       },
@@ -251,35 +226,30 @@
           "en": "Great, you got it! Thanks a lot, $N. This is my favorite pick! Now if my peons ever finish chopping down these trees, maybe we can find a nice cave to mine!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "23e7a17445e587bc",
           "placeholders": 1
         },
         "description": {
           "en": "$N, you are a dependable $r.  Can I count on you for another task?$B$BSome time ago I was surveying the cave to the north for minerals, and I left my favorite pick behind.  When I later returned to retrieve it I found the cave was filled with vicious beasts!  Will you go into the cave, the Burning Blade Coven, and get my pick?$B$BI left it in a chamber with waterfalls.  My pick has a spell on it so you can see it in the dark, so you won't have to worry about finding it... just what's guarding it!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "de447fb0019115ce",
           "placeholders": 6
         },
         "objectives": {
           "en": "Bring Thazz'ril's Pick to Foreman Thazz'ril.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "e63e583dc54b87a9",
           "placeholders": 0
         },
         "progress": {
           "en": "Have you entered the Burning Blade Coven, $N? Did you find my pick?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "aac16b04d1a21d1f",
           "placeholders": 1
         },
         "title": {
           "en": "Thazz'ril's Pick",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "e579c8954e862691",
           "placeholders": 0
         }
       },
@@ -296,35 +266,30 @@
           "en": "Word of your bravery travels fast, $C. Tales of your victory at Tiragarde Keep will be heralded in Orgrimmar.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "910b7c30862c045e",
           "placeholders": 1
         },
         "description": {
           "en": "Led by Admiral Proudmoore, the humans of Kul Tiras encroached on Durotar, violating the Warchief's pact made with Jaina Proudmoore in order to defeat Archimonde years ago.$b$bThe human aggression was repelled and Tiragarde Keep fell. But recently, the Admiral's reserves, led by Lieutenant Benedict, have retaken the keep and once again pose a threat to our homeland. These humans show no respect for diplomacy.$b$bProve your honor and travel south to Tiragarde Keep to eliminate the human invaders.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "c9700905b5556864",
           "placeholders": 4
         },
         "objectives": {
           "en": "Kill 10 Kul Tiras Sailors, 8 Kul Tiras Marines and Lieutenant Benedict and return to Gar'Thok in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "51f7e0b9fae7cac6",
           "placeholders": 0
         },
         "progress": {
           "en": "You have your orders, $N. The safety of Durotar is in question. Complete the task before you or hang your head in shame.$B$BShow your honor and defeat the humans of Tiragarde Keep.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "0589ca7c332d5749",
           "placeholders": 3
         },
         "title": {
           "en": "Vanquish the Betrayers",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "38f4ee159e5280d1",
           "placeholders": 0
         }
       },
@@ -341,35 +306,30 @@
           "en": "The Horde would surely prevail if the Kolkar centaurs were to attack. But by preventing such an attack. we have spared our mighty warriors unnecessary bloodshed.$B$BAnd as sure as there is sand in the Tanaris desert, we know that there will be blood spilled before these trying times are through.$B$BYou have served your people well, $C.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "227c458a04d22208",
           "placeholders": 5
         },
         "description": {
           "en": "Lower your voice, $c. The Kolkar centaurs lie just over the ridge to the west in Kolkar Crag.$b$bLast night while they were raiding, I snuck into their village and discovered that the dirty beasts have a three-tiered attack planned on the trolls and orcs of Durotar.$b$bWe mustn't let their invasion come to fruition. Perhaps you can muster the might needed to infiltrate Kolkar Crag and destroy their attack plans.$b$bLast I saw, they had divided them up amongst three of their leaders.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "ca720b49d04b2e4a",
           "placeholders": 7
         },
         "objectives": {
           "en": "Lar Prowltusk outside of Sen'jin Village wants you to destroy the 3 sets of Attack Plans held within Kolkar Crag.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "b99ee6a2dc0325f6",
           "placeholders": 0
         },
         "progress": {
           "en": "The centaurs have proven to be a consistent nuisance to the Horde. Their intentions to lay siege to our homeland cannot be tolerated.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "1c301d10123f0710",
           "placeholders": 0
         },
         "title": {
           "en": "Thwarting Kolkar Aggression",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "4f04b74342136137",
           "placeholders": 0
         }
       },
@@ -386,28 +346,24 @@
           "en": "Another one of Eitrigg's recruits, hm?$B$BA sorry state of affairs we find ourselves in if this is the best the Horde can produce.  No matter.  By the time we think you're ready to leave the Valley, you'll be a proud warrior of the Horde.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "a6fb2bb41e471091",
           "placeholders": 2
         },
         "description": {
           "en": "Throm'ka, $c. I am Eitrigg, charged by Thrall to oversee the training of recruits.$b$bThe Horde has changed from what it once was. There was a time where I left the Horde, disillusioned by the growing influence of the power-hungry pawns of the Burning Legion. During my exile, I was taken prisoner by a group of humans, but was rescued by the Warchief. Hearing his vision of the Horde free of demonic influence, guided by the shamans, I returned.$b$bGornek will have further instructions for you.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "13f0372a69e1b99c",
           "placeholders": 5
         },
         "objectives": {
           "en": "Report to Gornek in the Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "71c804e526c491ec",
           "placeholders": 0
         },
         "title": {
           "en": "The New Horde",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "9efd380beee118b1",
           "placeholders": 0
         }
       },
@@ -424,35 +380,30 @@
           "en": "Hmmm, not bad, $N. But don't let it get to your head...you'll fight tougher than boars in your career.$b$bNonetheless, you've proven yourself well, and your next trial will be against a considerably more dangerous opponent, so you'll need some extra protection.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "7558ddf1e625475a",
           "placeholders": 3
         },
         "description": {
           "en": "The first order of business will be to put a little strength in your backbone. I could send you out to the Barrens to hunt kodo, but well, in all honesty, you're more useful to us alive than dead.$b$bI believe you would find a good match with the mottled boars you'll find to the north of here.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "346b5381b8441664",
           "placeholders": 2
         },
         "objectives": {
           "en": "Kill 10 Mottled Boars then return to Gornek at the Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "b58d1c7ee6bb98e0",
           "placeholders": 0
         },
         "progress": {
           "en": "I hope you haven't returned to try and convince me that you have completed your task, $N? No, of course not. I would think better of you.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "981cc9d2ecb08880",
           "placeholders": 1
         },
         "title": {
           "en": "Cutting Teeth",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "afaed52a0739419c",
           "placeholders": 0
         }
       },
@@ -469,35 +420,30 @@
           "en": "There is an important lesson that you must take away from fighting scorpids. The smallest or largest of opponents can still send you to your doom. In fierce combat, any number of things can prove your downfall.$b$bI have no more to teach you, $N. You have done well, and I will watch your progress with interest.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "1936e591194d4d59",
           "placeholders": 3
         },
         "description": {
           "en": "Powerful warrior and awkward novice alike have fallen to the venomous sting of the scorpid. You will find large numbers of scorpids northwest of here. Bring me ten of their tails as proof of your prowess in battle.$b$bThe antidote for their sting is actually made from venom extracted from their stingers. We keep large quantities of antidote for scorpid venom on hand to heal young bloods just like you...$b$bBut I'm sure you won't be needing any of that, will you?",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "9ce512d5a9c68bf3",
           "placeholders": 4
         },
         "objectives": {
           "en": "Get 10 Scorpid Worker Tails for Gornek in the Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "bcd4a9199ae68645",
           "placeholders": 0
         },
         "progress": {
           "en": "The carapace of a scorpid isn't so thick that the strength of a determined $C will be deterred. Strike strongly and without doubt, and the scorpids should prove easy prey.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "775c7b3cd757d489",
           "placeholders": 1
         },
         "title": {
           "en": "Sting of the Scorpid",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "3f4d2c79c1eae9d5",
           "placeholders": 0
         }
       },
@@ -514,35 +460,30 @@
           "en": "My blow was not enough to kill him, but looking at the damage I inflicted gives me some small measure of pride. That small measure will be all I have to sustain myself if I die, and in that light, the short list of my life's accomplishments fills me with anger.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "585b3f588811ff0f",
           "placeholders": 0
         },
         "description": {
           "en": "$C! I thought I would die out here with none to know of it. While I was hunting the scorpids of the Valley, I came across a particularly vicious-looking one. Hurling myself at it, I managed to inflict a massive blow to its claw before it closed around my leg.$b$bI wasn't ready for its stinger though, and it sliced down and into my chest, cutting into my flesh and letting my blood. Please, you must kill the scorpid for me! My honor must be upheld! I fought it up on the plateau to the south.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "859d2e1ffd014d5f",
           "placeholders": 3
         },
         "objectives": {
           "en": "Kill Sarkoth and bring his claw back to Hana'zua.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "42163c4699dbd24f",
           "placeholders": 0
         },
         "progress": {
           "en": "Ahhh... my father always said I would never amount to much, and here, lying beneath a tree as life seeps away, I'm afraid it looks like he was right.$b$bAt least I wish to die knowing that my last enemy in life lays dead.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "e463c5d17ba72723",
           "placeholders": 2
         },
         "title": {
           "en": "Sarkoth",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "d2aff145f92f4fb3",
           "placeholders": 0
         }
       },
@@ -559,35 +500,30 @@
           "en": "Most excellent, $N. Any good $C will surely find a use for this bag on the battlefield.$b$bI salute your vigor and willingness to die in the name of the Horde!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "33eaa3698e538862",
           "placeholders": 4
         },
         "description": {
           "en": "Age has rendered me useless in battle. Now I make myself useful in other ways.$b$bFrom this vantage point I watch for invaders. As our strength here grows, I find myself blowing the signal horn less and less.$b$bTo pass the time I fashion goods to help younger, more able warriors defend our homeland.$b$bFor you, I can fashion you a bag for your belongings. If such an item would be of use to you, bring me some canvas, a material common to the humans and centaurs.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "0f963c86ac14d63d",
           "placeholders": 6
         },
         "objectives": {
           "en": "Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "cc01e5212d6e2b36",
           "placeholders": 0
         },
         "progress": {
           "en": "I fought proudly alongside the Warchief when these lands were pioneered. The scars of battle mark my skin.$b$bThe honor of the Horde has been upheld with the help of my axe and battlecry during the defeat of Archimonde, when the unholy alliance was made with the humans and elves, wrought from necessity.$b$bBut my position as watchman and provider has given me a new sense of worth.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "db6bd62bd5d3a50b",
           "placeholders": 4
         },
         "title": {
           "en": "Carry Your Weight",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "c60133cf5093f8a9",
           "placeholders": 0
         }
       },
@@ -604,35 +540,30 @@
           "en": "You have done well, $N.$b$bAlthough the Vile Familiars were merely pets of the darker powers within the Burning Blade, your success against them foretells greater deeds ahead.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "1fd89397f913a707",
           "placeholders": 3
         },
         "description": {
           "en": "I trust the Valley of Trials will teach you much, young $c.$B$BI was sent to the Valley to guide you, but I have discovered a growing taint here...$B$BA group that calls itself the Burning Blade has a coven here in the Valley of Trials.  They are skulking in a cave to the northeast, and their Vile Familiars have spilled from its mouth to cause havoc.$B$BAs your first task against the Burning Blade, I bid you, defeat these familiars. Slay many and, if you survive, return to me.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "8f9fbbde5f854263",
           "placeholders": 7
         },
         "objectives": {
           "en": "Kill 12 Vile Familiars.$B$BReturn to Zureetha Fargaze outside the Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "d75d7c5f5397bbd6",
           "placeholders": 2
         },
         "progress": {
           "en": "To prove yourself against the Burning Blade, you must first defeat its Vile Familiars. Return to me when you have done this.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "4841052c6af7d6c8",
           "placeholders": 0
         },
         "title": {
           "en": "Vile Familiars",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "1f7fdc54ef490ed5",
           "placeholders": 0
         }
       },
@@ -649,35 +580,30 @@
           "en": "You retrieved it! Well done!$b$bYour efforts within the Burning Blade Coven are key in rooting out this cult in the Valley of Trials. But I fear they have further aims in our land.$b$bWe have not seen the end of them.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "4b61d2668f18583d",
           "placeholders": 4
         },
         "description": {
           "en": "Through my divinations, I see that an item of power hides deep within the Burning Blade Coven, guarded by beasts and black magic.$B$BIt is called the Burning Blade Medallion, and your next task is to find it and remove it from the coven.$B$BBut be wary, for the medallion may be possessed by an agent of the Burning Blade, and if so then the agent's power would be greater than the familiars you have already encountered.$B$BGo, $N.  You will find the coven in a cave, to the north and west.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "2de3c148ed4938f6",
           "placeholders": 7
         },
         "objectives": {
           "en": "Bring the Burning Blade Medallion to Zureetha Fargaze, outside The Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "902e57938eae8747",
           "placeholders": 0
         },
         "progress": {
           "en": "Is your task complete, $N? Do you have the Burning Blade Medallion?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "d546af6cc0a494fb",
           "placeholders": 1
         },
         "title": {
           "en": "Burning Blade Medallion",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "5a83562aa2a8661b",
           "placeholders": 0
         }
       },
@@ -694,28 +620,24 @@
           "en": "From your description of the beast, I believe you must be speaking of Sarkoth! It is no wonder that Hana'zua was overtaken by it. Aid will be dispatched to him immediately, trouble yourself no more with Hana'zua's plight.$b$bHowever, I must say, I am most impressed to hear that you brought Sarkoth to death. It is a feat to be proud of, $N. And that you would fight for a stranger's honor, while other tasks occupied your time, your own honor is heightened.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "cc8572757f9db1f2",
           "placeholders": 3
         },
         "description": {
           "en": "Seeing the deed you have done for me steels my heart. I cannot fall so easily! I must endure!$b$bBut it remains that I cannot make the trek back to the Den unassisted. Please, $n, return to the Den and tell Gornek of my situation. Perhaps he can help me.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "3537ea71d5e55b49",
           "placeholders": 3
         },
         "objectives": {
           "en": "Bring the news of Hana'zua's plight to Gornek at the Den.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "eb65e2facab65351",
           "placeholders": 0
         },
         "title": {
           "en": "Sarkoth",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "d2aff145f92f4fb3",
           "placeholders": 0
         }
       },
@@ -732,28 +654,24 @@
           "en": "Hm... your report comes at a bad time. The Burning Blade is not seen here in Sen'jin, but their evil has taken seed off the coast, on the Echo Isles.$b$bThe orcs are friends of the Darkspear Trolls. Honorable friends. We want to help the orcs, but... we need help too.$b",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "ebc05da9eff984c9",
           "placeholders": 3
         },
         "description": {
           "en": "Your trials against the Burning Blade are finished... here in the Valley.  But I want you to report your findings.$B$BGo to the troll village of Sen'jin and seek out Master Gadrin.  Sen'jin Village is east out of the valley, then right at the fork.$B$BTell Gadrin of the Burning Blade, and that they have reached the Valley of Trials.  Discover from him if they have yet reached Sen'jin.$B$BGo, $N, and be swift.  I fear the evil found in the Burning Blade Coven is but the herald of a larger threat...",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "58568aa366567391",
           "placeholders": 7
         },
         "objectives": {
           "en": "Speak with Master Gadrin in Sen'jin Village.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "c5ac16dfeb2ac69c",
           "placeholders": 0
         },
         "title": {
           "en": "Report to Sen'jin Village",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "af6ff5719438e60f",
           "placeholders": 0
         }
       },
@@ -770,35 +688,30 @@
           "en": "Aha! You got him!$b$bYou do your clan proud, $N. And because of you, Durotar is free of one more agent of evil.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "5de8aba783addf62",
           "placeholders": 3
         },
         "description": {
           "en": "We cannot allow the Burning Blade a foothold in Durotar!  We must destroy them before their evil festers!$B$BI have undergone my own investigations and found that a Burning Blade warlock, the goblin Fizzle Darkstorm, has camped within Thunder Ridge to the northwest.  There he and his cultist minions spread chaos.$B$BFind and defeat Fizzle, and bring me his dead claw!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "29dadca671638101",
           "placeholders": 4
         },
         "objectives": {
           "en": "Bring Fizzle's Claw to Orgnil Soulscar in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "2a0301b629d121ed",
           "placeholders": 0
         },
         "progress": {
           "en": "Did you find Fizzle, $N? He, and rest of the Burning Blade, must be scoured from our lands!",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "6622400d78ef297f",
           "placeholders": 1
         },
         "title": {
           "en": "Dark Storms",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "24956a94425d50b1",
           "placeholders": 0
         }
       },
@@ -815,35 +728,30 @@
           "en": "Thank you, $N. You have saved Minshina. You have saved my brother's spirit from slavery!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "d4c4e1b4c92fd4d2",
           "placeholders": 1
         },
         "description": {
           "en": "I hear the voice of my brother, Minshina, calling to me in my dreams.$B$BHe was taken by Zalazane, the warlock on the Echo Isles to the east. And he is dead.$B$BBut death is not freedom for my brother. Minshina's spirit was trapped within his own skull by Zalazane's magics. In my dreams I see it with other skulls, in a circle of power on the largest Echo Isle. As long as it remains there my brother's soul is doomed.$B$BPlease, $N. Find the circle and retrieve Minshina's skull. Bring it to me.$B$BFree him!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "cecce7220e2ebdcc",
           "placeholders": 9
         },
         "objectives": {
           "en": "Retrieve Minshina's skull from the circle of power on the Echo Isles.$B$BBring it to Master Gadrin in Sen'jin Village.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "2c16f36471d741e8",
           "placeholders": 2
         },
         "progress": {
           "en": "Do you have my brother's skull, $N? Is he finally free?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "195a89e241a57369",
           "placeholders": 1
         },
         "title": {
           "en": "Minshina's Skull",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "2eba989f1421f25e",
           "placeholders": 0
         }
       },
@@ -860,28 +768,24 @@
           "en": "Neeru wants the Demon Seed destroyed, does he? Strange...$b$bVery well. If he wishes the seed gone, then I will tell you how to remove it.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "bbd97c7a84862b23",
           "placeholders": 2
         },
         "description": {
           "en": "Since the last great war when the Burning Legion was defeated, I have searched for sources of demonic corruption in orc society.  The collar you brought me confirms my fears.$B$BIt belongs to the Burning Blade, a cult that rallies around an item of demonic power.  It is called the Demon Seed, and it resides in the Barrens atop Dreadmist Peak.  It must be destroyed!$B$BGo to Far Watch Post, on the border of the Barrens to the west, and speak with my assistant, Ak'Zeloth.  He will direct you further.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "1a9f7c80acbb7ebb",
           "placeholders": 4
         },
         "objectives": {
           "en": "Speak with Ak'Zeloth in the Barrens.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "ec3e3f4f39c3e9e0",
           "placeholders": 0
         },
         "title": {
           "en": "Ak'Zeloth",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "b2429ce0bae84f23",
           "placeholders": 0
         }
       },
@@ -898,35 +802,30 @@
           "en": "$N, you've saved my life. Thank you.$B$BPlease take this; I hope it can at least help you in your travels, if not bring you some coin. From what you say, I won't be usin' it anytime soon. Kor'ghan is gonna march me through more of his rituals until I prove myself. More killin' boars, more gatherin' scorpid tails... <sigh>",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "1f3021e479f312b5",
           "placeholders": 3
         },
         "description": {
           "en": "$N... your timing is perfect. I just hope I can compliment your haste as well.$B$BI was careless while fighting a few of the venomtails nearby, and one of them stung me deeply. I can feel its poison weakening me even as we speak. At this rate, I got maybe an hour left to live. But I'll need your help if I'm to do so...$B$BKor'ghan in Orgrimmar knows how to make the antidote. Find him... and hurry, $N. I won't be able to last much longer. He should be in the Cleft of Shadow.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "367f20bb84b3ac25",
           "placeholders": 6
         },
         "objectives": {
           "en": "Find Kor'ghan in Orgrimmar and get the Venomtail Antidote. Then bring the antidote to Rhinag near the northwestern border of Durotar.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "d38d4d36ff5eb60b",
           "placeholders": 0
         },
         "progress": {
           "en": "I'm almost glad I can't return to Sen'jin as I am now. My weakness and stupidity would surely be mocked.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "544f440849f0b39d",
           "placeholders": 0
         },
         "title": {
           "en": "Need for a Cure",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "5cdbbb5d09c37162",
           "placeholders": 0
         }
       },
@@ -943,35 +842,30 @@
           "en": "Here is the antidote, $N. Take it to Rhinag as soon as you can, and be cautious.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "02b82584e7e1f1cc",
           "placeholders": 1
         },
         "description": {
           "en": "Venomtails are some of the deadliest scorpids in Durotar. It was unwise for Rhinag to hunt them without having some of the antidote with him, but right now, chastising is the last thing he needs.$B$BBring me a few venomtail poison sacs from any of the venomtails near the entrance of Orgrimmar and I'll make an antidote for him.$B$BMake haste, $N. One of our own needs your help.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "79a41f8cacbdce73",
           "placeholders": 5
         },
         "objectives": {
           "en": "Bring 4 Venomtail Poison Sacs to Kor'ghan in Orgrimmar.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "2c16cea0f829383f",
           "placeholders": 0
         },
         "progress": {
           "en": "Remember, no matter what creature you hunt, you would do well to study it and understand its behavior. That knowledge could save your life.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "c5f0866755a86a40",
           "placeholders": 0
         },
         "title": {
           "en": "Finding the Antidote",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "837fff599d5ce93b",
           "placeholders": 0
         }
       },
@@ -988,35 +882,30 @@
           "en": "You might be weak, but at least you're not clumsy, $N.$b$bHere, take this and get outta my way. I've got cooking to do.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "d27cc77c553aff9d",
           "placeholders": 3
         },
         "description": {
           "en": "Bah! I almost forgot I need to get breakfast ready.$B$B$N, get yourself movin' and get me some taillasher eggs. I'll need at least three of them if I'm going to have enough for tomorrow's meal.$B$BThe Bloodtalon taillashers can be fierce, and protect their eggs to the death more often than not. They sometimes bury their eggs too deep in the earth to uncover safely, but if you head to the Echo Isles to the southeast of Sen'jin Village, you can usually find them all over those islands.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "3e8eeb680a7bcadb",
           "placeholders": 5
         },
         "objectives": {
           "en": "Bring 3 Taillasher Eggs to Cook Torka in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "dfab4eccb20a242a",
           "placeholders": 0
         },
         "progress": {
           "en": "Breakfast, lunch, dinner! Who cares which meal it is? It still has to be cooked by someone--namely me!",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "87f05177a2551aa7",
           "placeholders": 0
         },
         "title": {
           "en": "Break a Few Eggs",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "07e5c6259d284673",
           "placeholders": 0
         }
       },
@@ -1033,35 +922,30 @@
           "en": "Oh, my son... my beautiful son.$b$bUncertain of my son's fate, I have tormented myself since he left. Now that I know what's happened, perhaps I can finally begin to mourn.$b$bThank you, $N. Please take this. I was going to give it to Kron as a gift when he returned successful. Now that I know he is dead, I cannot bear to look at it.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "019980c847d7384e",
           "placeholders": 5
         },
         "description": {
           "en": "$N, please, can you help me? My son Kron went hunting days ago, and he still hasn't returned. He went west towards the Barrens to hunt crocolisks along Southfury River. I fear the worst.$B$BAs strong as he was, his stubborn pride has always drawn him into trouble. I warned him that the crocolisks were powerful and vicious. He grew angry and stormed off.$B$BIf you can't find him, at least bring me a sign of his fate... even if you have to open up the stomach of every crocolisk along the Southfury's banks.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "bcecc6b5509267e8",
           "placeholders": 5
         },
         "objectives": {
           "en": "Bring a sign of Kron's fate to Misha Tor'kren at the farmstead northwest of Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "988d88bf1b4ac482",
           "placeholders": 0
         },
         "progress": {
           "en": "I pray that Kron will return to me, but I'm almost certain I know his fate already.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "10ea73e8ffcfdec6",
           "placeholders": 0
         },
         "title": {
           "en": "Lost But Not Forgotten",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "b613d59fcc9f652f",
           "placeholders": 0
         }
       },
@@ -1078,35 +962,30 @@
           "en": "I am pleased, $N. Because of your help, our people will be protected, and not go cold as the seasons change.$b$bThank you.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "5d8963079f8c79b2",
           "placeholders": 3
         },
         "description": {
           "en": "Many of the hides we use come from Durotar tigers, $N. Blankets, armor, tents: there are a great many reasons we hunt the beasts, and many reasons we let them thrive at the same time.$B$BThe time has come for us to cull the flock, so to speak. Our numbers grow, and our needs are beginning to overwhelm our stocks. I need more hides if I'm to prepare suitable goods for our people.$B$BBring me 4 Durotar tiger furs, and I shall reward you. You can find them on the islands south of here.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "0f0d6ef353dc196c",
           "placeholders": 5
         },
         "objectives": {
           "en": "Bring 4 Durotar Tiger Furs to Vel'rin Fang in Sen'jin Village.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "1e69833b60f953ce",
           "placeholders": 0
         },
         "progress": {
           "en": "I remember my first tiger hunt, $N. I chose to hunt on the largest of the Echo Isles, and I sat perfectly still in the shadows of its foliage for almost a full day... watching... waiting.$b$bMy muscles were taut, and I was ready to strike. It was one of my greatest victories when that tiger finally took the bait.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "7b644388734a1417",
           "placeholders": 3
         },
         "title": {
           "en": "Practical Prey",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "f5aae962a314de13",
           "placeholders": 0
         }
       },
@@ -1123,35 +1002,30 @@
           "en": "Well done, young one... well done indeed.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "94a0ce13d8eb3be9",
           "placeholders": 0
         },
         "description": {
           "en": "Although my eyes fail me, I still can see clearly enough. More often I must rely on my alchemical skills to aid me in magics that once came easily. But I refuse to take on an apprentice--no troll or orc worthy enough has ever come forward.$B$BAre you worthy? Yes, of course you are... of course you think you are.$B$BI need a few things. Will you get them for me?$B$BI need intact makrura eyes, and vials of crawler mucus. You can find them on any makrura or crawler in Durotar. We shall speak again soon.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "22c1a0665e8eb7bb",
           "placeholders": 6
         },
         "objectives": {
           "en": "Bring 4 Intact Makrura Eyes and 8 vials of Crawler Mucus to Master Vornal in Sen'jin Village.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "13c3c41961c55bc1",
           "placeholders": 0
         },
         "progress": {
           "en": "Time is the true test of your strength and will. Lose patience or give in to weakness, and your true self will be shown.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "c3cd6a181d09105d",
           "placeholders": 0
         },
         "title": {
           "en": "A Solvent Spirit",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "414a94b141132352",
           "placeholders": 0
         }
       },
@@ -1168,28 +1042,24 @@
           "en": "Yes? You have something to report? Well then, let's have it!",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "ffd0a8392509ae43",
           "placeholders": 0
         },
         "description": {
           "en": "We at Sen'jin Village are not without our own troubles, and we thank you for your aid.  But the news you bring regarding the Burning Blade could be trouble for everyone.$B$BThere is an orc stationed at Razor Hill, Orgnil Soulscar, who polices Durotar from evils such as the Burning Blade!  Go to Orgnil and tell him of our plight, as well as your news from the Valley of Trials.  He will want to know these things.$B$BRazor Hill lies to the north.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "0bcfdd3abcca7975",
           "placeholders": 4
         },
         "objectives": {
           "en": "Speak with Orgnil Soulscar in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "cce254d0b33e6cf5",
           "placeholders": 0
         },
         "title": {
           "en": "Report to Orgnil",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "28f7dd856ccf4944",
           "placeholders": 0
         }
       },
@@ -1206,35 +1076,30 @@
           "en": "Your recovery mission was a success, $C. I will see to it that these tools get to Orgrimmar with the next caravan.$b$bNicely done.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "ccfe5a302c2a39ad",
           "placeholders": 3
         },
         "description": {
           "en": "One of my most observant scouts brings back word that the wreckage of Proudmoore's fleet still remains off the coast of Durotar, just east of Tiragarde Keep.$b$bIt is no secret that the humans, in alliance with those foul little creatures known as gnomes, have an advanced knowledge of mechanics. We must have a complete understanding of all our potential enemies. And our people will benefit from this new knowledge as well.$b$bSwim through the wreckage, $n, and retrieve for me the tools of the Alliance.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "88160e08479017d5",
           "placeholders": 5
         },
         "objectives": {
           "en": "Gar'Thok of Razor Hill wants you to retrieve 3 Gnomish Tools from the wreckage off the coast.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "58600e36fd27edd2",
           "placeholders": 0
         },
         "progress": {
           "en": "Once we learn how the humans operate their strange machinery, we will stand a greater chance of defeating them in future battles.$b$bWith our new gained knowledge, the Horde only stands to grow in strength.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "608f0ab3e5e6f774",
           "placeholders": 2
         },
         "title": {
           "en": "From The Wreckage....",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "0f7a3be9719d652d",
           "placeholders": 0
         }
       },
@@ -1251,35 +1116,30 @@
           "en": "With Zalazane gone, our tribe can again sleep in peace.$b$bThank you, $N. The Darkspear tribe owes you much. If you suffer from an ailment, visit my assistant Bom'bay, behind me. His voodoo is strong...",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "018884f2c949face",
           "placeholders": 3
         },
         "description": {
           "en": "The witchdoctor Zalazane dwells on the Echo Isles to the east.  They are the isles we once called home.$B$BFrom there he sends his trolls to the mainland, to hex our people and drag more of them under his sway.$B$BHe must be stopped.$B$BDefeat Zalazane and his minions -- former Darkspear trolls, now lost to us.  Bring me his head and I will know his reign of evil is over.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "ba7e26f3f63451bc",
           "placeholders": 6
         },
         "objectives": {
           "en": "Defeat Zalazane.$B$BKill 8 Voodoo Trolls and 8 Hexed Trolls.$B$BBring Zalazane's Head to Gadrin.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "d3fa2c73efcecd02",
           "placeholders": 4
         },
         "progress": {
           "en": "Is Zalazane defeated, $N?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "938b61d11f6bf13b",
           "placeholders": 1
         },
         "title": {
           "en": "Zalazane",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "3e965e428d7a5030",
           "placeholders": 0
         }
       },
@@ -1296,35 +1156,30 @@
           "en": "Good. Hiding within these collars is the secret behind the Burning Blade. And I will uncover that secret...",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "d500acf8b1f1348d",
           "placeholders": 0
         },
         "description": {
           "en": "$N.  The Burning Blade has infested the cave east of Orgrimmar known as Skull Rock.  Inside that cave they perform vile rituals, and burn their own flesh with Searing Collars.$B$BBy wearing these collars, I believe the cultists attune themselves to demonic power.  But to confirm this, I must have a collection of the collars to study.$B$BGo to Skull Rock and gather Searing Collars from the cultists you find there.  Bring them to me, and I will uncover their secrets.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "30465d4ef822e88f",
           "placeholders": 5
         },
         "objectives": {
           "en": "Gather Searing Collars from the cultists in Skull Rock.$B$BBring them to Margoz at his camp.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "393b460242357c26",
           "placeholders": 2
         },
         "progress": {
           "en": "Have you yet entered Skull Rock, $N? Do you have the Searing Collars?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "ba9fe771401166b6",
           "placeholders": 1
         },
         "title": {
           "en": "Skull Rock",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "d8cd40373379f9f6",
           "placeholders": 0
         }
       },
@@ -1341,28 +1196,24 @@
           "en": "Welcome, $N. Word reached me of your coming, and of your exploits in Durotar.$b$bYou are a $C of growing skill and renown.$b$bStay on the pure path, and your future will be great indeed.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "64bd9749fc55119b",
           "placeholders": 6
         },
         "description": {
           "en": "One of our Shamans, Margoz, knows more of the Burning Blade's corruption.  He speaks of a cave called Skull Rock in the mountains - just outside Orgrimmar! - that shelters a large band of Burning Blade cultists.$B$BBefore you go to Skull Rock speak with Margoz.  He is wise and his council is valued.$B$BHe is camped to the northeast, between the coast and Drygulch Ravine.$B$BFollow his advice, but whatever Margoz says, $N, I still want you to crush those cultists!",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "23c9b89a15f88d88",
           "placeholders": 7
         },
         "objectives": {
           "en": "Speak with Margoz.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "9efd93a8ae850b4b",
           "placeholders": 0
         },
         "title": {
           "en": "Margoz",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "74a26852a8f2d1fd",
           "placeholders": 0
         }
       },
@@ -1379,35 +1230,30 @@
           "en": "Ah, and where did you get this? Good Margoz in Razor Hill sent you to me, did he?$b$bWell, let me take a closer look...",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "894c487525c0d952",
           "placeholders": 2
         },
         "description": {
           "en": "The Searing Collars you brought me are powerful, demonic implements.  Divining their origin is, I'm afraid, beyond my skills as a shaman.  We will need a warlock to study them.$B$BTake a searing collar to Neeru Fireblade.  Although he is a skilled warlock, he professes to use his powers to thwart demons, and claims his research in the occult is benign.  Be that true or false, we may need his aid against the demonic cult in Durotar.$B$BYou may find Neeru in Orgrimmar in the Cleft of Shadow.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "c1b21c86b0805eb5",
           "placeholders": 4
         },
         "objectives": {
           "en": "Bring an Example Collar to Neeru Fireblade in Orgrimmar.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "8d9ae05d67ad87f1",
           "placeholders": 0
         },
         "progress": {
           "en": "My most humble greetings, $C. How might I help my $R brother today?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "1be07fa0f2df9ea6",
           "placeholders": 2
         },
         "title": {
           "en": "Neeru Fireblade",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "8ffa6775d5e653e9",
           "placeholders": 0
         }
       },
@@ -1424,35 +1270,30 @@
           "en": "This does not bode well at all. You were wise to bring this information to my attention.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "2b72c2693193df50",
           "placeholders": 0
         },
         "description": {
           "en": "You open the aged and weathered envelope and discover an official looking document. You recognize the seal of Admiral Proudmoore.$b$bThis looks important. Perhaps Gar'Thok, the commander of Razor Hill, would be interested in having this information.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "4150c53fd06c749b",
           "placeholders": 2
         },
         "objectives": {
           "en": "Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "1384f790913fc811",
           "placeholders": 0
         },
         "progress": {
           "en": "There is a look of concern on your face, $C. What have you there?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "55de6f8f6b8e005d",
           "placeholders": 1
         },
         "title": {
           "en": "The Admiral's Orders",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "533a822d5a2b8e24",
           "placeholders": 0
         }
       },
@@ -1469,35 +1310,30 @@
           "en": "Countless times I urged the Warchief not to trust the humans, but personal pride is not what is at stake here.$b$bYou have served the Horde honorably, young $C.$b$bNow excuse me, I must counsel Thrall on these matters at once....",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "3017557c40cd3f9b",
           "placeholders": 5
         },
         "description": {
           "en": "Humans cannot be trusted. We fought alongside them with a weary heart, knowing they would betray us one day.$b$bAdmiral Proudmoore's death was not enough to stop his legacy of deceit. The human scum had his plans well laid out before he ever met his demise.$b$bHis reign won't even die with Benedict it seems. Who knows how long it will be before the next waves of Proudmoore's men land upon our shores.$b$bWe need to get these orders to Vol'jin in Orgrimmar immediately! He can be found in Thrall's chamber.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "aebc2fa231b62696",
           "placeholders": 6
         },
         "objectives": {
           "en": "Deliver Admiral Proudmoore's Orders to Vol'jin in Thrall's chamber in Orgrimmar.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "e95b6240cf69d12c",
           "placeholders": 0
         },
         "progress": {
           "en": "Can you not see that I am busy? This had better be pressing....",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "180cda5a57af8a80",
           "placeholders": 0
         },
         "title": {
           "en": "The Admiral's Orders",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "533a822d5a2b8e24",
           "placeholders": 0
         }
       },
@@ -1514,35 +1350,30 @@
           "en": "<Examines the Eye of Burning Shadow>$b$bIntriguing. The voice you heard mentioned my name? I am known for hunting down enemies of our Warchief, but...it is strange that I was singled out. Stranger still that the Burning Blade cultists from whom you recovered this pendant have a name so close to my own.$b$bI must study this pendant. I must study and, and must ponder the meaning of its message.$b$bThank you for bringing this to my attention, $N. You have done your people a great service.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "1ec797ca81fcd8cd",
           "placeholders": 7
         },
         "description": {
           "en": "<Words emanate from the pendant and into your mind.>$B$BGazz'uz?$B$BGazz'uz...report!$B$BThere is word of your discovery in Skull Rock.  You must prepare for an attack!$B$BGazz'uz, I order you to speak!  Speak or I will make sure Neeru Fireblade knows of your presence, and he will descend on you with swift brutality.$B$BDo not test your skills against Neeru...$B$B...Gazz'uz, are you there...?",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "cf9412a132c7b824",
           "placeholders": 12
         },
         "objectives": {
           "en": "Take this eye to Neeru Fireblade.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "8526e796a10f0d45",
           "placeholders": 0
         },
         "progress": {
           "en": "You have something vital to report. I can sense it behind your eyes.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "52969f9f0a7721a5",
           "placeholders": 0
         },
         "title": {
           "en": "Burning Shadows",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "cac7db4d148499be",
           "placeholders": 0
         }
       },
@@ -1559,35 +1390,30 @@
           "en": "Hey, now isn't that just the thing! You've got our supplies back for us. That's great. I'll be able to get back to work just as soon as I can find someone to haul these sacks for me.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "f23f0db89704447f",
           "placeholders": 0
         },
         "description": {
           "en": "I'm Rezlak, one of Gazlowe's boys. Boss sent me to help the orcs here in Durotar. Things'd been going good except for the caravans. Can't manage to keep them safe! Makes my job a little harder, you know?$b$bThe last shipment--they promised it'd get through!--was snatched by the Dustwind harpies of...where was it...Razorwind Canyon?$b$bI gotta have those supplies or I'll never get anything done! Follow the big canyon to the south, you'll find the ravine cut right into the west and east sides of the walls.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "54957fb425d5d9aa",
           "placeholders": 4
         },
         "objectives": {
           "en": "Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "1f48127622438df3",
           "placeholders": 0
         },
         "progress": {
           "en": "I'm great at what I do, don't get me wrong, but this is ridiculous! What am I supposed to do, build sand castles?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "2d43714b322c9d9b",
           "placeholders": 0
         },
         "title": {
           "en": "Winds in the Desert",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "8d3cd0ba613750fb",
           "placeholders": 0
         }
       },
@@ -1604,35 +1430,30 @@
           "en": "I think I can breathe easy now, knowing that the harpies won't be bothering our supply caravans anymore. And not one moment too soon, either. I hear I'm being sent some fun little toys with the next shipment!$B$BYou're pretty good at what you do, $N, you ought to track down my boss in Ratchet. I'll bet he could find some work for you.$B$BOh, and don't worry, I wouldn't forget to pay you for the service you provided me.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "8731ec5197b34f89",
           "placeholders": 5
         },
         "description": {
           "en": "Gazlowe told me once, \"Rezlak. There's one thing you need to know in life, and that's if you want something done well, do it yourself.\"$b$bI can't deal with losing all our caravans, so I'm just going to take matters into my own hands. Drygulch Ravine lies through the eastern part of Razorwind Canyon. If we kill all the harpies there, the routes will be safe.$b$bOf course, there was one other thing that Gazlowe taught me, and that's \"You can get anything done for a price.\" So, going to help me out, $n?",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "ecaaa1553d891abb",
           "placeholders": 5
         },
         "objectives": {
           "en": "Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "1c7a853eecf8158b",
           "placeholders": 0
         },
         "progress": {
           "en": "You wouldn't think it from a guy like my boss Gazlowe, but he always seemed to know the score. \"Don't be afraid to take that big step\", he said.$B$BHarpies won't stop bothering us and the caravans won't stop being attacked unless we do something about it, eh?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "d6fb832ecae407d6",
           "placeholders": 2
         },
         "title": {
           "en": "Securing the Lines",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "45eeb7f4773c9960",
           "placeholders": 0
         }
       },
@@ -1649,35 +1470,30 @@
           "en": "I will pass along word that the quilboars have been removed from their lairs, and that their structures may be set to fire. The removal of the Razormane from Durotar brings us closer to fully securing the borders of our new homeland.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "1752684f3676ab31",
           "placeholders": 0
         },
         "description": {
           "en": "When we arrived, the Razormane quilboars possessed much of the land, and proved a thorn in our sides. Through our efforts we have driven out the largest part of their numbers, but still they remain well-fortified in some areas.$b$bIt has gone on long enough, however. For our own protection, we cannot allow the Razormane any hold in our lands. Their camps can be found to the west of here. Look for the brambles and you will find them. Today we drive them from Durotar, tomorrow, perhaps from all of Kalimdor.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "eee3f29986c24e00",
           "placeholders": 2
         },
         "objectives": {
           "en": "Kill 4 Razormane Quilboars, 4 Razormane Scouts, 4 Razormane Dustrunners and 4 Razormane Battleguards for Gar'Thok at Razor Hill.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "40ccc3176559d61e",
           "placeholders": 0
         },
         "progress": {
           "en": "Though they do possess some intelligence and some organization, I find it constantly amazing that the quilboars were able to capture and hold so much territory in Kalimdor. Perhaps they are more crafty an enemy than I give them credit for...",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "82423a3b2e876e6b",
           "placeholders": 0
         },
         "title": {
           "en": "Encroachment",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "1f7e23df3b89460c",
           "placeholders": 0
         }
       },
@@ -1694,35 +1510,30 @@
           "en": "Oh, so Takrin sent you? He's an excellent scout, I'm not sure what I'd do without him.$b$bI'll sign your recruitment letter, but what we really need is someone at the Crossroads.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "bb28be931691356e",
           "placeholders": 2
         },
         "description": {
           "en": "Hmm, you look pretty strong.$B$BListen, my good friend Kargal needs some new recruits for Barrens duty. I know you want to do what's right for the Horde. Well, this is your chance.$B$BTake this recruitment letter to Kargal and see if he'll sign it.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "0c599c042803c6fb",
           "placeholders": 4
         },
         "objectives": {
           "en": "Follow the western road from Razor Hill to the Barrens over a bridge.$B$BStop at the orc outpost across the bridge.$B$BGive Kargal Battlescar at the Barrens outpost your recruitment letter.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "e866a26ef07f6d68",
           "placeholders": 4
         },
         "progress": {
           "en": "What do you want, pup? If you're not here for recruitment, I don't have time for you.",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "38f361a819b3c7b8",
           "placeholders": 0
         },
         "title": {
           "en": "Conscript of the Horde",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "735eb5d0f0bc62d8",
           "placeholders": 0
         }
       },
@@ -1744,35 +1555,30 @@
               "I'm happy to have met you. Thrall will be glad to know that more females like you and I are taking the initiative to push forward in the Barrens."
             ]
           ],
-          "hash": "c01e3c21036aa1ea",
           "placeholders": 4
         },
         "description": {
           "en": "Take this signed recruitment letter to the Crossroads.$B$BSergra Darkthorn, curse her hide, is in charge there. She's a nasty shaman who will talk your head in circles before she lets you do anything useful. Thrall is convinced she's something special, but I'm not so sure.$B$BYou'll just have to decide for yourself, pup...",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "e70e7520661d2a91",
           "placeholders": 4
         },
         "objectives": {
           "en": "Follow the western road from Kargal's Far Watch Outpost.$B$BAt the T intersection, turn left and follow the road south. $B$BFind Sergra Darkthorn at the crossing of roads within the Crossroads.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "274e72bd71ec24b7",
           "placeholders": 4
         },
         "progress": {
           "en": "Well well well, what do we have here? Has Kargal deemed me worthy of another recruit?",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "b464dbf7d9a0fe66",
           "placeholders": 0
         },
         "title": {
           "en": "Crossroads Conscription",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "0a55def0596333ef",
           "placeholders": 0
         }
       },
@@ -1789,35 +1595,30 @@
           "en": "Your task is complete. You have destroyed the Demon Seed as Neeru bid. But this is not the end...$b$bThe destruction of the Demon Seed sent waves of power through the ether, waves of staggering force. I felt them, and I am sure other beings did as well. Others who will wonder why their toy was broken...$b$bBut regardless of future troubles, I have something for you. Neeru sent it as payment. And he bid me thank you.$b$bSo, thank you.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "772787d5fd4e8f59",
           "placeholders": 6
         },
         "description": {
           "en": "The Demon Seed is a powerful tool for the Burning Legion. It rests in a cave on Dreadmist Peak, above a demonic altar of fire.$B$BI have prepared power stones that when placed near the Seed will disrupt its connection to the Legion.$B$BTake a stone from the table and bring it to the altar of fire atop Dreadmist Peak. Travel west, then north when the road forks. The Peak will be to your left. The safest climb to the top is on its northern face.$B$BAnd hurry--the stone's power will consume itself in time.",
           "field": "quest.description",
           "gender_branches": [],
-          "hash": "1c7e11c141c25294",
           "placeholders": 6
         },
         "objectives": {
           "en": "Grab a Flawed Power Stone.  Bring it to the Altar of Fire before the stone expires, then return to Ak'Zeloth.",
           "field": "quest.objectives",
           "gender_branches": [],
-          "hash": "6ad5697f3873f168",
           "placeholders": 0
         },
         "progress": {
           "en": "The Demon Seed still exists. I can sense its power...",
           "field": "quest.progress",
           "gender_branches": [],
-          "hash": "ae0f941907ca67d5",
           "placeholders": 0
         },
         "title": {
           "en": "The Demon Seed",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "d0d75737bcdc0d16",
           "placeholders": 0
         }
       },
@@ -1834,14 +1635,12 @@
           "en": "These stones are infused with magical energy, but purposefully flawed. They are very unstable and once removed from the table they will consume themselves quickly.",
           "field": "quest.completion",
           "gender_branches": [],
-          "hash": "93ca733e243027aa",
           "placeholders": 0
         },
         "title": {
           "en": "Flawed Power Stone",
           "field": "quest.title",
           "gender_branches": [],
-          "hash": "bcd427f18c6a98d6",
           "placeholders": 0
         }
       },

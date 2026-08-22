@@ -1,7 +1,7 @@
 # Offline build toolchain. Runs entirely inside the devcontainer.
 # One command from a clean checkout (spec §9.3): make all
 .DEFAULT_GOAL := help
-.PHONY: help all extract translate emit verify guard lint fmt fmt-check test clean
+.PHONY: help all extract translate pending import emit verify guard lint fmt fmt-check test clean
 
 ADDON := addon/WoWsvSE
 # `tools/` is the import root: the stages are top-level modules (extract,
@@ -13,15 +13,21 @@ help: ## List targets
 	@grep -hE '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) \
 	  | awk 'BEGIN{FS=":.*?## "}{printf "  \033[36m%-12s\033[0m %s\n", $$1, $$2}'
 
-all: extract translate emit verify ## Full pipeline: clean checkout -> shippable addon
+all: extract emit verify ## Full pipeline: clean checkout -> shippable addon
 
 extract: ## Pull source strings from client dumps + Questie into tools/cache/source
 	$(PY) -m extract
 
-translate: ## Batch-translate uncached strings (needs ANTHROPIC_API_KEY)
-	@test -n "$$ANTHROPIC_API_KEY" \
-	  || { echo "ANTHROPIC_API_KEY not set — export it on the host and rebuild"; exit 1; }
-	$(PY) -m translate
+# Translation happens outside the toolchain; these two targets are the whole
+# interface to it. No API key, no network.
+translate: ## Report how much is translated
+	$(PY) -m translate --status
+
+pending: ## Write untranslated strings to strings.json for translating
+	$(PY) -m translate --export-pending strings.json $(if $(FIELD),--field $(FIELD),) $(if $(LIMIT),--limit $(LIMIT),)
+
+import: ## Read translations back from strings.json, rejecting broken placeholders
+	$(PY) -m translate --import-file strings.json --translator "$(or $(BY),manual)"
 
 emit: ## Write generated Lua tables into $(ADDON)
 	$(PY) -m emit

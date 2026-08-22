@@ -1,113 +1,63 @@
 """Stage 2 entry point: `python -m translate`.
 
-Needs ANTHROPIC_API_KEY, unless --dry-run. Every other stage runs without it.
+Needs no API key and no network. Two commands:
+
+    python -m translate --export-pending out.json   # what still needs doing
+    python -m translate --import-file  out.json     # read it back, validated
 """
 
 import argparse
 import sys
 
-import anthropic
-
-from translate import batch as batching
-from translate import runner
+from translate import exchange
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="translate", description=__doc__)
-    parser.add_argument(
-        "--model",
-        default=batching.DEFAULT_MODEL,
-        help=f"model to translate with (default: {batching.DEFAULT_MODEL}, the cheapest capable)",
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument(
+        "--export-pending", metavar="FILE", help="write untranslated strings to FILE"
     )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        help="translate at most N strings — use this to sample quality before a full run",
+    group.add_argument("--import-file", metavar="FILE", help="read translations back from FILE")
+    group.add_argument(
+        "--status", action="store_true", help="report how much is translated and stop"
     )
+    parser.add_argument("--limit", type=int, help="export at most N strings")
     parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="report what would be sent and the estimated cost, then stop",
-    )
-    parser.add_argument(
-        "--remodel",
-        action="store_true",
-        help="also re-translate strings cached from a different model (quality upgrade pass)",
-    )
-    parser.add_argument(
-        "--export-pending",
-        metavar="FILE",
-        help="write pending strings to FILE for translation without an API key, then stop",
-    )
-    parser.add_argument(
-        "--import-file",
-        metavar="FILE",
-        help="load translations from FILE (validated exactly as API output is), then stop",
+        "--field", help="restrict export to a field, e.g. quest or quest.objectives"
     )
     parser.add_argument(
         "--translator",
         default="manual",
-        help="provenance recorded for --import-file entries (default: manual)",
-    )
-    parser.add_argument(
-        "--field",
-        help="restrict --export-pending to one field, e.g. quest.objectives",
-    )
-    parser.add_argument(
-        "--retries",
-        type=int,
-        default=1,
-        help="rounds of single-string retries for rejected placeholders (default: 1)",
+        help="provenance recorded against imported entries (default: manual)",
     )
     args = parser.parse_args(argv)
 
-    if args.model not in batching.PRICES:
-        print(
-            f"warning: unknown model {args.model!r}; cost estimates will use "
-            f"{batching.DEFAULT_MODEL} prices",
-            file=sys.stderr,
-        )
+    units = exchange.load_units()
+    entries = exchange.load_translations()
+
+    if args.status:
+        done = sum(len(v) for v in entries.values())
+        by_field: dict[str, list[int]] = {}
+        for unit in units:
+            slot = by_field.setdefault(unit.field, [0, 0])
+            slot[1] += 1
+            if unit.key in entries.get(unit.field, {}):
+                slot[0] += 1
+        print(f"{done} of {len(units)} strings translated")
+        for name in sorted(by_field):
+            got, total = by_field[name]
+            print(f"  {name:20} {got:>5} / {total}")
+        return 0
 
     if args.export_pending:
-        count = runner.export_pending(
-            args.export_pending,
-            model=args.model,
-            limit=args.limit,
-            field=args.field,
-            remodel=args.remodel,
+        count = exchange.export_pending(
+            args.export_pending, limit=args.limit, field_prefix=args.field
         )
         print(f"exported {count} pending string(s) to {args.export_pending}")
         return 0
 
-    if args.import_file:
-        runner.import_file(args.import_file, translator=args.translator)
-        return 0
-
-    try:
-        runner.run(
-            model=args.model,
-            limit=args.limit,
-            remodel=args.remodel,
-            dry_run=args.dry_run,
-            retries=args.retries,
-        )
-    except anthropic.AuthenticationError:
-        print(
-            "ANTHROPIC_API_KEY is missing or invalid.\n"
-            "Export it on the host before opening the container; only this stage needs it.\n"
-            "Run with --dry-run to see the plan and cost without a key.",
-            file=sys.stderr,
-        )
-        return 1
-    except anthropic.RateLimitError as exc:
-        print(f"rate limited: {exc}", file=sys.stderr)
-        return 1
-    except anthropic.APIStatusError as exc:
-        print(f"API error {exc.status_code}: {exc.message}", file=sys.stderr)
-        return 1
-    except anthropic.APIConnectionError:
-        print("could not reach the API; check the container's network", file=sys.stderr)
-        return 1
+    exchange.import_file(args.import_file, translator=args.translator)
     return 0
 
 
