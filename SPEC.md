@@ -1,15 +1,55 @@
 # WoW Classic Swedish translation addon — implementation spec
 
-## 0. Resolve these before writing code
+## 0. Resolved inputs
 
-Ask the requester; do not guess. Everything downstream depends on them.
+Answered by the requester **2026-08-22**. These are settled; do not re-ask. If
+they change, change them here first — everything downstream reads from this
+table.
 
-| Input | Why it matters | Default if unanswered |
+| Input | Answer |
+|---|---|
+| Classic flavor + version | **TBC Anniversary** — Blizzard product `wow_anniversary`, **2.5.6 (build 69110)** |
+| `## Interface` number | **20506** — from the client itself: `GetBuildInfo()` → `"2.5.6", "69110", 20506`, `WOW_PROJECT_ID = WOW_PROJECT_BURNING_CRUSADE_CLASSIC (5)` |
+| Faction/race | **Horde, orc/troll** → phase 2 zone is **Durotar** |
+| Reading age / English level | **~9**, dual-language **ON** by default |
+| Translation backend | **Anthropic API, Message Batches** (batch, not sync) |
+
+Consequences of the flavor answer, resolved once here so no stage has to guess:
+
+- **Tooltip API (§7).** TBC Anniversary is a 2.5.x game build on the modern
+  client engine, so it is *not* the 2021 TBC Classic API surface. Which of
+  `GameTooltip:HookScript("OnTooltipSetItem")` and
+  `TooltipDataProcessor.AddTooltipPostCall` exists cannot be established from
+  outside the client, so `hooks/tooltip.lua` **feature-detects at load** and
+  uses whichever is present. This is not hedging — it is the only correct
+  answer when the addon must survive a client patch that swaps them.
+- **Gossip API (§7).** Same treatment: prefer `C_GossipInfo.GetText()`, fall
+  back to the global `GetGossipText()`.
+- **Install path.** The Anniversary product does not install into
+  `_classic_era_`. Confirm the actual folder on the game machine before copying
+  (see README) — it is the one whose `WoW.exe` the Anniversary realms launch.
+
+### Pinned upstream sources
+
+Build-time only; never shipped. Pinned by commit SHA so a rebuild is
+reproducible. Recorded in `tools/extract/sources.py`, which is the single place
+they are defined.
+
+| What | Source | Pin |
 |---|---|---|
-| Classic flavor + version (Era / Anniversary / MoP Classic / other) | Determines API surface, `## Interface` number, and which Questie DB branch to pull | Classic Era, latest |
-| Faction/race the kids are playing | Decides whether phase 2 is Elwynn Forest or Durotar | Build both |
-| Reading age / English level | Decides translation register and whether dual-language is default-on | Age 9, dual-language ON |
-| Translation backend (API vs local model) | Cost and toolchain shape | Anthropic API, batch |
+| `GlobalStrings` enUS (18,260 keys) | `Ketho/BlizzardInterfaceResources` @ `classic_anniversary`, `Resources/GlobalStrings/enUS.lua` | `d6d4a8f4` |
+| Quest structure, zone assignment, objectives text | `Questie/Questie` @ `master`, `Database/TBC/tbcQuestDB.lua` | `4aea09ec` |
+| Quest prose (description / progress / completion) | `cmangos/tbc-db` @ `master`, `Full_DB/TBCDB_*.sql.gz`, table `quest_template` | `da2de07e` |
+
+**Correction to §6 as originally written.** The spec assumed Questie supplies
+all five per-quest fields. It does not. Questie's `questKeys` carry `name` and
+`objectivesText` (plus per-objective strings and `triggerEnd`) — there is no
+description, progress, or completion prose anywhere in its database. Those three
+come from the cmangos `quest_template` table (`Details`, `RequestItemsText`,
+`OfferRewardText`), keyed by the same numeric quest ID Questie uses. Questie is
+still the authority for *which* quests belong to Durotar. The original
+instruction stands where it matters: quest text is not in the client on
+Vanilla-lineage builds, so do not spend time on DB2/DBC.
 
 ## 1. Goal
 
